@@ -149,7 +149,7 @@ $$
 $$
 b_{0} = \overline{y} - b_{1}\overline{x}
 $$
-***Gradient descent*** method: The model seeks to optimize and correct itself, starting from a random point of  $b_{0}$  and $b_{1}$. For each time $x$ (observed $x$) is plugged into the model, the model will return $\hat{y}$, (predicted $\hat{y}$) this $\hat{y}$ will be compared to $y$ (observed $y$) to find $error$, forming a cost function to correct $b_{0}$  and $b_{1}$. The step will be repeated until the model reaches a limit of total step or $error$ reaches minimum value.
+***Gradient descent*** method: The model seeks to optimize and correct itself, starting from a random point of  $b_{0}$  and $b_{1}$, formulating a starting model . For each time $x$ (observed $x$) is plugged into the model, the model will return $\hat{y}$ (predicted $\hat{y}$), this $\hat{y}$ will be compared to $y$ (observed $y$) to find $error$, forming a cost function to correct $b_{0}$  and $b_{1}$. The step will be repeated until the model reaches a limit of total step or $error$ reaches minimum value.
 
 Example:
 ![enter image description here](https://i.imgur.com/DrCPtXl.png =350x)
@@ -214,11 +214,11 @@ $b_{0}$: y-intercept (constant term)
 $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOT
-M0OTc5NSwxNzI3OTExODEyLDIwNDg5OTMzODgsLTExMzI5Njg3
-OTYsLTEwNzc5NjQ0ODIsMTIzOTU0NTAwMywtMTk3MTg0MDczNS
-w3OTk4NzEwMzMsMTQ3MjIzNDE1MCw2NTQ4OTQ4NTksLTEwODU4
-Mjc0NjksNDk2NTc4MzE1LDUwMzgxMTAwOCwtMTU5MjUyODEzNi
-wtMTM0MjA4NzE1LC0xNTI5ODk4NTE4LC01MzU2OTMxODYsMzA5
-ODM3NzI3XX0=
+eyJoaXN0b3J5IjpbMTUxMTIwNDgxNCwyMDk0MzM1OTQ0LDQzMz
+gyMDk5NCwxODM5MzQ5Nzk1LDE3Mjc5MTE4MTIsMjA0ODk5MzM4
+OCwtMTEzMjk2ODc5NiwtMTA3Nzk2NDQ4MiwxMjM5NTQ1MDAzLC
+0xOTcxODQwNzM1LDc5OTg3MTAzMywxNDcyMjM0MTUwLDY1NDg5
+NDg1OSwtMTA4NTgyNzQ2OSw0OTY1NzgzMTUsNTAzODExMDA4LC
+0xNTkyNTI4MTM2LC0xMzQyMDg3MTUsLTE1Mjk4OTg1MTgsLTUz
+NTY5MzE4Nl19
 -->
