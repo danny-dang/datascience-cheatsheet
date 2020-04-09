@@ -163,7 +163,7 @@ Formulate the model:
 	 - *learning_rate* = 0.1 (the significant level that the model will adjust itself)
 	 - the starting point for a model would be: $y = 0 + 1x$
 2. Calculate the predicted $\hat{y_{i}}$ by plugging observed $x_{i}$ of each data point into the model
-3. Forming the cost function that's equaled the sum of the squared of the difference between observed $y_{i}$ and predicted $\hat{y_{i}}$:
+3. Forming the cost function which is equaled to the sum of the squared of the difference between observed $y_{i}$ and predicted $\hat{y_{i}}$:
 
 $$
 cost = \sum(y_{i} - \hat{y_{i}} )^2 \\
@@ -214,11 +214,11 @@ $b_{0}$: y-intercept (constant term)
 $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyODIwNTE4LDIwOTQzMzU5NDQsNDMzOD
-IwOTk0LDE4MzkzNDk3OTUsMTcyNzkxMTgxMiwyMDQ4OTkzMzg4
-LC0xMTMyOTY4Nzk2LC0xMDc3OTY0NDgyLDEyMzk1NDUwMDMsLT
-E5NzE4NDA3MzUsNzk5ODcxMDMzLDE0NzIyMzQxNTAsNjU0ODk0
-ODU5LC0xMDg1ODI3NDY5LDQ5NjU3ODMxNSw1MDM4MTEwMDgsLT
-E1OTI1MjgxMzYsLTEzNDIwODcxNSwtMTUyOTg5ODUxOCwtNTM1
-NjkzMTg2XX0=
+eyJoaXN0b3J5IjpbMTI0Nzg5Mzk3MywyMDk0MzM1OTQ0LDQzMz
+gyMDk5NCwxODM5MzQ5Nzk1LDE3Mjc5MTE4MTIsMjA0ODk5MzM4
+OCwtMTEzMjk2ODc5NiwtMTA3Nzk2NDQ4MiwxMjM5NTQ1MDAzLC
+0xOTcxODQwNzM1LDc5OTg3MTAzMywxNDcyMjM0MTUwLDY1NDg5
+NDg1OSwtMTA4NTgyNzQ2OSw0OTY1NzgzMTUsNTAzODExMDA4LC
+0xNTkyNTI4MTM2LC0xMzQyMDg3MTUsLTE1Mjk4OTg1MTgsLTUz
+NTY5MzE4Nl19
 -->
