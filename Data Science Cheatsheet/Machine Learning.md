@@ -176,18 +176,18 @@ $$
 4. As the model needs to minimize the cost function, next step is to calculate the partial derivative of the $cost$ in accordance to $b_{0}$ or $b_{1}$:
 
 $$
-\cfrac{\partial}{\partial b_{0}} = (\sum(y_{i} - (b_{0} + b_{1}x_{i}))^2)'
+\cfrac{\partial cost}{\partial b_{0}} = (\sum(y_{i} - (b_{0} + b_{1}x_{i}))^2)'
 $$
 
 $$
-\cfrac{\partial}{\partial b_{1}} = (\sum(y_{i} - (b_{0} + b_{1}x_{i}))^2)'
+\cfrac{\partial cost}{\partial b_{1}} = (\sum(y_{i} - (b_{0} + b_{1}x_{i}))^2)'
 $$
 
 5. Calculate the $error$ using the derivative calculated, and adjust it with the *learning_rate* :
 
 $$
-error_{b_{0}} = \cfrac{\partial}{\partial b_{0}} * 0.1\\
-error_{b_{1}} = \cfrac{\partial}{\partial b_{1}} * 0.1
+error_{b_{0}} = \cfrac{\partial cost}{\partial b_{0}} * 0.1\\
+error_{b_{1}} = \cfrac{\partial cost}{\partial b_{1}} * 0.1
 $$
 
 6. Correct and form a new model using the $error$:
@@ -214,11 +214,11 @@ $b_{0}$: y-intercept (constant term)
 $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Nzg5Mzk3MywyMDk0MzM1OTQ0LDQzMz
-gyMDk5NCwxODM5MzQ5Nzk1LDE3Mjc5MTE4MTIsMjA0ODk5MzM4
-OCwtMTEzMjk2ODc5NiwtMTA3Nzk2NDQ4MiwxMjM5NTQ1MDAzLC
-0xOTcxODQwNzM1LDc5OTg3MTAzMywxNDcyMjM0MTUwLDY1NDg5
-NDg1OSwtMTA4NTgyNzQ2OSw0OTY1NzgzMTUsNTAzODExMDA4LC
-0xNTkyNTI4MTM2LC0xMzQyMDg3MTUsLTE1Mjk4OTg1MTgsLTUz
-NTY5MzE4Nl19
+eyJoaXN0b3J5IjpbLTE1OTg0MzA3NzksMjA5NDMzNTk0NCw0Mz
+M4MjA5OTQsMTgzOTM0OTc5NSwxNzI3OTExODEyLDIwNDg5OTMz
+ODgsLTExMzI5Njg3OTYsLTEwNzc5NjQ0ODIsMTIzOTU0NTAwMy
+wtMTk3MTg0MDczNSw3OTk4NzEwMzMsMTQ3MjIzNDE1MCw2NTQ4
+OTQ4NTksLTEwODU4Mjc0NjksNDk2NTc4MzE1LDUwMzgxMTAwOC
+wtMTU5MjUyODEzNiwtMTM0MjA4NzE1LC0xNTI5ODk4NTE4LC01
+MzU2OTMxODZdfQ==
 -->
