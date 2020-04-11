@@ -151,7 +151,7 @@ b_{0} = \overline{y} - b_{1}\overline{x}
 $$
 ***- Gradient descent*** method: The model seeks to optimize and correct itself, starting from a random point of  $b_{0}$  and $b_{1}$and a starting model . For each time $x$ (observed $x$) is plugged into the model, the model will return $\hat{y}$ (predicted $\hat{y}$), this $\hat{y}$ will be compared to $y$ (observed $y$) to find $error$, forming a cost function to correct $b_{0}$  and $b_{1}$. The step will be repeated until the model reaches a limit of total loop or $error$ reaches minimum value.
 
-> a cost function is a measure of how wrong the model is in terms of its ability to estimate the relationship between X and y._**
+>A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between X and y
 
 Example:
 ![enter image description here](https://i.imgur.com/DrCPtXl.png =350x)
@@ -217,11 +217,11 @@ $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTMyMzk0MDcsNzI4MTA1ODA2LC0xNT
-k4NDMwNzc5LDIwOTQzMzU5NDQsNDMzODIwOTk0LDE4MzkzNDk3
-OTUsMTcyNzkxMTgxMiwyMDQ4OTkzMzg4LC0xMTMyOTY4Nzk2LC
-0xMDc3OTY0NDgyLDEyMzk1NDUwMDMsLTE5NzE4NDA3MzUsNzk5
-ODcxMDMzLDE0NzIyMzQxNTAsNjU0ODk0ODU5LC0xMDg1ODI3ND
-Y5LDQ5NjU3ODMxNSw1MDM4MTEwMDgsLTE1OTI1MjgxMzYsLTEz
-NDIwODcxNV19
+eyJoaXN0b3J5IjpbLTkwMTk0NDAyNCw3MjgxMDU4MDYsLTE1OT
+g0MzA3NzksMjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOTM0OTc5
+NSwxNzI3OTExODEyLDIwNDg5OTMzODgsLTExMzI5Njg3OTYsLT
+EwNzc5NjQ0ODIsMTIzOTU0NTAwMywtMTk3MTg0MDczNSw3OTk4
+NzEwMzMsMTQ3MjIzNDE1MCw2NTQ4OTQ4NTksLTEwODU4Mjc0Nj
+ksNDk2NTc4MzE1LDUwMzgxMTAwOCwtMTU5MjUyODEzNiwtMTM0
+MjA4NzE1XX0=
 -->
