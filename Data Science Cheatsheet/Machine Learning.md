@@ -153,6 +153,7 @@ $$
 
 >A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y
 
+The cost function represent the different between observed $y$ and predicted 
 Example:
 ![enter image description here](https://i.imgur.com/DrCPtXl.png =350x)
 
@@ -218,12 +219,13 @@ $b_{0}$: y-intercept (constant term)
 $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3MDEwNTY0LDMzNTA5OTg4MiwyMTM2ND
-M3NzMsLTkwMTk0NDAyNCw3MjgxMDU4MDYsLTE1OTg0MzA3Nzks
-MjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOTM0OTc5NSwxNzI3OT
-ExODEyLDIwNDg5OTMzODgsLTExMzI5Njg3OTYsLTEwNzc5NjQ0
-ODIsMTIzOTU0NTAwMywtMTk3MTg0MDczNSw3OTk4NzEwMzMsMT
-Q3MjIzNDE1MCw2NTQ4OTQ4NTksLTEwODU4Mjc0NjksNDk2NTc4
-MzE1XX0=
+eyJoaXN0b3J5IjpbLTE2NzYwNTM0MDQsNTI3MDEwNTY0LDMzNT
+A5OTg4MiwyMTM2NDM3NzMsLTkwMTk0NDAyNCw3MjgxMDU4MDYs
+LTE1OTg0MzA3NzksMjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOT
+M0OTc5NSwxNzI3OTExODEyLDIwNDg5OTMzODgsLTExMzI5Njg3
+OTYsLTEwNzc5NjQ0ODIsMTIzOTU0NTAwMywtMTk3MTg0MDczNS
+w3OTk4NzEwMzMsMTQ3MjIzNDE1MCw2NTQ4OTQ4NTksLTEwODU4
+Mjc0NjldfQ==
 -->
