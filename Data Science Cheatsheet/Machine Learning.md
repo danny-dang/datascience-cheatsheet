@@ -133,7 +133,7 @@ $x$: Independent variable
 
 ![enter image description here](https://i.imgur.com/oPdsoQH.png =550x)
 
-***Ordinary least squares*** method: The model minimize the sum of the distances between the observed values and the accordingly modeled value of the linear function:
+***- Ordinary least squares*** method: The model minimize the sum of the distances between the observed values and the accordingly modeled value of the linear function:
 $$
 min(\sum_{}(y - \hat{y_{i}})^2 )
 $$
@@ -149,7 +149,7 @@ $$
 $$
 b_{0} = \overline{y} - b_{1}\overline{x}
 $$
-***Gradient descent*** method: The model seeks to optimize and correct itself, starting from a random point of  $b_{0}$  and $b_{1}$and a starting model . For each time $x$ (observed $x$) is plugged into the model, the model will return $\hat{y}$ (predicted $\hat{y}$), this $\hat{y}$ will be compared to $y$ (observed $y$) to find $error$, forming a cost function to correct $b_{0}$  and $b_{1}$. The step will be repeated until the model reaches a limit of total loop or $error$ reaches minimum value.
+***- Gradient descent*** method: The model seeks to optimize and correct itself, starting from a random point of  $b_{0}$  and $b_{1}$and a starting model . For each time $x$ (observed $x$) is plugged into the model, the model will return $\hat{y}$ (predicted $\hat{y}$), this $\hat{y}$ will be compared to $y$ (observed $y$) to find $error$, forming a cost function to correct $b_{0}$  and $b_{1}$. The step will be repeated until the model reaches a limit of total loop or $error$ reaches minimum value.
 
 Example:
 ![enter image description here](https://i.imgur.com/DrCPtXl.png =350x)
@@ -215,11 +215,11 @@ $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MzYwOTM5NiwtMTU5ODQzMDc3OSwyMD
-k0MzM1OTQ0LDQzMzgyMDk5NCwxODM5MzQ5Nzk1LDE3Mjc5MTE4
-MTIsMjA0ODk5MzM4OCwtMTEzMjk2ODc5NiwtMTA3Nzk2NDQ4Mi
-wxMjM5NTQ1MDAzLC0xOTcxODQwNzM1LDc5OTg3MTAzMywxNDcy
-MjM0MTUwLDY1NDg5NDg1OSwtMTA4NTgyNzQ2OSw0OTY1NzgzMT
-UsNTAzODExMDA4LC0xNTkyNTI4MTM2LC0xMzQyMDg3MTUsLTE1
-Mjk4OTg1MThdfQ==
+eyJoaXN0b3J5IjpbNzI4MTA1ODA2LC0xNTk4NDMwNzc5LDIwOT
+QzMzU5NDQsNDMzODIwOTk0LDE4MzkzNDk3OTUsMTcyNzkxMTgx
+MiwyMDQ4OTkzMzg4LC0xMTMyOTY4Nzk2LC0xMDc3OTY0NDgyLD
+EyMzk1NDUwMDMsLTE5NzE4NDA3MzUsNzk5ODcxMDMzLDE0NzIy
+MzQxNTAsNjU0ODk0ODU5LC0xMDg1ODI3NDY5LDQ5NjU3ODMxNS
+w1MDM4MTEwMDgsLTE1OTI1MjgxMzYsLTEzNDIwODcxNSwtMTUy
+OTg5ODUxOF19
 -->
