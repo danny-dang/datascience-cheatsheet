@@ -165,7 +165,7 @@ Formulate the model:
 	 - *learning_rate* = 0.1 (the significant level that the model will adjust itself)
 	 - the starting point for a model would be: $y = 0 + 1x$
 2. Calculate the predicted $\hat{y_{i}}$ by plugging observed $x_{i}$ of each data point into the model
-3. Forming the cost function (in this case we'll use :
+3. Forming the cost function (in this case we'll use Sum of Squares cost function) :
 
 $$
 cost = \sum(y_{i} - \hat{y_{i}} )^2 \\
@@ -203,6 +203,8 @@ b_{1} = b_{1} - error_{b_{1}}
 $$
 
 7. Repeat the step 2-7 until the $error$ or the *total_loop* reach the limit.
+
+More about OLS and Gradient Descent: [https://www.saedsayad.com/gradient_descent.htm](https://www.saedsayad.com/gradient_descent.htm)
 ### Multiple Linear Regression
 
 > Multiple linear regression (MLR) is a statistical technique that uses several explanatory variables to predict the outcome of a dependent variable.
@@ -217,7 +219,7 @@ $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTMxMDUzNywzMzUwOTk4ODIsMjEzNj
+eyJoaXN0b3J5IjpbLTExMTE4NDY2MSwzMzUwOTk4ODIsMjEzNj
 QzNzczLC05MDE5NDQwMjQsNzI4MTA1ODA2LC0xNTk4NDMwNzc5
 LDIwOTQzMzU5NDQsNDMzODIwOTk0LDE4MzkzNDk3OTUsMTcyNz
 kxMTgxMiwyMDQ4OTkzMzg4LC0xMTMyOTY4Nzk2LC0xMDc3OTY0
