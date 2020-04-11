@@ -149,7 +149,7 @@ $$
 $$
 b_{0} = \overline{y} - b_{1}\overline{x}
 $$
-***Gradient descent*** method: The model forms the model by iterating and correcting itself. The model will start with random parameters $x$ and $y$. For each iteration, it will 
+***Gradient descent*** method: The model forms the model by iterating and correcting itself. The model will start with random parameters $b_{0}$ and $b_{1}$. For each iteration, it will plug in $x_{i}$ and predict $\hat y_{i}$, then compare 
 
 >A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y
 
@@ -219,11 +219,11 @@ $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTk2MTE2NiwzMzUwOTk4ODIsMjEzNj
-QzNzczLC05MDE5NDQwMjQsNzI4MTA1ODA2LC0xNTk4NDMwNzc5
-LDIwOTQzMzU5NDQsNDMzODIwOTk0LDE4MzkzNDk3OTUsMTcyNz
-kxMTgxMiwyMDQ4OTkzMzg4LC0xMTMyOTY4Nzk2LC0xMDc3OTY0
-NDgyLDEyMzk1NDUwMDMsLTE5NzE4NDA3MzUsNzk5ODcxMDMzLD
-E0NzIyMzQxNTAsNjU0ODk0ODU5LC0xMDg1ODI3NDY5LDQ5NjU3
-ODMxNV19
+eyJoaXN0b3J5IjpbMzIxOTAzOTg3LDMzNTA5OTg4MiwyMTM2ND
+M3NzMsLTkwMTk0NDAyNCw3MjgxMDU4MDYsLTE1OTg0MzA3Nzks
+MjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOTM0OTc5NSwxNzI3OT
+ExODEyLDIwNDg5OTMzODgsLTExMzI5Njg3OTYsLTEwNzc5NjQ0
+ODIsMTIzOTU0NTAwMywtMTk3MTg0MDczNSw3OTk4NzEwMzMsMT
+Q3MjIzNDE1MCw2NTQ4OTQ4NTksLTEwODU4Mjc0NjksNDk2NTc4
+MzE1XX0=
 -->
