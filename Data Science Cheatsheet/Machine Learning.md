@@ -203,7 +203,7 @@ $$
 7. Repeat the step 2-7 until the $error$ or the *total_loop* reach the limit.
 ### Multiple Linear Regression
 
-> Multiple linear regression (MLR) is a statistical technique that uses several explanatory variables to predict the outcome of a response variable.
+> Multiple linear regression (MLR) is a statistical technique that uses several explanatory variables to predict the outcome of a dependent variable.
 
 Formula model:
 $$
@@ -213,8 +213,9 @@ $y$: Dependent variable
 $b_{0}$: y-intercept (constant term)
 $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDA5OTUyNCwtMTU5ODQzMDc3OSwyMD
+eyJoaXN0b3J5IjpbMTI4MzYwOTM5NiwtMTU5ODQzMDc3OSwyMD
 k0MzM1OTQ0LDQzMzgyMDk5NCwxODM5MzQ5Nzk1LDE3Mjc5MTE4
 MTIsMjA0ODk5MzM4OCwtMTEzMjk2ODc5NiwtMTA3Nzk2NDQ4Mi
 wxMjM5NTQ1MDAzLC0xOTcxODQwNzM1LDc5OTg3MTAzMywxNDcy
