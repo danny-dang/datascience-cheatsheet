@@ -151,12 +151,10 @@ b_{0} = \overline{y} - b_{1}\overline{x}
 $$
 ***Gradient descent*** method: The model forms the model by iterating and correcting itself. The model will start with random parameters $b_{0}$ and $b_{1}$. For each iteration, it will plug in observed $x_{i}$ and predict $\hat y_{i}$, then compare it with observed $y_{i}$, forming a cost function. The model will then correct itself using cost function
 
->A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y
 
-The cost function represent the difference between observed $y$ and predicted $\hat y$. Hence, we need to minimize this cost function in order to formulate the model
 Example:
-![enter image description here](https://i.imgur.com/DrCPtXl.png =350x)
-
+![enter image description here](https://i.imgur.com/DrCPtXl.png =370x)
+![enter image description here](https://i.imgur.com/UWnCyIZ.jpg =400x)
 Formulate the model:
 1. Choose starting points for $b_{0}$  and $b_{1}$, total loop limit, and minimum $error$ limit, and learning rate, the standard for these values are:
 	 - $b_{0}$ = 0 (intercept)
@@ -221,11 +219,11 @@ $x_{n}$: Explanatory variables
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjA0NDk5MCw1MjcwMTA1NjQsMzM1MD
-k5ODgyLDIxMzY0Mzc3MywtOTAxOTQ0MDI0LDcyODEwNTgwNiwt
-MTU5ODQzMDc3OSwyMDk0MzM1OTQ0LDQzMzgyMDk5NCwxODM5Mz
-Q5Nzk1LDE3Mjc5MTE4MTIsMjA0ODk5MzM4OCwtMTEzMjk2ODc5
-NiwtMTA3Nzk2NDQ4MiwxMjM5NTQ1MDAzLC0xOTcxODQwNzM1LD
-c5OTg3MTAzMywxNDcyMjM0MTUwLDY1NDg5NDg1OSwtMTA4NTgy
-NzQ2OV19
+eyJoaXN0b3J5IjpbMTYwNjA5ODE0OCwxNzgyMDQ0OTkwLDUyNz
+AxMDU2NCwzMzUwOTk4ODIsMjEzNjQzNzczLC05MDE5NDQwMjQs
+NzI4MTA1ODA2LC0xNTk4NDMwNzc5LDIwOTQzMzU5NDQsNDMzOD
+IwOTk0LDE4MzkzNDk3OTUsMTcyNzkxMTgxMiwyMDQ4OTkzMzg4
+LC0xMTMyOTY4Nzk2LC0xMDc3OTY0NDgyLDEyMzk1NDUwMDMsLT
+E5NzE4NDA3MzUsNzk5ODcxMDMzLDE0NzIyMzQxNTAsNjU0ODk0
+ODU5XX0=
 -->
