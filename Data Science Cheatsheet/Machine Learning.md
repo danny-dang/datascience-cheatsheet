@@ -153,7 +153,7 @@ $$
 
 >A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y
 
-The cost function represent the different between observed $y$ and predicted 
+The cost function represent the difference between observed $y$ and predicted $\hat y$. Hence, we need to minimize this cost function in order to formulate the model
 Example:
 ![enter image description here](https://i.imgur.com/DrCPtXl.png =350x)
 
@@ -221,11 +221,11 @@ $x_{n}$: Explanatory variables
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzYwNTM0MDQsNTI3MDEwNTY0LDMzNT
-A5OTg4MiwyMTM2NDM3NzMsLTkwMTk0NDAyNCw3MjgxMDU4MDYs
-LTE1OTg0MzA3NzksMjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOT
-M0OTc5NSwxNzI3OTExODEyLDIwNDg5OTMzODgsLTExMzI5Njg3
-OTYsLTEwNzc5NjQ0ODIsMTIzOTU0NTAwMywtMTk3MTg0MDczNS
-w3OTk4NzEwMzMsMTQ3MjIzNDE1MCw2NTQ4OTQ4NTksLTEwODU4
-Mjc0NjldfQ==
+eyJoaXN0b3J5IjpbMTc4MjA0NDk5MCw1MjcwMTA1NjQsMzM1MD
+k5ODgyLDIxMzY0Mzc3MywtOTAxOTQ0MDI0LDcyODEwNTgwNiwt
+MTU5ODQzMDc3OSwyMDk0MzM1OTQ0LDQzMzgyMDk5NCwxODM5Mz
+Q5Nzk1LDE3Mjc5MTE4MTIsMjA0ODk5MzM4OCwtMTEzMjk2ODc5
+NiwtMTA3Nzk2NDQ4MiwxMjM5NTQ1MDAzLC0xOTcxODQwNzM1LD
+c5OTg3MTAzMywxNDcyMjM0MTUwLDY1NDg5NDg1OSwtMTA4NTgy
+NzQ2OV19
 -->
