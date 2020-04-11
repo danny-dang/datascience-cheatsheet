@@ -151,7 +151,7 @@ b_{0} = \overline{y} - b_{1}\overline{x}
 $$
 ***- Gradient descent*** method: The model seeks to optimize and correct itself, starting from a random point of  $b_{0}$  and $b_{1}$and a starting model . For each time $x$ (observed $x$) is plugged into the model, the model will return $\hat{y}$ (predicted $\hat{y}$), this $\hat{y}$ will be compared to $y$ (observed $y$) to find $error$, forming a cost function to correct $b_{0}$  and $b_{1}$. The step will be repeated until the model reaches a limit of total loop or $error$ reaches minimum value.
 
->A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between X and y
+>A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y
 
 Example:
 ![enter image description here](https://i.imgur.com/DrCPtXl.png =350x)
@@ -165,7 +165,7 @@ Formulate the model:
 	 - *learning_rate* = 0.1 (the significant level that the model will adjust itself)
 	 - the starting point for a model would be: $y = 0 + 1x$
 2. Calculate the predicted $\hat{y_{i}}$ by plugging observed $x_{i}$ of each data point into the model
-3. Forming the cost function which is equaled to the sum of the squared of the difference between observed $y_{i}$ and predicted $\hat{y_{i}}$:
+3. Forming the cost function:
 
 $$
 cost = \sum(y_{i} - \hat{y_{i}} )^2 \\
@@ -217,11 +217,11 @@ $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTk0NDAyNCw3MjgxMDU4MDYsLTE1OT
-g0MzA3NzksMjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOTM0OTc5
-NSwxNzI3OTExODEyLDIwNDg5OTMzODgsLTExMzI5Njg3OTYsLT
-EwNzc5NjQ0ODIsMTIzOTU0NTAwMywtMTk3MTg0MDczNSw3OTk4
-NzEwMzMsMTQ3MjIzNDE1MCw2NTQ4OTQ4NTksLTEwODU4Mjc0Nj
-ksNDk2NTc4MzE1LDUwMzgxMTAwOCwtMTU5MjUyODEzNiwtMTM0
-MjA4NzE1XX0=
+eyJoaXN0b3J5IjpbMjEzNjQzNzczLC05MDE5NDQwMjQsNzI4MT
+A1ODA2LC0xNTk4NDMwNzc5LDIwOTQzMzU5NDQsNDMzODIwOTk0
+LDE4MzkzNDk3OTUsMTcyNzkxMTgxMiwyMDQ4OTkzMzg4LC0xMT
+MyOTY4Nzk2LC0xMDc3OTY0NDgyLDEyMzk1NDUwMDMsLTE5NzE4
+NDA3MzUsNzk5ODcxMDMzLDE0NzIyMzQxNTAsNjU0ODk0ODU5LC
+0xMDg1ODI3NDY5LDQ5NjU3ODMxNSw1MDM4MTEwMDgsLTE1OTI1
+MjgxMzZdfQ==
 -->
