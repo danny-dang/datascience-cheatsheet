@@ -149,7 +149,7 @@ $$
 $$
 b_{0} = \overline{y} - b_{1}\overline{x}
 $$
-***Gradient descent*** method: The model forms the model by iterating and correcting itself.
+***Gradient descent*** method: The model forms the model by iterating and correcting itself. The model will start with random parameters $x$ and $y$. For each iteration, it will 
 
 >A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y
 
@@ -219,7 +219,7 @@ $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTE4NDY2MSwzMzUwOTk4ODIsMjEzNj
+eyJoaXN0b3J5IjpbMTMxMTk2MTE2NiwzMzUwOTk4ODIsMjEzNj
 QzNzczLC05MDE5NDQwMjQsNzI4MTA1ODA2LC0xNTk4NDMwNzc5
 LDIwOTQzMzU5NDQsNDMzODIwOTk0LDE4MzkzNDk3OTUsMTcyNz
 kxMTgxMiwyMDQ4OTkzMzg4LC0xMTMyOTY4Nzk2LC0xMDc3OTY0
