@@ -143,7 +143,7 @@ Example:
 
 Formulate the model:
 $$
-b_{1} = \cfrac{\sum_{}(x_{i} - \overline{x})(y_{i}-\overline{y})}{\sum_{}(x_{i}-\overline{x})}
+b_{1} = \cfrac{\sum_{}(x_{i} - \overline{x})(y_{i}-\overline{y})}{\sum_{}(x_{i}-\overline{x})^2}
 $$
 
 $$
@@ -217,11 +217,11 @@ $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1MDk5ODgyLDIxMzY0Mzc3MywtOTAxOT
-Q0MDI0LDcyODEwNTgwNiwtMTU5ODQzMDc3OSwyMDk0MzM1OTQ0
-LDQzMzgyMDk5NCwxODM5MzQ5Nzk1LDE3Mjc5MTE4MTIsMjA0OD
-k5MzM4OCwtMTEzMjk2ODc5NiwtMTA3Nzk2NDQ4MiwxMjM5NTQ1
-MDAzLC0xOTcxODQwNzM1LDc5OTg3MTAzMywxNDcyMjM0MTUwLD
-Y1NDg5NDg1OSwtMTA4NTgyNzQ2OSw0OTY1NzgzMTUsNTAzODEx
-MDA4XX0=
+eyJoaXN0b3J5IjpbODM3ODQxNTk4LDMzNTA5OTg4MiwyMTM2ND
+M3NzMsLTkwMTk0NDAyNCw3MjgxMDU4MDYsLTE1OTg0MzA3Nzks
+MjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOTM0OTc5NSwxNzI3OT
+ExODEyLDIwNDg5OTMzODgsLTExMzI5Njg3OTYsLTEwNzc5NjQ0
+ODIsMTIzOTU0NTAwMywtMTk3MTg0MDczNSw3OTk4NzEwMzMsMT
+Q3MjIzNDE1MCw2NTQ4OTQ4NTksLTEwODU4Mjc0NjksNDk2NTc4
+MzE1XX0=
 -->
