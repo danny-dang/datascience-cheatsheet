@@ -135,7 +135,7 @@ $x$: Independent variable
 
 ***- Ordinary least squares*** method: The model minimize the sum of the distances between the observed values and the accordingly modeled value of the linear function:
 $$
-min(\sum_{}(y - \hat{y_{i}})^2 )
+minimize\sum_{}(y - \hat{y_{i}})^2 
 $$
 
 Example:
@@ -217,11 +217,11 @@ $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTk3MjM3MywzMzUwOTk4ODIsMjEzNj
-QzNzczLC05MDE5NDQwMjQsNzI4MTA1ODA2LC0xNTk4NDMwNzc5
-LDIwOTQzMzU5NDQsNDMzODIwOTk0LDE4MzkzNDk3OTUsMTcyNz
-kxMTgxMiwyMDQ4OTkzMzg4LC0xMTMyOTY4Nzk2LC0xMDc3OTY0
-NDgyLDEyMzk1NDUwMDMsLTE5NzE4NDA3MzUsNzk5ODcxMDMzLD
-E0NzIyMzQxNTAsNjU0ODk0ODU5LC0xMDg1ODI3NDY5LDQ5NjU3
-ODMxNV19
+eyJoaXN0b3J5IjpbLTg3NTE2MDkwLDMzNTA5OTg4MiwyMTM2ND
+M3NzMsLTkwMTk0NDAyNCw3MjgxMDU4MDYsLTE1OTg0MzA3Nzks
+MjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOTM0OTc5NSwxNzI3OT
+ExODEyLDIwNDg5OTMzODgsLTExMzI5Njg3OTYsLTEwNzc5NjQ0
+ODIsMTIzOTU0NTAwMywtMTk3MTg0MDczNSw3OTk4NzEwMzMsMT
+Q3MjIzNDE1MCw2NTQ4OTQ4NTksLTEwODU4Mjc0NjksNDk2NTc4
+MzE1XX0=
 -->
