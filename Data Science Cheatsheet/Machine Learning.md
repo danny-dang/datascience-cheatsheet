@@ -230,12 +230,14 @@ $x_{n}$: Explanatory variables
 *Variable selection*: Since the model can take in multiple variables, we should select only those variables or predictors which are necessary. These are the methods that for variable selection:
 - All-in: Take all the variables into the model. Only do this when you have the prior knowledge or when you are forced to
 - Backward Elimination: BE seeks to remove the variables that do not have a significant effect on the output
-	```mermaid
-	A[Choose ]
-	```
+```mermaid
+graph TD
+A[Choose a Significant level]
+dasd
+```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk1NjMxMSwtMTQwNDQ5ODIwNCwtMj
+eyJoaXN0b3J5IjpbLTQ4MzkyMDc0NywtMTQwNDQ5ODIwNCwtMj
 A5NDQ1NjAwMCwtMTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEw
 MTIxNjEsMTA0ODk0NzQzOCwyODU1ODk3ODcsLTIxMTk0MzM1MD
 QsLTMwMDM0NTU5NCwxNzgyMDQ0OTkwLDUyNzAxMDU2NCwzMzUw
