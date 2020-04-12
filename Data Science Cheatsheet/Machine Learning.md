@@ -225,7 +225,7 @@ $$
 $y$: Dependent variable
 $b_{0}$: y-intercept (constant term)
 $b_{n}$: Coefficient
-$x_{n}$: Explanatory variables
+$x_{n}$: Explanatory variables (Independent variables)
 
 *Variable selection*: Since the model can take in multiple variables, we should select only those variables or predictors which are necessary. These are the methods that for variable selection:
 - All-in: Take all the variables into the model. Only do this when you have the prior knowledge or when you are forced to
@@ -236,9 +236,10 @@ $x_{n}$: Explanatory variables
 	A --> B["Fit all the variables into a statiscal model (a model used for </br>compute statiscal data such as variance, P-value, std err,... )"]
 	B --> C[Select the variable with the highest P-value]
 	C --> D{P-value > SL ?}
+	D -YES-> E[]
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3MjA3MTc5LC0yODEzMTMyNjUsLTE0MD
+eyJoaXN0b3J5IjpbMTI0NjMwNTYzLC0yODEzMTMyNjUsLTE0MD
 Q0OTgyMDQsLTIwOTQ0NTYwMDAsLTEyMjUyODY0MDAsLTE2Mjk4
 Mzc1NjEsMjIxMDEyMTYxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC
 0yMTE5NDMzNTA0LC0zMDAzNDU1OTQsMTc4MjA0NDk5MCw1Mjcw
