@@ -230,14 +230,16 @@ $x_{n}$: Explanatory variables
 *Variable selection*: Since the model can take in multiple variables, we should select only those variables or predictors which are necessary. These are the methods that for variable selection:
 - All-in: Take all the variables into the model. Only do this when you have the prior knowledge or when you are forced to
 - Backward Elimination: BE seeks to remove the variables that do not have a significant effect on the output
-	- Step 1: 
+	```mermaid
+	A[Choose ]
+	```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDAxNTc0LC0xNDA0NDk4MjA0LC0yMD
-k0NDU2MDAwLC0xMjI1Mjg2NDAwLC0xNjI5ODM3NTYxLDIyMTAx
-MjE2MSwxMDQ4OTQ3NDM4LDI4NTU4OTc4NywtMjExOTQzMzUwNC
-wtMzAwMzQ1NTk0LDE3ODIwNDQ5OTAsNTI3MDEwNTY0LDMzNTA5
-OTg4MiwyMTM2NDM3NzMsLTkwMTk0NDAyNCw3MjgxMDU4MDYsLT
-E1OTg0MzA3NzksMjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOTM0
-OTc5NV19
+eyJoaXN0b3J5IjpbLTE0MDk1NjMxMSwtMTQwNDQ5ODIwNCwtMj
+A5NDQ1NjAwMCwtMTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEw
+MTIxNjEsMTA0ODk0NzQzOCwyODU1ODk3ODcsLTIxMTk0MzM1MD
+QsLTMwMDM0NTU5NCwxNzgyMDQ0OTkwLDUyNzAxMDU2NCwzMzUw
+OTk4ODIsMjEzNjQzNzczLC05MDE5NDQwMjQsNzI4MTA1ODA2LC
+0xNTk4NDMwNzc5LDIwOTQzMzU5NDQsNDMzODIwOTk0LDE4Mzkz
+NDk3OTVdfQ==
 -->
