@@ -170,7 +170,7 @@ Formulate the model:
 $$
 \hat{y_{i}} = 0 + 1x_{i}
 $$
-4. Forming the cost function (in this case we'll use Sum of Squares cost function) :
+4. Forming the cost function (in this case we'll use Sum of Squares Err cost function) :
 
 $$
 cost = \sum(y_{i} - \hat{y_{i}} )^2 \\
@@ -226,11 +226,11 @@ $x_{n}$: Explanatory variables
 Choose which variables to plug in the model: As the model can take in multiple variables, there may be some redundant variables that has not much effect on formulating the model.
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1NTg5Nzg3LC0yMTE5NDMzNTA0LC0zMD
-AzNDU1OTQsMTc4MjA0NDk5MCw1MjcwMTA1NjQsMzM1MDk5ODgy
-LDIxMzY0Mzc3MywtOTAxOTQ0MDI0LDcyODEwNTgwNiwtMTU5OD
-QzMDc3OSwyMDk0MzM1OTQ0LDQzMzgyMDk5NCwxODM5MzQ5Nzk1
-LDE3Mjc5MTE4MTIsMjA0ODk5MzM4OCwtMTEzMjk2ODc5NiwtMT
-A3Nzk2NDQ4MiwxMjM5NTQ1MDAzLC0xOTcxODQwNzM1LDc5OTg3
-MTAzM119
+eyJoaXN0b3J5IjpbOTQzMzg3MTU4LDI4NTU4OTc4NywtMjExOT
+QzMzUwNCwtMzAwMzQ1NTk0LDE3ODIwNDQ5OTAsNTI3MDEwNTY0
+LDMzNTA5OTg4MiwyMTM2NDM3NzMsLTkwMTk0NDAyNCw3MjgxMD
+U4MDYsLTE1OTg0MzA3NzksMjA5NDMzNTk0NCw0MzM4MjA5OTQs
+MTgzOTM0OTc5NSwxNzI3OTExODEyLDIwNDg5OTMzODgsLTExMz
+I5Njg3OTYsLTEwNzc5NjQ0ODIsMTIzOTU0NTAwMywtMTk3MTg0
+MDczNV19
 -->
