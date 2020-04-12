@@ -218,7 +218,7 @@ More about OLS and Gradient Descent: [https://www.saedsayad.com/gradient_descent
 
 > Multiple linear regression (MLR) is a statistical technique that uses several explanatory variables to predict the outcome of a dependent variable.
 
-Formula model:
+*Formula model*:
 $$
 y = b_{0} + b_{1}x_{1} + b_{2}x_{2} + ... + b_{n}x_{n}
 $$
@@ -227,16 +227,16 @@ $b_{0}$: y-intercept (constant term)
 $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
-*Model pre-build*: Since the model can take in multiple variables, there may be some redundant variables that has not much effect on formulating the model. These are the methods that used to build a multiple linear regression model:
+*Variable selection*: Since the model can take in multiple variables, we should select only those variables or predictors which are necessary. These are the methods that for variable selection:
 - All-in: Take all the variables into the model. Only do this when you have the prior knowledge or when you are forced to
-- Backward Elimination:
+- Backward Elimination: BE re
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMDAsLT
-EyMjUyODY0MDAsLTE2Mjk4Mzc1NjEsMjIxMDEyMTYxLDEwNDg5
-NDc0MzgsMjg1NTg5Nzg3LC0yMTE5NDMzNTA0LC0zMDAzNDU1OT
-QsMTc4MjA0NDk5MCw1MjcwMTA1NjQsMzM1MDk5ODgyLDIxMzY0
-Mzc3MywtOTAxOTQ0MDI0LDcyODEwNTgwNiwtMTU5ODQzMDc3OS
-wyMDk0MzM1OTQ0LDQzMzgyMDk5NCwxODM5MzQ5Nzk1LDE3Mjc5
-MTE4MTJdfQ==
+eyJoaXN0b3J5IjpbMTY4NDI1NDQsLTE0MDQ0OTgyMDQsLTIwOT
+Q0NTYwMDAsLTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEsMjIxMDEy
+MTYxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5NDMzNTA0LC
+0zMDAzNDU1OTQsMTc4MjA0NDk5MCw1MjcwMTA1NjQsMzM1MDk5
+ODgyLDIxMzY0Mzc3MywtOTAxOTQ0MDI0LDcyODEwNTgwNiwtMT
+U5ODQzMDc3OSwyMDk0MzM1OTQ0LDQzMzgyMDk5NCwxODM5MzQ5
+Nzk1XX0=
 -->
