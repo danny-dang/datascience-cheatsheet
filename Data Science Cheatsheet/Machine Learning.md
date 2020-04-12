@@ -236,14 +236,14 @@ $x_{n}$: Explanatory variables (Independent variables)
 	A --> B["Fit all the variables into a statiscal model (a model used for </br>compute statiscal data such as variance, P-value, std err,... )"]
 	B --> C[Select the variable with the highest P-value]
 	C --> D{P-value > SL ?}
-	D -YES-> E[]
+	D-- text -->E
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjMwNTYzLC0yODEzMTMyNjUsLTE0MD
-Q0OTgyMDQsLTIwOTQ0NTYwMDAsLTEyMjUyODY0MDAsLTE2Mjk4
-Mzc1NjEsMjIxMDEyMTYxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC
-0yMTE5NDMzNTA0LC0zMDAzNDU1OTQsMTc4MjA0NDk5MCw1Mjcw
-MTA1NjQsMzM1MDk5ODgyLDIxMzY0Mzc3MywtOTAxOTQ0MDI0LD
-cyODEwNTgwNiwtMTU5ODQzMDc3OSwyMDk0MzM1OTQ0LDQzMzgy
-MDk5NF19
+eyJoaXN0b3J5IjpbLTE3NjA5MDM4ODcsLTI4MTMxMzI2NSwtMT
+QwNDQ5ODIwNCwtMjA5NDQ1NjAwMCwtMTIyNTI4NjQwMCwtMTYy
+OTgzNzU2MSwyMjEwMTIxNjEsMTA0ODk0NzQzOCwyODU1ODk3OD
+csLTIxMTk0MzM1MDQsLTMwMDM0NTU5NCwxNzgyMDQ0OTkwLDUy
+NzAxMDU2NCwzMzUwOTk4ODIsMjEzNjQzNzczLC05MDE5NDQwMj
+QsNzI4MTA1ODA2LC0xNTk4NDMwNzc5LDIwOTQzMzU5NDQsNDMz
+ODIwOTk0XX0=
 -->
