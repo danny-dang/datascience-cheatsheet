@@ -233,15 +233,15 @@ $x_{n}$: Explanatory variables
 	```mermaid
 	graph TD
 	A["Choose a Significant Level (i.e SL=5)"]
-	A --> B[Fit all the variables into a statiscal model (a model used for compute )]
+	A --> B["Fit all the variables into a statiscal model (a model used for compute statiscal data such as variance, P-value, std err,... )"]
 	```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE5NTkyMzgsLTI4MTMxMzI2NSwtMT
-QwNDQ5ODIwNCwtMjA5NDQ1NjAwMCwtMTIyNTI4NjQwMCwtMTYy
-OTgzNzU2MSwyMjEwMTIxNjEsMTA0ODk0NzQzOCwyODU1ODk3OD
-csLTIxMTk0MzM1MDQsLTMwMDM0NTU5NCwxNzgyMDQ0OTkwLDUy
-NzAxMDU2NCwzMzUwOTk4ODIsMjEzNjQzNzczLC05MDE5NDQwMj
-QsNzI4MTA1ODA2LC0xNTk4NDMwNzc5LDIwOTQzMzU5NDQsNDMz
-ODIwOTk0XX0=
+eyJoaXN0b3J5IjpbMTQ0MzgyNjY5NiwtMjgxMzEzMjY1LC0xND
+A0NDk4MjA0LC0yMDk0NDU2MDAwLC0xMjI1Mjg2NDAwLC0xNjI5
+ODM3NTYxLDIyMTAxMjE2MSwxMDQ4OTQ3NDM4LDI4NTU4OTc4Ny
+wtMjExOTQzMzUwNCwtMzAwMzQ1NTk0LDE3ODIwNDQ5OTAsNTI3
+MDEwNTY0LDMzNTA5OTg4MiwyMTM2NDM3NzMsLTkwMTk0NDAyNC
+w3MjgxMDU4MDYsLTE1OTg0MzA3NzksMjA5NDMzNTk0NCw0MzM4
+MjA5OTRdfQ==
 -->
