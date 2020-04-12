@@ -137,9 +137,9 @@ And this will produce a flow chart:
 ```mermaid
 graph LR
 id1(Start)-->id2(Stop) 
-style id1 fill:#f9f,stroke:#333,stroke-width:4px 
-style id2 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5, 5
+style id2 fill:#f9f,stroke:#333,stroke-width:4px 
+style id1 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5, 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA2MzcwXX0=
+eyJoaXN0b3J5IjpbMTkwMjUxOTMyOF19
 -->
