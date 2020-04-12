@@ -156,7 +156,7 @@ Example:
 >A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y
 
 There are many types of cost function. The most popular ones are:
-- Sum of Square Error (SSE):
+- Sum of Square Error (SSE): $J($
 - 
 
 The cost function represent the difference (the error) between observed $y$ and predicted $\hat y$. Hence, we need to minimize this cost function in order to formulate the model
@@ -230,7 +230,7 @@ $x_{n}$: Explanatory variables
 Choose which variables to plug in the model: As the model can take in multiple variables, there may be some redundant variables that has not much effect on formulating the model.
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDE0NTI3NiwyODU1ODk3ODcsLTIxMT
+eyJoaXN0b3J5IjpbMTA0ODk0NzQzOCwyODU1ODk3ODcsLTIxMT
 k0MzM1MDQsLTMwMDM0NTU5NCwxNzgyMDQ0OTkwLDUyNzAxMDU2
 NCwzMzUwOTk4ODIsMjEzNjQzNzczLC05MDE5NDQwMjQsNzI4MT
 A1ODA2LC0xNTk4NDMwNzc5LDIwOTQzMzU5NDQsNDMzODIwOTk0
