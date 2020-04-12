@@ -228,14 +228,14 @@ $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
 *Model pre-build*: Since the model can take in multiple variables, there may be some redundant variables that has not much effect on formulating the model. These are the methods that used to build a multiple linear regression model:
-- All-in::
+- All-in: Take
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQ0NTYwMDAsLTEyMjUyODY0MDAsLT
-E2Mjk4Mzc1NjEsMjIxMDEyMTYxLDEwNDg5NDc0MzgsMjg1NTg5
-Nzg3LC0yMTE5NDMzNTA0LC0zMDAzNDU1OTQsMTc4MjA0NDk5MC
-w1MjcwMTA1NjQsMzM1MDk5ODgyLDIxMzY0Mzc3MywtOTAxOTQ0
-MDI0LDcyODEwNTgwNiwtMTU5ODQzMDc3OSwyMDk0MzM1OTQ0LD
-QzMzgyMDk5NCwxODM5MzQ5Nzk1LDE3Mjc5MTE4MTIsMjA0ODk5
-MzM4OF19
+eyJoaXN0b3J5IjpbMTE3MDQzNjA0NSwtMjA5NDQ1NjAwMCwtMT
+IyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEwMTIxNjEsMTA0ODk0
+NzQzOCwyODU1ODk3ODcsLTIxMTk0MzM1MDQsLTMwMDM0NTU5NC
+wxNzgyMDQ0OTkwLDUyNzAxMDU2NCwzMzUwOTk4ODIsMjEzNjQz
+NzczLC05MDE5NDQwMjQsNzI4MTA1ODA2LC0xNTk4NDMwNzc5LD
+IwOTQzMzU5NDQsNDMzODIwOTk0LDE4MzkzNDk3OTUsMTcyNzkx
+MTgxMl19
 -->
