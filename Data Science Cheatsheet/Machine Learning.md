@@ -141,7 +141,7 @@ $$
 Example:
 ![enter image description here](https://i.imgur.com/DwaIT6t.png)
 
-The intercept and the slope can be computed directly in this meth:
+The intercept and the slope can be computed directly in this method to formulate the model:
 $$
 b_{1} = \cfrac{\sum_{}(x_{i} - \overline{x})(y_{i}-\overline{y})}{\sum_{}(x_{i}-\overline{x})^2}
 $$
@@ -162,7 +162,7 @@ There are many types of cost function. Some popular ones are:
 The cost function represent the difference (the error) between observed $y$ and predicted $\hat y$. Hence, we need to minimize this cost function in order to formulate the model
 Example:
 ![enter image description here](https://i.imgur.com/UWnCyIZ.jpg =400x)
-*Formulate the model*:
+Formulate the model:
 1. Choose starting points for $b_{0}$  and $b_{1}$, total loop limit, and minimum $error$ limit, and learning rate. The standard for these values are:
 	 - $b_{0}$ = 0 (intercept)
 	 - $b_{1}$ = 1 (slope)
@@ -229,14 +229,15 @@ $x_{n}$: Explanatory variables
 
 *Variable selection*: Since the model can take in multiple variables, we should select only those variables or predictors which are necessary. These are the methods that for variable selection:
 - All-in: Take all the variables into the model. Only do this when you have the prior knowledge or when you are forced to
-- Backward Elimination: BE re
+- Backward Elimination: BE seeks to remove the variables that do not have a significant effect on the output
+	- Step 1: 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjM3NzM1MSwtMTQwNDQ5ODIwNCwtMj
-A5NDQ1NjAwMCwtMTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEw
-MTIxNjEsMTA0ODk0NzQzOCwyODU1ODk3ODcsLTIxMTk0MzM1MD
-QsLTMwMDM0NTU5NCwxNzgyMDQ0OTkwLDUyNzAxMDU2NCwzMzUw
-OTk4ODIsMjEzNjQzNzczLC05MDE5NDQwMjQsNzI4MTA1ODA2LC
-0xNTk4NDMwNzc5LDIwOTQzMzU5NDQsNDMzODIwOTk0LDE4Mzkz
-NDk3OTVdfQ==
+eyJoaXN0b3J5IjpbLTEwMDAxNTc0LC0xNDA0NDk4MjA0LC0yMD
+k0NDU2MDAwLC0xMjI1Mjg2NDAwLC0xNjI5ODM3NTYxLDIyMTAx
+MjE2MSwxMDQ4OTQ3NDM4LDI4NTU4OTc4NywtMjExOTQzMzUwNC
+wtMzAwMzQ1NTk0LDE3ODIwNDQ5OTAsNTI3MDEwNTY0LDMzNTA5
+OTg4MiwyMTM2NDM3NzMsLTkwMTk0NDAyNCw3MjgxMDU4MDYsLT
+E1OTg0MzA3NzksMjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOTM0
+OTc5NV19
 -->
