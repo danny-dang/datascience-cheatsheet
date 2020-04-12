@@ -159,7 +159,7 @@ The cost function represent the difference (the error) between observed $y$ and 
 Example:
 ![enter image description here](https://i.imgur.com/UWnCyIZ.jpg =400x)
 Formulate the model:
-1. Choose starting points for $b_{0}$  and $b_{1}$, total loop limit, and minimum $error$ limit, and learning rate, the standard for these values are:
+1. Choose starting points for $b_{0}$  and $b_{1}$, total loop limit, and minimum $error$ limit, and learning rate. The standard for these values are:
 	 - $b_{0}$ = 0 (intercept)
 	 - $b_{1}$ = 1 (slope)
 	 - $error$ >= 0.001 (minimum value of $error$ for the model to stop)
@@ -222,7 +222,7 @@ $x_{n}$: Explanatory variables
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjQ1Njc1NCwtMzAwMzQ1NTk0LDE3OD
+eyJoaXN0b3J5IjpbMTM2NzAyNjM1MiwtMzAwMzQ1NTk0LDE3OD
 IwNDQ5OTAsNTI3MDEwNTY0LDMzNTA5OTg4MiwyMTM2NDM3NzMs
 LTkwMTk0NDAyNCw3MjgxMDU4MDYsLTE1OTg0MzA3NzksMjA5ND
 MzNTk0NCw0MzM4MjA5OTQsMTgzOTM0OTc5NSwxNzI3OTExODEy
