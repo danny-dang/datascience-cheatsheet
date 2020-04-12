@@ -223,9 +223,9 @@ $b_{0}$: y-intercept (constant term)
 $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
-Choose which variables to plug in the model: As the model can take in many
+Choose which variables to plug in the model: As the model can take in multiple variables, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDY1MTg3NCwtMjExOTQzMzUwNCwtMz
+eyJoaXN0b3J5IjpbMTQ2MDk2ODIzMCwtMjExOTQzMzUwNCwtMz
 AwMzQ1NTk0LDE3ODIwNDQ5OTAsNTI3MDEwNTY0LDMzNTA5OTg4
 MiwyMTM2NDM3NzMsLTkwMTk0NDAyNCw3MjgxMDU4MDYsLTE1OT
 g0MzA3NzksMjA5NDMzNTk0NCw0MzM4MjA5OTQsMTgzOTM0OTc5
