@@ -227,10 +227,11 @@ $b_{0}$: y-intercept (constant term)
 $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
-Model pre-build: Since the model can take in multiple variables, there may be some redundant variables that has not much effect on formulating the model.
+*Model pre-build*: Since the model can take in multiple variables, there may be some redundant variables that has not much effect on formulating the model. These are the methods that used to build a multiple linear regression model:
+- All-in
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDY5MDYyODUsLTE2Mjk4Mzc1NjEsMj
+eyJoaXN0b3J5IjpbLTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEsMj
 IxMDEyMTYxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5NDMz
 NTA0LC0zMDAzNDU1OTQsMTc4MjA0NDk5MCw1MjcwMTA1NjQsMz
 M1MDk5ODgyLDIxMzY0Mzc3MywtOTAxOTQ0MDI0LDcyODEwNTgw
