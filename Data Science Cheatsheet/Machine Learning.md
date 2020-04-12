@@ -122,7 +122,7 @@ ___    ____________    ___________    ______  ____
 
 > Simple linear regression is a statistical method that allows us to summarize and study relationships between two continuous (quantitative) variables
 
-Formula model:
+*Formula model*:
 $$
 y = b_{0} + b_{1}x
 $$
@@ -141,7 +141,7 @@ $$
 Example:
 ![enter image description here](https://i.imgur.com/DwaIT6t.png)
 
-Formulate the model:
+The intercept and the slope can be computed directly in this meth:
 $$
 b_{1} = \cfrac{\sum_{}(x_{i} - \overline{x})(y_{i}-\overline{y})}{\sum_{}(x_{i}-\overline{x})^2}
 $$
@@ -149,7 +149,7 @@ $$
 $$
 b_{0} = \overline{y} - b_{1}\overline{x}
 $$
-***Gradient descent*** method: The model forms the model by iterating and correcting itself. The model will start with random parameters $b_{0}$ and $b_{1}$. For each iteration, it will plug in observed $x_{i}$ and predict $\hat y_{i}$, then compare it with observed $y_{i}$, forming a cost function. The model will then correct itself using cost function
+***- Gradient descent*** method: The model forms the model by iterating and correcting itself. The model will start with random parameters $b_{0}$ and $b_{1}$. For each iteration, it will plug in observed $x_{i}$ and predict $\hat y_{i}$, then compare it with observed $y_{i}$, forming a cost function. The model will then correct itself using cost function
 
 Example:
 ![enter image description here](https://i.imgur.com/DrCPtXl.png =370x)
@@ -162,7 +162,7 @@ There are many types of cost function. Some popular ones are:
 The cost function represent the difference (the error) between observed $y$ and predicted $\hat y$. Hence, we need to minimize this cost function in order to formulate the model
 Example:
 ![enter image description here](https://i.imgur.com/UWnCyIZ.jpg =400x)
-Formulate the model:
+*Formulate the model*:
 1. Choose starting points for $b_{0}$  and $b_{1}$, total loop limit, and minimum $error$ limit, and learning rate. The standard for these values are:
 	 - $b_{0}$ = 0 (intercept)
 	 - $b_{1}$ = 1 (slope)
@@ -232,11 +232,11 @@ $x_{n}$: Explanatory variables
 - Backward Elimination: BE re
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDI1NDQsLTE0MDQ0OTgyMDQsLTIwOT
-Q0NTYwMDAsLTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEsMjIxMDEy
-MTYxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5NDMzNTA0LC
-0zMDAzNDU1OTQsMTc4MjA0NDk5MCw1MjcwMTA1NjQsMzM1MDk5
-ODgyLDIxMzY0Mzc3MywtOTAxOTQ0MDI0LDcyODEwNTgwNiwtMT
-U5ODQzMDc3OSwyMDk0MzM1OTQ0LDQzMzgyMDk5NCwxODM5MzQ5
-Nzk1XX0=
+eyJoaXN0b3J5IjpbMTk3MjM3NzM1MSwtMTQwNDQ5ODIwNCwtMj
+A5NDQ1NjAwMCwtMTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEw
+MTIxNjEsMTA0ODk0NzQzOCwyODU1ODk3ODcsLTIxMTk0MzM1MD
+QsLTMwMDM0NTU5NCwxNzgyMDQ0OTkwLDUyNzAxMDU2NCwzMzUw
+OTk4ODIsMjEzNjQzNzczLC05MDE5NDQwMjQsNzI4MTA1ODA2LC
+0xNTk4NDMwNzc5LDIwOTQzMzU5NDQsNDMzODIwOTk0LDE4Mzkz
+NDk3OTVdfQ==
 -->
