@@ -167,7 +167,10 @@ Formulate the model:
 	 - *learning_rate* = 0.1 (the significant level that the model will adjust itself)
 	 - the starting point for a model would be: $y = 0 + 1x$
 2. Calculate the predicted $\hat{y_{i}}$ by plugging observed $x_{i}$ of each data point into the model
-3. Forming the cost function (in this case we'll use Sum of Squares cost function) :
+$$
+\hat{y_{i}} = 0 + 1x_{i}
+$$
+4. Forming the cost function (in this case we'll use Sum of Squares cost function) :
 
 $$
 cost = \sum(y_{i} - \hat{y_{i}} )^2 \\
@@ -222,11 +225,11 @@ $x_{n}$: Explanatory variables
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NzAyNjM1MiwtMzAwMzQ1NTk0LDE3OD
-IwNDQ5OTAsNTI3MDEwNTY0LDMzNTA5OTg4MiwyMTM2NDM3NzMs
-LTkwMTk0NDAyNCw3MjgxMDU4MDYsLTE1OTg0MzA3NzksMjA5ND
-MzNTk0NCw0MzM4MjA5OTQsMTgzOTM0OTc5NSwxNzI3OTExODEy
-LDIwNDg5OTMzODgsLTExMzI5Njg3OTYsLTEwNzc5NjQ0ODIsMT
-IzOTU0NTAwMywtMTk3MTg0MDczNSw3OTk4NzEwMzMsMTQ3MjIz
-NDE1MF19
+eyJoaXN0b3J5IjpbLTIxMTk0MzM1MDQsLTMwMDM0NTU5NCwxNz
+gyMDQ0OTkwLDUyNzAxMDU2NCwzMzUwOTk4ODIsMjEzNjQzNzcz
+LC05MDE5NDQwMjQsNzI4MTA1ODA2LC0xNTk4NDMwNzc5LDIwOT
+QzMzU5NDQsNDMzODIwOTk0LDE4MzkzNDk3OTUsMTcyNzkxMTgx
+MiwyMDQ4OTkzMzg4LC0xMTMyOTY4Nzk2LC0xMDc3OTY0NDgyLD
+EyMzk1NDUwMDMsLTE5NzE4NDA3MzUsNzk5ODcxMDMzLDE0NzIy
+MzQxNTBdfQ==
 -->
