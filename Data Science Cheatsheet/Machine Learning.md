@@ -232,12 +232,12 @@ $x_{n}$: Explanatory variables
 - Backward Elimination: BE seeks to remove the variables that do not have a significant effect on the output
 	```mermaid
 	graph TD
-	A[Choose a Significant Level, i.e SL=5]
-	A --> B[Fit all the variables into a statiscal model - a model used for comput]
+	A["Choose a Significant Level (i.e SL=5)"]
+	A --> B[Fit all the variables into a statiscal model (a model used for compute )]
 	```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTg1MDM4MDgsLTI4MTMxMzI2NSwtMT
+eyJoaXN0b3J5IjpbLTEzMjE5NTkyMzgsLTI4MTMxMzI2NSwtMT
 QwNDQ5ODIwNCwtMjA5NDQ1NjAwMCwtMTIyNTI4NjQwMCwtMTYy
 OTgzNzU2MSwyMjEwMTIxNjEsMTA0ODk0NzQzOCwyODU1ODk3OD
 csLTIxMTk0MzM1MDQsLTMwMDM0NTU5NCwxNzgyMDQ0OTkwLDUy
