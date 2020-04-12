@@ -156,8 +156,8 @@ Example:
 >A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y
 
 There are many types of cost function. Some popular ones are:
-- Sum of Square Error (SSE): $J(b_{0},b_{1} )=\sum(\hat y_{i} - y_{i})^2$
-- Mean of Square Error (MSE): $J(b_{0},b_{1} )=\sum(\hat y_{i} - y_{i})^2$
+- Sum of Square Error (SSE): $J(b_{0},b_{1} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
+- Mean of Square Error (MSE): $J(b_{0},b_{1} )=\cfrac{1}{2n} \displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$ (
 
 The cost function represent the difference (the error) between observed $y$ and predicted $\hat y$. Hence, we need to minimize this cost function in order to formulate the model
 Example:
@@ -230,11 +230,11 @@ $x_{n}$: Explanatory variables
 Choose which variables to plug in the model: As the model can take in multiple variables, there may be some redundant variables that has not much effect on formulating the model.
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5NDk5MTYxLDEwNDg5NDc0MzgsMjg1NT
-g5Nzg3LC0yMTE5NDMzNTA0LC0zMDAzNDU1OTQsMTc4MjA0NDk5
-MCw1MjcwMTA1NjQsMzM1MDk5ODgyLDIxMzY0Mzc3MywtOTAxOT
-Q0MDI0LDcyODEwNTgwNiwtMTU5ODQzMDc3OSwyMDk0MzM1OTQ0
-LDQzMzgyMDk5NCwxODM5MzQ5Nzk1LDE3Mjc5MTE4MTIsMjA0OD
-k5MzM4OCwtMTEzMjk2ODc5NiwtMTA3Nzk2NDQ4MiwxMjM5NTQ1
-MDAzXX0=
+eyJoaXN0b3J5IjpbLTEwNTE1MDAyMzEsMTA0ODk0NzQzOCwyOD
+U1ODk3ODcsLTIxMTk0MzM1MDQsLTMwMDM0NTU5NCwxNzgyMDQ0
+OTkwLDUyNzAxMDU2NCwzMzUwOTk4ODIsMjEzNjQzNzczLC05MD
+E5NDQwMjQsNzI4MTA1ODA2LC0xNTk4NDMwNzc5LDIwOTQzMzU5
+NDQsNDMzODIwOTk0LDE4MzkzNDk3OTUsMTcyNzkxMTgxMiwyMD
+Q4OTkzMzg4LC0xMTMyOTY4Nzk2LC0xMDc3OTY0NDgyLDEyMzk1
+NDUwMDNdfQ==
 -->
