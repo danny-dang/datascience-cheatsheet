@@ -233,15 +233,27 @@ $x_{n}$: Explanatory variables
 	```mermaid
 	graph TD
 	A["Choose a Significant Level (i.e SL=5)"]
+	style A text-align:center 
 	A --> B["Fit all the variables into a statiscal model</br> (a model used for compute </br>statiscal data such as variance, P-value, std err,... )"]
 	```
- 
+```mermaid
+graph TD
+A[Christmas]  -->|Get money| B(Go shopping)
+
+B --> C{Let me think}
+
+C -->|One| D[Laptop]
+
+C -->|Two| E[iPhone]
+
+C -->|Three| F[fa:fa-car Car]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzE2NTMwOCwtMjgxMzEzMjY1LC0xND
-A0NDk4MjA0LC0yMDk0NDU2MDAwLC0xMjI1Mjg2NDAwLC0xNjI5
-ODM3NTYxLDIyMTAxMjE2MSwxMDQ4OTQ3NDM4LDI4NTU4OTc4Ny
-wtMjExOTQzMzUwNCwtMzAwMzQ1NTk0LDE3ODIwNDQ5OTAsNTI3
-MDEwNTY0LDMzNTA5OTg4MiwyMTM2NDM3NzMsLTkwMTk0NDAyNC
-w3MjgxMDU4MDYsLTE1OTg0MzA3NzksMjA5NDMzNTk0NCw0MzM4
-MjA5OTRdfQ==
+eyJoaXN0b3J5IjpbLTQ5NTY2MzA1LC0yODEzMTMyNjUsLTE0MD
+Q0OTgyMDQsLTIwOTQ0NTYwMDAsLTEyMjUyODY0MDAsLTE2Mjk4
+Mzc1NjEsMjIxMDEyMTYxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC
+0yMTE5NDMzNTA0LC0zMDAzNDU1OTQsMTc4MjA0NDk5MCw1Mjcw
+MTA1NjQsMzM1MDk5ODgyLDIxMzY0Mzc3MywtOTAxOTQ0MDI0LD
+cyODEwNTgwNiwtMTU5ODQzMDc3OSwyMDk0MzM1OTQ0LDQzMzgy
+MDk5NF19
 -->
