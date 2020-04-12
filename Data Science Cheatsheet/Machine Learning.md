@@ -227,14 +227,14 @@ $b_{0}$: y-intercept (constant term)
 $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables
 
-Choose which variables to plug in the model: Since the model can take in multiple variables, there may be some redundant variables that has not much effect on formulating the model.
+Model pre-build: Since the model can take in multiple variables, there may be some redundant variables that has not much effect on formulating the model.
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk4Mzc1NjEsMjIxMDEyMTYxLDEwND
-g5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5NDMzNTA0LC0zMDAzNDU1
-OTQsMTc4MjA0NDk5MCw1MjcwMTA1NjQsMzM1MDk5ODgyLDIxMz
-Y0Mzc3MywtOTAxOTQ0MDI0LDcyODEwNTgwNiwtMTU5ODQzMDc3
-OSwyMDk0MzM1OTQ0LDQzMzgyMDk5NCwxODM5MzQ5Nzk1LDE3Mj
-c5MTE4MTIsMjA0ODk5MzM4OCwtMTEzMjk2ODc5NiwtMTA3Nzk2
-NDQ4Ml19
+eyJoaXN0b3J5IjpbLTEyNDY5MDYyODUsLTE2Mjk4Mzc1NjEsMj
+IxMDEyMTYxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5NDMz
+NTA0LC0zMDAzNDU1OTQsMTc4MjA0NDk5MCw1MjcwMTA1NjQsMz
+M1MDk5ODgyLDIxMzY0Mzc3MywtOTAxOTQ0MDI0LDcyODEwNTgw
+NiwtMTU5ODQzMDc3OSwyMDk0MzM1OTQ0LDQzMzgyMDk5NCwxOD
+M5MzQ5Nzk1LDE3Mjc5MTE4MTIsMjA0ODk5MzM4OCwtMTEzMjk2
+ODc5Nl19
 -->
