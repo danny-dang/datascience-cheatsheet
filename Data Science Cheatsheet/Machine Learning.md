@@ -231,15 +231,17 @@ $x_{n}$: Explanatory variables (Independent variables)
 - All-in: Take all the variables into the model. Only do this when you have the prior knowledge or when you are forced to
 - Backward Elimination: seeks to remove the variables that do not have a significant effect on the output
 
-![enter image description here](https://i.imgur.com/kvFQOQV.jpg)
+	![enter image description here](https://i.imgur.com/kvFQOQV.jpg)
 - Forward Selection: begins with an empty model and adds in variables one by one.
-![enter image description here](https://i.imgur.com/6JYnU9k.png)
+- 
+	![enter image description here](https://i.imgur.com/6JYnU9k.png)
+- Bidirectional Elimination
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQ1MDU2MjIsLTUzODI4MDYyLC0zNj
-I1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMjgxMzEz
-MjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0xMjI1Mjg2ND
-AwLC0xNjI5ODM3NTYxLDIyMTAxMjE2MSwxMDQ4OTQ3NDM4LDI4
-NTU4OTc4NywtMjExOTQzMzUwNCwtMzAwMzQ1NTk0LDE3ODIwND
-Q5OTAsNTI3MDEwNTY0LDMzNTA5OTg4MiwyMTM2NDM3NzMsLTkw
-MTk0NDAyNF19
+eyJoaXN0b3J5IjpbMTQyMjQ4MTM1NiwtNTM4MjgwNjIsLTM2Mj
+UxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC0yODEzMTMy
+NjUsLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMDAsLTEyMjUyODY0MD
+AsLTE2Mjk4Mzc1NjEsMjIxMDEyMTYxLDEwNDg5NDc0MzgsMjg1
+NTg5Nzg3LC0yMTE5NDMzNTA0LC0zMDAzNDU1OTQsMTc4MjA0ND
+k5MCw1MjcwMTA1NjQsMzM1MDk5ODgyLDIxMzY0Mzc3MywtOTAx
+OTQ0MDI0XX0=
 -->
