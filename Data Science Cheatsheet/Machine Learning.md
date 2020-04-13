@@ -235,13 +235,16 @@ $x_{n}$: Explanatory variables (Independent variables)
 - Forward Selection: begins with an empty model and adds in variables one by one.
 
 	![enter image description here](https://i.imgur.com/6JYnU9k.png)
-- Bidirectional Elimination:
+- Bidirectional Elimination: A combination of Backward Elimination and Forward Selection.
+
+*Formulate the model*
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxMzE1NTg1LDE5MTk0MTE5NjEsLTUzOD
-I4MDYyLC0zNjI1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4
-NywtMjgxMzEzMjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC
-0xMjI1Mjg2NDAwLC0xNjI5ODM3NTYxLDIyMTAxMjE2MSwxMDQ4
-OTQ3NDM4LDI4NTU4OTc4NywtMjExOTQzMzUwNCwtMzAwMzQ1NT
-k0LDE3ODIwNDQ5OTAsNTI3MDEwNTY0LDMzNTA5OTg4MiwyMTM2
-NDM3NzNdfQ==
+eyJoaXN0b3J5IjpbMjA2NTMwNzEyNSwxOTE5NDExOTYxLC01Mz
+gyODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5MDM4
+ODcsLTI4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5NDQ1NjAwMC
+wtMTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEwMTIxNjEsMTA0
+ODk0NzQzOCwyODU1ODk3ODcsLTIxMTk0MzM1MDQsLTMwMDM0NT
+U5NCwxNzgyMDQ0OTkwLDUyNzAxMDU2NCwzMzUwOTk4ODIsMjEz
+NjQzNzczXX0=
 -->
