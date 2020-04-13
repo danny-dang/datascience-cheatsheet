@@ -238,9 +238,9 @@ $x_{n}$: Explanatory variables (Independent variables)
 - Bidirectional Elimination: A combination of Backward Elimination and Forward Selection.
 
 *Formulate the model*
-
+***Gradient Descent*** method: the same Gradient Descent method from Simple Linear Regression can be applied to Multiple Linear Regression. This method 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTMwNzEyNSwxOTE5NDExOTYxLC01Mz
+eyJoaXN0b3J5IjpbLTUzNzMwMjA3NCwxOTE5NDExOTYxLC01Mz
 gyODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5MDM4
 ODcsLTI4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5NDQ1NjAwMC
 wtMTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEwMTIxNjEsMTA0
