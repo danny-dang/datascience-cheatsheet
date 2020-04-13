@@ -238,13 +238,19 @@ $x_{n}$: Explanatory variables (Independent variables)
 - Bidirectional Elimination: A combination of Backward Elimination and Forward Selection.
 
 *Formulate the model*
-***Gradient Descent*** method: the same Gradient Descent method from Simple Linear Regression can be applied to Multiple Linear Regression. This method 
+***Gradient Descent*** method: the same Gradient Descent method from Simple Linear Regression can be applied to Multiple Linear Regression. This method seeks to correct itself and minimize the cost function:
+- Sum of Square Error (SSE): 
+$J(b_{0},b_{1},..b_{n} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
+- Mean of Square Error (MSE): 
+$J(b_{0},b_{1},...b_{n} )=\cfrac{1}{2n} \displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
+### Polynomial Linear Regression
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzMwMjA3NCwxOTE5NDExOTYxLC01Mz
-gyODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5MDM4
-ODcsLTI4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5NDQ1NjAwMC
-wtMTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEwMTIxNjEsMTA0
-ODk0NzQzOCwyODU1ODk3ODcsLTIxMTk0MzM1MDQsLTMwMDM0NT
-U5NCwxNzgyMDQ0OTkwLDUyNzAxMDU2NCwzMzUwOTk4ODIsMjEz
-NjQzNzczXX0=
+eyJoaXN0b3J5IjpbLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNT
+M4MjgwNjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAz
+ODg3LC0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMD
+AsLTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEsMjIxMDEyMTYxLDEw
+NDg5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5NDMzNTA0LC0zMDAzND
+U1OTQsMTc4MjA0NDk5MCw1MjcwMTA1NjQsMzM1MDk5ODgyLDIx
+MzY0Mzc3M119
 -->
