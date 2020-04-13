@@ -230,20 +230,13 @@ $x_{n}$: Explanatory variables (Independent variables)
 *Variable selection*: Since the model can take in multiple variables, we should select only those variables or predictors which are necessary. These are the methods that for variable selection:
 - All-in: Take all the variables into the model. Only do this when you have the prior knowledge or when you are forced to
 - Backward Elimination: BE seeks to remove the variables that do not have a significant effect on the output
-	```mermaid
-	graph TD
-	A["Choose a Significant Level (i.e SL=5)"]
-	A --> B["Fit all the variables into a statiscal model (a model used for </br>compute statiscal data such as variance, P-value, std err,... )"]
-	B --> C[Select the variable with the highest P-value]
-	C --> D{P-value > SL ?}
-	D-- text -->E
-	```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA5MDM4ODcsLTI4MTMxMzI2NSwtMT
-QwNDQ5ODIwNCwtMjA5NDQ1NjAwMCwtMTIyNTI4NjQwMCwtMTYy
-OTgzNzU2MSwyMjEwMTIxNjEsMTA0ODk0NzQzOCwyODU1ODk3OD
-csLTIxMTk0MzM1MDQsLTMwMDM0NTU5NCwxNzgyMDQ0OTkwLDUy
-NzAxMDU2NCwzMzUwOTk4ODIsMjEzNjQzNzczLC05MDE5NDQwMj
-QsNzI4MTA1ODA2LC0xNTk4NDMwNzc5LDIwOTQzMzU5NDQsNDMz
-ODIwOTk0XX0=
+eyJoaXN0b3J5IjpbMTk5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMj
+gxMzEzMjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0xMjI1
+Mjg2NDAwLC0xNjI5ODM3NTYxLDIyMTAxMjE2MSwxMDQ4OTQ3ND
+M4LDI4NTU4OTc4NywtMjExOTQzMzUwNCwtMzAwMzQ1NTk0LDE3
+ODIwNDQ5OTAsNTI3MDEwNTY0LDMzNTA5OTg4MiwyMTM2NDM3Nz
+MsLTkwMTk0NDAyNCw3MjgxMDU4MDYsLTE1OTg0MzA3NzksMjA5
+NDMzNTk0NF19
 -->
