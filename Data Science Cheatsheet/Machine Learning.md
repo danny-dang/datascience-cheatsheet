@@ -229,16 +229,16 @@ $x_{n}$: Explanatory variables (Independent variables)
 
 *Variable selection*: Since the model can take in multiple variables, we should select only those variables or predictors which are necessary. These are the methods that for variable selection:
 - All-in: Take all the variables into the model. Only do this when you have the prior knowledge or when you are forced to
-- Backward Elimination: BE seeks to remove the variables that do not have a significant effect on the output
+- Backward Elimination: seeks to remove the variables that do not have a significant effect on the output
 
 ![enter image description here](https://i.imgur.com/kvFQOQV.jpg)
-- Forward Selection:
+- Forward Selection: begins with an empty model and adds in variables one by one.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjUxODI2MCwxOTk1NDgzNjc0LC0xNz
-YwOTAzODg3LC0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIwOTQ0
-NTYwMDAsLTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEsMjIxMDEyMT
-YxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5NDMzNTA0LC0z
-MDAzNDU1OTQsMTc4MjA0NDk5MCw1MjcwMTA1NjQsMzM1MDk5OD
-gyLDIxMzY0Mzc3MywtOTAxOTQ0MDI0LDcyODEwNTgwNiwtMTU5
-ODQzMDc3OV19
+eyJoaXN0b3J5IjpbLTUzODI4MDYyLC0zNjI1MTgyNjAsMTk5NT
+Q4MzY3NCwtMTc2MDkwMzg4NywtMjgxMzEzMjY1LC0xNDA0NDk4
+MjA0LC0yMDk0NDU2MDAwLC0xMjI1Mjg2NDAwLC0xNjI5ODM3NT
+YxLDIyMTAxMjE2MSwxMDQ4OTQ3NDM4LDI4NTU4OTc4NywtMjEx
+OTQzMzUwNCwtMzAwMzQ1NTk0LDE3ODIwNDQ5OTAsNTI3MDEwNT
+Y0LDMzNTA5OTg4MiwyMTM2NDM3NzMsLTkwMTk0NDAyNCw3Mjgx
+MDU4MDZdfQ==
 -->
