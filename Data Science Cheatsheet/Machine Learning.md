@@ -233,12 +233,13 @@ $x_{n}$: Explanatory variables (Independent variables)
 
 ![enter image description here](https://i.imgur.com/kvFQOQV.jpg)
 - Forward Selection: begins with an empty model and adds in variables one by one.
+![enter image description here](https://i.imgur.com/6JYnU9k.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODI4MDYyLC0zNjI1MTgyNjAsMTk5NT
-Q4MzY3NCwtMTc2MDkwMzg4NywtMjgxMzEzMjY1LC0xNDA0NDk4
-MjA0LC0yMDk0NDU2MDAwLC0xMjI1Mjg2NDAwLC0xNjI5ODM3NT
-YxLDIyMTAxMjE2MSwxMDQ4OTQ3NDM4LDI4NTU4OTc4NywtMjEx
-OTQzMzUwNCwtMzAwMzQ1NTk0LDE3ODIwNDQ5OTAsNTI3MDEwNT
-Y0LDMzNTA5OTg4MiwyMTM2NDM3NzMsLTkwMTk0NDAyNCw3Mjgx
-MDU4MDZdfQ==
+eyJoaXN0b3J5IjpbLTIwNDQ1MDU2MjIsLTUzODI4MDYyLC0zNj
+I1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMjgxMzEz
+MjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0xMjI1Mjg2ND
+AwLC0xNjI5ODM3NTYxLDIyMTAxMjE2MSwxMDQ4OTQ3NDM4LDI4
+NTU4OTc4NywtMjExOTQzMzUwNCwtMzAwMzQ1NTk0LDE3ODIwND
+Q5OTAsNTI3MDEwNTY0LDMzNTA5OTg4MiwyMTM2NDM3NzMsLTkw
+MTk0NDAyNF19
 -->
