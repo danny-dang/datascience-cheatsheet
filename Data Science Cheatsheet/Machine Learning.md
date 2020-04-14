@@ -245,14 +245,22 @@ $J(b_{0},b_{1},..b_{n} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
 $J(b_{0},b_{1},...b_{n} )=\cfrac{1}{2n} \displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
 ### Polynomial Linear Regression
 
-> Polynomial regression is a form of regression in which the  relationship between the independent variable x and the dependent variable *y* is modelled as an nth degree polynomial in *x*
+> Polynomial regression is a form of regression in which the  relationship between the independent variable *x* and the dependent variable *y* is modeled as an *n*th degree polynomial in *x*
 
+*Formula model*:
+$$
+y = b_{0} + b_{1}x + b_{2
+$$
+$y$: Dependent variable
+$b_{0}$: y-intercept (constant term)
+$b_{1}$: Coefficient (slope)
+$x$: Independent variable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTY4MDYzLC0xMzcyODI0NzA3LDE5MT
-k0MTE5NjEsLTUzODI4MDYyLC0zNjI1MTgyNjAsMTk5NTQ4MzY3
-NCwtMTc2MDkwMzg4NywtMjgxMzEzMjY1LC0xNDA0NDk4MjA0LC
-0yMDk0NDU2MDAwLC0xMjI1Mjg2NDAwLC0xNjI5ODM3NTYxLDIy
-MTAxMjE2MSwxMDQ4OTQ3NDM4LDI4NTU4OTc4NywtMjExOTQzMz
-UwNCwtMzAwMzQ1NTk0LDE3ODIwNDQ5OTAsNTI3MDEwNTY0LDMz
-NTA5OTg4Ml19
+eyJoaXN0b3J5IjpbLTE3NDg4NjQ1OTIsLTEzNzI4MjQ3MDcsMT
+kxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2MCwxOTk1NDgz
+Njc0LC0xNzYwOTAzODg3LC0yODEzMTMyNjUsLTE0MDQ0OTgyMD
+QsLTIwOTQ0NTYwMDAsLTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEs
+MjIxMDEyMTYxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5ND
+MzNTA0LC0zMDAzNDU1OTQsMTc4MjA0NDk5MCw1MjcwMTA1NjQs
+MzM1MDk5ODgyXX0=
 -->
