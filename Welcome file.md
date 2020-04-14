@@ -140,6 +140,10 @@ id1(Start)-->id2(Stop)
 style id2 fill:#f9f,stroke:#333,stroke-width:4px 
 style id1 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5, 5
 ```
+
+6 = a9 + b
+4 = a3 + b
+6
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjUxOTMyOF19
+eyJoaXN0b3J5IjpbMzAyODMyMTY2XX0=
 -->
