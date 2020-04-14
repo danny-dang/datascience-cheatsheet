@@ -141,9 +141,6 @@ style id2 fill:#f9f,stroke:#333,stroke-width:4px
 style id1 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5, 5
 ```
 
-6 = a9 + b => b = 6 - 9a 
-4 = a3 + b => b = 4 - 3a => 6 - 9a = 4 - 3a
-7 = a6 + b => b = 7 - 6a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3MTg5NTM1XX0=
+eyJoaXN0b3J5IjpbNjk4NTkxODIyXX0=
 -->
