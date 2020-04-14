@@ -244,13 +244,15 @@ $J(b_{0},b_{1},..b_{n} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
 - Mean of Square Error (MSE): 
 $J(b_{0},b_{1},...b_{n} )=\cfrac{1}{2n} \displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
 ### Polynomial Linear Regression
-**polynomial regression** is a form of [regression analysis](https://en.wikipedia.org/wiki/Regression_analysis "Regression analysis") in which the relationship between the [independent variable](https://en.wikipedia.org/wiki/Independent_variable "Independent variable")  _x_ and the [dependent variable](https://en.wikipedia.org/wiki/Dependent_variable "Dependent variable")  _y_ is modelled as an _n_th degree [polynomial](https://en.wikipedia.org/wiki/Polynomial "Polynomial") in _x_
+
+> Polynomial regression is a form of regression in which the  relationship between the independent variable x and the dependent variable *y* is modelled as an nth degree polynomial in *x*
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk3OTU1MDQsLTEzNzI4MjQ3MDcsMT
-kxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2MCwxOTk1NDgz
-Njc0LC0xNzYwOTAzODg3LC0yODEzMTMyNjUsLTE0MDQ0OTgyMD
-QsLTIwOTQ0NTYwMDAsLTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEs
-MjIxMDEyMTYxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5ND
-MzNTA0LC0zMDAzNDU1OTQsMTc4MjA0NDk5MCw1MjcwMTA1NjQs
-MzM1MDk5ODgyXX0=
+eyJoaXN0b3J5IjpbMTY3NTY4MDYzLC0xMzcyODI0NzA3LDE5MT
+k0MTE5NjEsLTUzODI4MDYyLC0zNjI1MTgyNjAsMTk5NTQ4MzY3
+NCwtMTc2MDkwMzg4NywtMjgxMzEzMjY1LC0xNDA0NDk4MjA0LC
+0yMDk0NDU2MDAwLC0xMjI1Mjg2NDAwLC0xNjI5ODM3NTYxLDIy
+MTAxMjE2MSwxMDQ4OTQ3NDM4LDI4NTU4OTc4NywtMjExOTQzMz
+UwNCwtMzAwMzQ1NTk0LDE3ODIwNDQ5OTAsNTI3MDEwNTY0LDMz
+NTA5OTg4Ml19
 -->
