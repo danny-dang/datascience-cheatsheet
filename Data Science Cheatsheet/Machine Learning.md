@@ -249,14 +249,14 @@ $J(b_{0},b_{1},...b_{n} )=\cfrac{1}{2n} \displaystyle\sum_{i=1}^n(\hat y_{i} - y
 
 *Formula model*:
 $$
-y = b_{0} + b_{1}x + b_{2
+y = b_{0} + b_{1}x + b_{2}x^2 + ... + b_{n}x^n
 $$
 $y$: Dependent variable
 $b_{0}$: y-intercept (constant term)
 $b_{1}$: Coefficient (slope)
 $x$: Independent variable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg4NjQ1OTIsLTEzNzI4MjQ3MDcsMT
+eyJoaXN0b3J5IjpbLTE5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMT
 kxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2MCwxOTk1NDgz
 Njc0LC0xNzYwOTAzODg3LC0yODEzMTMyNjUsLTE0MDQ0OTgyMD
 QsLTIwOTQ0NTYwMDAsLTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEs
