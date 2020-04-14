@@ -258,13 +258,14 @@ $x$: Independent variable
 
 Example:
 ![enter image description here](https://i.imgur.com/QRQNKuz.png)
-
+*Formulate the model*
+***Gradient Descent*** method: Just like Linear Regression, Polynomial Linear Regression can use Gradient Descent to formulate the model
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM4ODE4NTMsLTE3ODU3MTExODcsLT
-E5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4
-MjgwNjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAzOD
-g3LC0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMDAs
-LTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEsMjIxMDEyMTYxLDEwND
-g5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5NDMzNTA0LC0zMDAzNDU1
-OTQsMTc4MjA0NDk5MF19
+eyJoaXN0b3J5IjpbLTk3NDIzNDY0NywtMTc4NTcxMTE4NywtMT
+k4MzcwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDExOTYxLC01Mzgy
+ODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5MDM4OD
+csLTI4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5NDQ1NjAwMCwt
+MTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEwMTIxNjEsMTA0OD
+k0NzQzOCwyODU1ODk3ODcsLTIxMTk0MzM1MDQsLTMwMDM0NTU5
+NCwxNzgyMDQ0OTkwXX0=
 -->
