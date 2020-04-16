@@ -157,8 +157,8 @@ Example:
 
 There are many types of cost function. Some popular ones are:
 - Sum of Square Error (SSE): $J(b_{0},b_{1} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
-- Mean of Square Error (MSE): $J(b_{0},b_{1} )=\cfrac{1}{2n} \displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
-
+- Mean of Square Error (MSE): $J(b_{0},b_{1} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y_{i} - y_{i})^2$
+$m$: total training samples
 The cost function represent the difference (the error) between observed $y$ and predicted $\hat y$. Hence, we need to minimize this cost function in order to formulate the model
 Example:
 ![enter image description here](https://i.imgur.com/UWnCyIZ.jpg =400x)
@@ -264,11 +264,11 @@ Example:
 ### Support Vector Regression
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3OD
-U3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQx
-MTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC
-0xNzYwOTAzODg3LC0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIw
-OTQ0NTYwMDAsLTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEsMjIxMD
-EyMTYxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5NDMzNTA0
-LC0zMDAzNDU1OTRdfQ==
+eyJoaXN0b3J5IjpbMTI1MzM1ODk3LDUxMzI3MTQ2OSwtOTc0Mj
+M0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC0xMzcyODI0
+NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYyLC0zNjI1MTgyNjAsMT
+k5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMjgxMzEzMjY1LC0xNDA0
+NDk4MjA0LC0yMDk0NDU2MDAwLC0xMjI1Mjg2NDAwLC0xNjI5OD
+M3NTYxLDIyMTAxMjE2MSwxMDQ4OTQ3NDM4LDI4NTU4OTc4Nywt
+MjExOTQzMzUwNF19
 -->
