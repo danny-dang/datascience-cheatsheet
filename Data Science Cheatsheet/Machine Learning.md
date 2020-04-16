@@ -159,6 +159,7 @@ There are many types of cost function. Some popular ones are:
 - Sum of Square Error (SSE): $J(b_{0},b_{1} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
 - Mean of Square Error (MSE): $J(b_{0},b_{1} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y_{i} - y_{i})^2$
 $m$: total training samples
+
 The cost function represent the difference (the error) between observed $y$ and predicted $\hat y$. Hence, we need to minimize this cost function in order to formulate the model
 Example:
 ![enter image description here](https://i.imgur.com/UWnCyIZ.jpg =400x)
@@ -242,7 +243,9 @@ $x_{n}$: Explanatory variables (Independent variables)
 - Sum of Square Error (SSE): 
 $J(b_{0},b_{1},..b_{n} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
 - Mean of Square Error (MSE): 
-$J(b_{0},b_{1},...b_{n} )=\cfrac{1}{2n} \displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
+$J(b_{0},b_{1},...b_{n} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y_{i} - y_{i})^2$
+$n$: total predictors (Independent variables)
+$m$: total training samples
 ### Polynomial Linear Regression
 
 > Polynomial regression is a form of regression in which the  relationship between the independent variable *x* and the dependent variable *y* is modeled as an *n*th degree polynomial in *x*
@@ -264,11 +267,11 @@ Example:
 ### Support Vector Regression
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzM1ODk3LDUxMzI3MTQ2OSwtOTc0Mj
-M0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC0xMzcyODI0
-NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYyLC0zNjI1MTgyNjAsMT
-k5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMjgxMzEzMjY1LC0xNDA0
-NDk4MjA0LC0yMDk0NDU2MDAwLC0xMjI1Mjg2NDAwLC0xNjI5OD
-M3NTYxLDIyMTAxMjE2MSwxMDQ4OTQ3NDM4LDI4NTU4OTc4Nywt
-MjExOTQzMzUwNF19
+eyJoaXN0b3J5IjpbMTE3NDcwMDg2Miw1MTMyNzE0NjksLTk3ND
+IzNDY0NywtMTc4NTcxMTE4NywtMTk4MzcwMTg3OCwtMTM3Mjgy
+NDcwNywxOTE5NDExOTYxLC01MzgyODA2MiwtMzYyNTE4MjYwLD
+E5OTU0ODM2NzQsLTE3NjA5MDM4ODcsLTI4MTMxMzI2NSwtMTQw
+NDQ5ODIwNCwtMjA5NDQ1NjAwMCwtMTIyNTI4NjQwMCwtMTYyOT
+gzNzU2MSwyMjEwMTIxNjEsMTA0ODk0NzQzOCwyODU1ODk3ODcs
+LTIxMTk0MzM1MDRdfQ==
 -->
