@@ -260,12 +260,15 @@ Example:
 ![enter image description here](https://i.imgur.com/QRQNKuz.png)
 *Formulate the model*
 ***Gradient Descent*** method: Just like Linear Regression, Polynomial Linear Regression can use Gradient Descent to formulate the model
+
+### Support Vector Regression
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDIzNDY0NywtMTc4NTcxMTE4NywtMT
-k4MzcwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDExOTYxLC01Mzgy
-ODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5MDM4OD
-csLTI4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5NDQ1NjAwMCwt
-MTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEwMTIxNjEsMTA0OD
-k0NzQzOCwyODU1ODk3ODcsLTIxMTk0MzM1MDQsLTMwMDM0NTU5
-NCwxNzgyMDQ0OTkwXX0=
+eyJoaXN0b3J5IjpbNTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3OD
+U3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQx
+MTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC
+0xNzYwOTAzODg3LC0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIw
+OTQ0NTYwMDAsLTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEsMjIxMD
+EyMTYxLDEwNDg5NDc0MzgsMjg1NTg5Nzg3LC0yMTE5NDMzNTA0
+LC0zMDAzNDU1OTRdfQ==
 -->
