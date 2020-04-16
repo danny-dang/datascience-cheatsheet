@@ -158,7 +158,7 @@ Example:
 There are many types of cost function.  Some popular ones are:
 - Sum of Square Error (SSE): $J(b_{0},b_{1} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
 - Mean of Square Error (MSE): $J(b_{0},b_{1} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y_{i} - y_{i})^2$
-$m$: total training samples
+$m$: total training samples  (total data points)
 
 [More other cost function](https://towardsdatascience.com/https-medium-com-chayankathuria-regression-why-mean-square-error-a8cad2a1c96f)
 
@@ -247,9 +247,9 @@ $J(b_{0},b_{1},..b_{n} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
 - Mean of Square Error (MSE): 
 $J(b_{0},b_{1},...b_{n} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y_{i} - y_{i})^2$
 $n$: total predictors (Independent variables)
-$m$: total training samples
+$m$: total training samples (total data points)
 
-[More other cost function](https://towardsdatascience.com/https-medium-com-chayankathuria-regression-why-mean-square-error-a8cad2a1c96f)
+[More other cost functions](https://towardsdatascience.com/https-medium-com-chayankathuria-regression-why-mean-square-error-a8cad2a1c96f)
 ### Polynomial Linear Regression
 
 > Polynomial regression is a form of regression in which the  relationship between the independent variable *x* and the dependent variable *y* is modeled as an *n*th degree polynomial in *x*
@@ -271,7 +271,7 @@ Example:
 ### Support Vector Regression
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyODIyNzIyLDUxMzI3MTQ2OSwtOTc0Mj
+eyJoaXN0b3J5IjpbNTA1OTk0OTgzLDUxMzI3MTQ2OSwtOTc0Mj
 M0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC0xMzcyODI0
 NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYyLC0zNjI1MTgyNjAsMT
 k5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMjgxMzEzMjY1LC0xNDA0
