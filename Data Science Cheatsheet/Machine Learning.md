@@ -311,11 +311,11 @@ There are 2 types of Classification model:
 > Sigmoid Function limit the **output** to a range between 0 and 1, making these functions useful in the prediction of probabilities
 
 $$
-g(z) = \cfrac{}{}
+g(z) = \cfrac{1}{1-e^{-z}}
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjUxNTIyNSwxNDE2MDg5MjkxLDgyNj
+eyJoaXN0b3J5IjpbMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNj
 YyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgs
 NTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5OD
 M3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4Mjgw
