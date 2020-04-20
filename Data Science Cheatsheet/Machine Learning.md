@@ -228,6 +228,7 @@ y = h_{\theta}(x) = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + ... + \thet
 $$
 
 $y$: Dependent variable
+$h_{\theta}(x)$: Hypothesis
 $\theta_{0}$: y-intercept (constant term)
 $\theta_{n}$: Coefficient
 $x_{n}$: Explanatory variables (Independent variables)
@@ -263,11 +264,13 @@ $m$: total training samples (total data points)
 
 *Formula model*:
 $$
-y = b_{0} + b_{1}x + b_{2}x^2 + ... + b_{n}x^n
+y = h_{\theta}(x) = \theta_{0} + \theta_{1}x + \theta_{2}x^2 + ... + \theta_{n}x^n
 $$
+
 $y$: Dependent variable
-$b_{0}$: y-intercept (constant term)
-$b_{n}$: Coefficient (slope)
+$h_{\theta}(x)$: Hypothesis
+$\theta_{0}$: y-intercept (constant term)
+$\theta_{n}$: Coefficient (slope)
 $x$: Independent variable
 
 Example:
@@ -303,11 +306,11 @@ There are 2 types of Classification model:
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE4MTk4MDUsMTQxNjA4OTI5MSw4Mj
-Y2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4
-LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOT
-gzNzAxODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4
-MDYyLC0zNjI1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4Ny
-wtMjgxMzEzMjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0x
-MjI1Mjg2NDAwXX0=
+eyJoaXN0b3J5IjpbMTgyMTQ3MTgwMiwxNDE2MDg5MjkxLDgyNj
+YyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgs
+NTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5OD
+M3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4Mjgw
+NjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC
+0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMDAsLTEy
+MjUyODY0MDBdfQ==
 -->
