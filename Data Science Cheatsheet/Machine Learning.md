@@ -242,12 +242,12 @@ $\theta$: Parameters vector
 
 $x_{n}$: Explanatory variables vectors (Independent variables)
 - i.e: $x_{3} = \begin{bmatrix}  x^{(0)}_{3} \\  x^{(1)}_{3} \\ ... \\ x^{(m)}_{3} \end{bmatrix}$
-$x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable 
-- i.e: $x^{(2)}_{3}$ is the 2nd input sample of the variable $x_{3}$
 
-$x$: Parameters vector
-$n$: total number of independent variables
-$m$: total of input samples
+$x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable 
+- i.e: $x^{(2)}_{3}$ is the 2nd input sample of the variable vector $x_{3}$
+
+$n$: total number of independent variables vectors
+$m$: total number  of input samples
 
 *Variable selection*: Since the model can take in multiple variables, we should select only those variables or predictors which are necessary. These are the methods that for variable selection:
 - All-in: Take all the variables into the model. Only do this when you have the prior knowledge or when you are forced to
@@ -344,7 +344,7 @@ Interpret the Hypothesis:
 
 $h_{\theta}(x)$: The probability that y = 1 on input x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTgyMDI4MSwtMTIxODcxMTkxNywyMT
+eyJoaXN0b3J5IjpbMTgzMzcxMjU1MiwtMTIxODcxMTkxNywyMT
 E4MTExODU2LDE0MTYwODkyOTEsODI2NjIxODU0LDEwODczNDk2
 MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3ND
 IzNDY0NywtMTc4NTcxMTE4NywtMTk4MzcwMTg3OCwtMTM3Mjgy
