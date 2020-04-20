@@ -282,14 +282,15 @@ There are 2 types of Classification:
 -   Multi-Class
 Example: 
 - Assigning a given email to the “spam” or “non-spam” class
+
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OT
-QwMTk4LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3
-LC0xOTgzNzAxODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLT
-UzODI4MDYyLC0zNjI1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkw
-Mzg4NywtMjgxMzEzMjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MD
-AwLC0xMjI1Mjg2NDAwLC0xNjI5ODM3NTYxLDIyMTAxMjE2MSwx
-MDQ4OTQ3NDM4XX0=
+eyJoaXN0b3J5IjpbODI2NjIxODU0LDEwODczNDk2MCwtMjY3NT
+E1NTAwLDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3NDIzNDY0Nywt
+MTc4NTcxMTE4NywtMTk4MzcwMTg3OCwtMTM3MjgyNDcwNywxOT
+E5NDExOTYxLC01MzgyODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2
+NzQsLTE3NjA5MDM4ODcsLTI4MTMxMzI2NSwtMTQwNDQ5ODIwNC
+wtMjA5NDQ1NjAwMCwtMTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwy
+MjEwMTIxNjFdfQ==
 -->
