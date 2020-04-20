@@ -284,13 +284,13 @@ Example:
 - Assigning a given email to the “spam” or “non-spam” class
 
 ### Logistic Regression
-> Logistic Regression is used to model the probability of a certain class
+> Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2NjIxODU0LDEwODczNDk2MCwtMjY3NT
-E1NTAwLDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3NDIzNDY0Nywt
-MTc4NTcxMTE4NywtMTk4MzcwMTg3OCwtMTM3MjgyNDcwNywxOT
-E5NDExOTYxLC01MzgyODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2
-NzQsLTE3NjA5MDM4ODcsLTI4MTMxMzI2NSwtMTQwNDQ5ODIwNC
-wtMjA5NDQ1NjAwMCwtMTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwy
-MjEwMTIxNjFdfQ==
+eyJoaXN0b3J5IjpbLTQ1MTg3NTM2NSw4MjY2MjE4NTQsMTA4Nz
+M0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwt
+OTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC0xMz
+cyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYyLC0zNjI1MTgy
+NjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMjgxMzEzMjY1LC
+0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0xMjI1Mjg2NDAwLC0x
+NjI5ODM3NTYxXX0=
 -->
