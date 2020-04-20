@@ -136,6 +136,7 @@ $\theta$: Parameters vector
 $x$: Independent variable vector
 - i.e: $x= \begin{bmatrix}  x^{(0)} \\  x^{(1)} \\ ... \\ x^{(m)}\end{bmatrix}$
 
+$m$: total number of input samples
 
 ![enter image description here](https://i.imgur.com/oPdsoQH.png =550x)
 
@@ -239,9 +240,10 @@ $\theta_{n}$: Coefficient
 $\theta$: Parameters vector
 - i.e: $\theta = \begin{bmatrix}  \theta_{0} \\  \theta_{1} \\ ... \\ \theta_{n} \end{bmatrix}$
 
-$x_{n}$: Explanatory variables (Independent variables)
+$x_{n}$: Explanatory variables vectors (Independent variables)
 $x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable 
 - i.e: $x^{(2)}_{3}$ is the 2nd input sample of the variable $x_{3}$
+- $\x= \begin{bmatrix}  \x_{0} \\  \theta_{1} \\ ... \\ \theta_{n} \end{bmatrix}$
 
 $x$: Parameters vector
 $n$: total number of independent variables
@@ -342,7 +344,7 @@ Interpret the Hypothesis:
 
 $h_{\theta}(x)$: The probability that y = 1 on input x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTI5NTMyOCwtMTIxODcxMTkxNywyMT
+eyJoaXN0b3J5IjpbMTc1NjE2ODY5OCwtMTIxODcxMTkxNywyMT
 E4MTExODU2LDE0MTYwODkyOTEsODI2NjIxODU0LDEwODczNDk2
 MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3ND
 IzNDY0NywtMTc4NTcxMTE4NywtMTk4MzcwMTg3OCwtMTM3Mjgy
