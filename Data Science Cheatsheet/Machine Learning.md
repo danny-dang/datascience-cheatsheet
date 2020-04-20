@@ -124,7 +124,7 @@ ___    ____________    ___________    ______  ____
 
 *Formula model*:
 $$
-h_{\theta}(x) = \theta_{0} + \theta_{1}x
+h_{\theta}(x) = y = \theta_{0} + \theta_{1}x
 $$
 $h_{\theta}(x)$: Hypothesis, or dependent variable
 $\theta_{0}$: y-intercept (constant term)
@@ -296,11 +296,11 @@ There are 2 types of Classification model:
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODg1OTkyOCwxNDE2MDg5MjkxLDgyNj
-YyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgs
-NTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5OD
-M3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4Mjgw
-NjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC
-0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMDAsLTEy
-MjUyODY0MDBdfQ==
+eyJoaXN0b3J5IjpbMTI1NjkwNjU4LDE0MTYwODkyOTEsODI2Nj
+IxODU0LDEwODczNDk2MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1
+MTMyNzE0NjksLTk3NDIzNDY0NywtMTc4NTcxMTE4NywtMTk4Mz
+cwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDExOTYxLC01MzgyODA2
+MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5MDM4ODcsLT
+I4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5NDQ1NjAwMCwtMTIy
+NTI4NjQwMF19
 -->
