@@ -124,9 +124,10 @@ ___    ____________    ___________    ______  ____
 
 *Formula model*:
 $$
-h_{\theta}(x) = y = \theta_{0} + \theta_{1}x
+y = h_{\theta}(x)  = \theta_{0} + \theta_{1}x
 $$
-$h_{\theta}(x)$: Hypothesis, or dependent variable
+$h_{\theta}(x)$: Hypothesis
+$y$: Dependent variable
 $\theta_{0}$: y-intercept (constant term)
 $\theta_{1}$: Coefficient (slope)
 $x$: Independent variable
@@ -143,11 +144,11 @@ Example:
 
 The intercept and the slope can be computed directly in this method to formulate the model:
 $$
-b_{1} = \cfrac{\sum_{}(x_{i} - \overline{x})(y_{i}-\overline{y})}{\sum_{}(x_{i}-\overline{x})^2}
+\theta_{1} = \cfrac{\sum_{}(x_{i} - \overline{x})(y_{i}-\overline{y})}{\sum_{}(x_{i}-\overline{x})^2}
 $$
 
 $$
-b_{0} = \overline{y} - b_{1}\overline{x}
+\theta_{0} = \overline{y} - \theta_{1}\overline{x}
 $$
 ***- Gradient descent*** method: The model forms the model by iterating and correcting itself. The model will start with random parameters $b_{0}$ and $b_{1}$. For each iteration, it will plug in observed $x_{i}$ and predict $\hat y_{i}$, then compare it with observed $y_{i}$, forming a cost function. The model will then correct itself using cost function
 
@@ -156,8 +157,8 @@ Example:
 >A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y
 
 There are many types of cost function.  Some popular ones are:
-- Sum of Square Error (SSE): $J(b_{0},b_{1} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
-- Mean of Square Error (MSE): $J(b_{0},b_{1} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y_{i} - y_{i})^2$
+- Sum of Square Error (SSE): $J(\theta_{0},\theta_{1} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
+- Mean of Square Error (MSE): $J(\theta_{0},\theta_{1} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y_{i} - y_{i})^2$
 $m$: total training samples  (total data points)
 
 [More other cost function](https://towardsdatascience.com/https-medium-com-chayankathuria-regression-why-mean-square-error-a8cad2a1c96f)
@@ -166,8 +167,8 @@ The cost function represent the difference (the error) between observed $y$ and 
 Example:
 ![enter image description here](https://i.imgur.com/UWnCyIZ.jpg =400x)
 Formulate the model:
-1. Choose starting points for $b_{0}$  and $b_{1}$, total loop limit, and minimum $error$ limit, and learning rate. The standard for these values are:
-	 - $b_{0}$ = 0 (intercept)
+1. Choose starting points for $\theta_{0}$  and $\theta_{1}$, total loop limit, and minimum $error$ limit, and learning rate. The standard for these values are:
+	 - $\theta_{0}$ = 0 (intercept)
 	 - $b_{1}$ = 1 (slope)
 	 - $error$ >= 0.001 (minimum value of $error$ for the model to stop)
 	 - *total_loop* <= 1000 (maximum loops for the model to stop )
@@ -296,11 +297,11 @@ There are 2 types of Classification model:
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjkwNjU4LDE0MTYwODkyOTEsODI2Nj
-IxODU0LDEwODczNDk2MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1
-MTMyNzE0NjksLTk3NDIzNDY0NywtMTc4NTcxMTE4NywtMTk4Mz
-cwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDExOTYxLC01MzgyODA2
-MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5MDM4ODcsLT
-I4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5NDQ1NjAwMCwtMTIy
-NTI4NjQwMF19
+eyJoaXN0b3J5IjpbLTE2Mjk5MzIzMCwxNDE2MDg5MjkxLDgyNj
+YyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgs
+NTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5OD
+M3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4Mjgw
+NjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC
+0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMDAsLTEy
+MjUyODY0MDBdfQ==
 -->
