@@ -235,7 +235,7 @@ $h_{\theta}(x)$: Hypothesis
 $\theta_{0}$: y-intercept (constant term)
 $\theta_{n}$: Coefficient
 $\theta$: Parameters vector
-- i.e: $\theta = \begin{bmatrix}  \theta_{0} \\  \theta_{1} \end{bmatrix}$
+- i.e: $\theta = \begin{bmatrix}  \theta_{0} \\  \theta_{1} \\ ... \\ \theta_{n} \end{bmatrix}$
 
 $x_{n}$: Explanatory variables (Independent variables)
 $x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable 
@@ -277,6 +277,7 @@ $y$: Dependent variable
 $h_{\theta}(x)$: Hypothesis
 $\theta_{0}$: y-intercept (constant term)
 $\theta_{n}$: Coefficient (slope)
+$\theta$: Parameters vector
 $x$: Independent variable
 
 Example:
@@ -328,12 +329,19 @@ $$
 y = h_{\theta}(x) = g(\theta^Tx) = \cfrac{1}{1-e^{-\theta^Tx}}
 $$
 
+$y$: Dependent variable
+$h_{\theta}(x)$: Hypothesis
+$\theta_{0}$: y-intercept (constant term)
+$\theta_{n}$: Coefficient (slope)
+$\theta$: Parameters vector
+$x$: Independent variable
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4OTQxMTU0LC0xMjE4NzExOTE3LDIxMT
-gxMTE4NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYw
-LC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwtOTc0Mj
-M0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC0xMzcyODI0
-NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYyLC0zNjI1MTgyNjAsMT
-k5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMjgxMzEzMjY1LC0xNDA0
-NDk4MjA0XX0=
+eyJoaXN0b3J5IjpbMTY2MzQ2ODU2NywtMTIxODcxMTkxNywyMT
+E4MTExODU2LDE0MTYwODkyOTEsODI2NjIxODU0LDEwODczNDk2
+MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3ND
+IzNDY0NywtMTc4NTcxMTE4NywtMTk4MzcwMTg3OCwtMTM3Mjgy
+NDcwNywxOTE5NDExOTYxLC01MzgyODA2MiwtMzYyNTE4MjYwLD
+E5OTU0ODM2NzQsLTE3NjA5MDM4ODcsLTI4MTMxMzI2NSwtMTQw
+NDQ5ODIwNF19
 -->
