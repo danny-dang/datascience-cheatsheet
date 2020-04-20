@@ -305,12 +305,14 @@ There are 2 types of Classification model:
 	- Random Forest Classification
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
+
+Sigmoid Function (Logistic Function):
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTQ3MTgwMiwxNDE2MDg5MjkxLDgyNj
-YyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgs
-NTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5OD
-M3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4Mjgw
-NjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC
-0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMDAsLTEy
-MjUyODY0MDBdfQ==
+eyJoaXN0b3J5IjpbLTIwMDg3ODAwODksMTQxNjA4OTI5MSw4Mj
+Y2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4
+LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOT
+gzNzAxODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4
+MDYyLC0zNjI1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4Ny
+wtMjgxMzEzMjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0x
+MjI1Mjg2NDAwXX0=
 -->
