@@ -275,11 +275,17 @@ Example:
 
 ## Classification
 > Classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs, on the basis of a training set of data containing observations (or instances) whose category membership is known. 
-Classification is a type of supervised learn
-Examples are assigning a given email to the “spam” or “non-spam” class
+
+Classification is a type of **supervised learning**.
+There are 2 types of Classification:
+-   Binomial
+-   Multi-Class
+Example: 
+- Assigning a given email to the “spam” or “non-spam” class
+### Logistic Regression
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDAzMDkyNywtMjY3NTE1NTAwLDQ1Nz
+eyJoaXN0b3J5IjpbLTYyNDI0NDMxMCwtMjY3NTE1NTAwLDQ1Nz
 k0MDE5OCw1MTMyNzE0NjksLTk3NDIzNDY0NywtMTc4NTcxMTE4
 NywtMTk4MzcwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDExOTYxLC
 01MzgyODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5
