@@ -342,17 +342,14 @@ $x$: Independent variables vector
 $\theta^Tx$: $\begin{bmatrix}  \theta_{0} &  \theta_{1} & ... & \theta_{n} \end{bmatrix} \begin{bmatrix}  x_{0} \\  x_{1} \\ ... \\ x_{n} \end{bmatrix}
  = \theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}$
 
-Interpret the Hypothesis:
-
+*Interpret the Hypothesis*:
 $h_{\theta}(x)$: The probability that $y = 1$ on input $x$
-
 $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x, and parameter $\theta$
-
-	i.e: 
+- i.e: 
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
-$h_{\theta}(x) = 0.5$
+$h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE5MjU1MTMsLTEyMTg3MTE5MTcsMj
+eyJoaXN0b3J5IjpbLTEzMjM2NjcyNjEsLTEyMTg3MTE5MTcsMj
 ExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5
 NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05Nz
 QyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4
