@@ -136,7 +136,7 @@ $x$: Independent variable
 
 ***- Ordinary least squares*** method: The model minimize the sum of the distances between the observed values and the accordingly modeled value of the linear function:
 $$
-minimize\sum_{}(y^{(i)} - \hat{y^{(i)}})^2 
+minimize\sum_{}(y^{(i)} - \hat y^{(i)})^2 
 $$
 
 Example:
@@ -176,12 +176,12 @@ Formulate the model:
 	 - the starting point for a model would be: $y = 0 + 1x$
 2. Calculate the predicted $\hat{y_{i}}$ by plugging observed $x^{i}$ of each data point into the model
 $$
-\hat{y^{(i)}} = 0 + 1x^{(i)}
+\hat y^{(i)} = 0 + 1x^{(i)}
 $$
 4. Forming the cost function (in this case we'll use Sum of Squares Error (SSE) cost function) :
 
 $$
-cost = \sum(y^{(i)} - \hat{y^{(i)}} )^2 \\
+cost = \sum(y^{(i)} - \hat y^{(i)} )^2 \\
 $$
 
 $$
@@ -231,7 +231,9 @@ $y$: Dependent variable
 $\theta_{0}$: y-intercept (constant term)
 $\theta_{n}$: Coefficient
 $x_{n}$: Explanatory variables (Independent variables)
-$x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable (i.e: $x^{(2)}_{3}$ is the 2nd input sample of the variable $x_{3}$)
+$x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable 
+- i.e: $x^{(2)}_{3}$ is the 2nd input sample of the variable $x_{3}$
+
 $n$: total number of independent variables
 $m$: total of input samples
 
@@ -248,9 +250,9 @@ $m$: total of input samples
 *Formulate the model*
 ***Gradient Descent*** method: the same Gradient Descent method from Simple Linear Regression can be applied to Multiple Linear Regression. This method seeks to correct itself and minimize the cost function:
 - Sum of Square Error (SSE): 
-$J(\theta_{0},\theta_{1},..\theta_{n} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
+$J(\theta_{0},\theta_{1},..\theta_{n} )=\displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
 - Mean of Square Error (MSE): 
-$J(b_{0},b_{1},...b_{n} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y_{i} - y_{i})^2$
+$J(\theta_{0},\theta_{1},...\theta_{n} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
 $n$: total predictors (Independent variables)
 $m$: total training samples (total data points)
 
@@ -301,11 +303,11 @@ There are 2 types of Classification model:
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyMTQ4NTMsMTQxNjA4OTI5MSw4MjY2Mj
-E4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUx
-MzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNz
-AxODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYy
-LC0zNjI1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMj
-gxMzEzMjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0xMjI1
-Mjg2NDAwXX0=
+eyJoaXN0b3J5IjpbLTIxNDE4MTk4MDUsMTQxNjA4OTI5MSw4Mj
+Y2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4
+LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOT
+gzNzAxODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4
+MDYyLC0zNjI1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4Ny
+wtMjgxMzEzMjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0x
+MjI1Mjg2NDAwXX0=
 -->
