@@ -331,24 +331,25 @@ Example:
 
 *Sigmoid Function* in Regression model:
 $$
-y = h_{\theta}(x) = g(\theta^Tx) = \cfrac{1}{1-e^{-\theta^Tx}}
+y = h_{\theta}(x) = g(\theta^Tx) = \cfrac{1}{1-e^{-\theta^Tx}} \\ 
+=h
 $$
 
 $y$: Dependent variable
 $h_{\theta}(x)$: Hypothesis
 $\theta$: Parameters vector
 $\theta^T$: Tranpose of the parameters vector
-$x$: Independent variable
+$x$: Independent variables vector
 
 Interpret the Hypothesis:
 
 $h_{\theta}(x)$: The probability that y = 1 on input x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzcxMjU1MiwtMTIxODcxMTkxNywyMT
-E4MTExODU2LDE0MTYwODkyOTEsODI2NjIxODU0LDEwODczNDk2
-MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3ND
-IzNDY0NywtMTc4NTcxMTE4NywtMTk4MzcwMTg3OCwtMTM3Mjgy
-NDcwNywxOTE5NDExOTYxLC01MzgyODA2MiwtMzYyNTE4MjYwLD
-E5OTU0ODM2NzQsLTE3NjA5MDM4ODcsLTI4MTMxMzI2NSwtMTQw
-NDQ5ODIwNF19
+eyJoaXN0b3J5IjpbLTE1Mzg4MjQxMDEsLTEyMTg3MTE5MTcsMj
+ExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5
+NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05Nz
+QyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4
+MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2MC
+wxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC0yODEzMTMyNjUsLTE0
+MDQ0OTgyMDRdfQ==
 -->
