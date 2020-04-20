@@ -274,23 +274,13 @@ Example:
 [https://www.saedsayad.com/support_vector_machine_reg.htm](https://www.saedsayad.com/support_vector_machine_reg.htm)
 
 ## Classification
-
-> **classification** is the problem of identifying to which of a set of [categories](https://en.wikipedia.org/wiki/Categorical_data
-> "Categorical data") (sub-populations) a new
-> [observation](https://en.wikipedia.org/wiki/Observation "Observation")
-> belongs, on the basis of a [training
-> set](https://en.wikipedia.org/wiki/Training_set "Training set") of
-> data containing observations (or instances) whose category membership
-> is known. Examples are assigning a given email to the ["spam" or
-> "non-spam"](https://en.wikipedia.org/wiki/Spam_filtering "Spam
-> filtering") class
-
+**classification** is the problem of identifying to which of a set of [categories](https://en.wikipedia.org/wiki/Categorical_data "Categorical data") (sub-populations) a new [observation](https://en.wikipedia.org/wiki/Observation "Observation") belongs, on the basis of a [training set](https://en.wikipedia.org/wiki/Training_set "Training set") of data containing observations (or instances) whose category membership is known. Examples are assigning a given email to the ["spam" or "non-spam"](https://en.wikipedia.org/wiki/Spam_filtering "Spam filtering") class
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTczODcxMiwtMjY3NTE1NTAwLDQ1Nz
-k0MDE5OCw1MTMyNzE0NjksLTk3NDIzNDY0NywtMTc4NTcxMTE4
-NywtMTk4MzcwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDExOTYxLC
-01MzgyODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5
-MDM4ODcsLTI4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5NDQ1Nj
-AwMCwtMTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEwMTIxNjEs
-MTA0ODk0NzQzOF19
+eyJoaXN0b3J5IjpbMTQxODgyMTgsLTI2NzUxNTUwMCw0NTc5ND
+AxOTgsNTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcs
+LTE5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNT
+M4MjgwNjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAz
+ODg3LC0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMD
+AsLTEyMjUyODY0MDAsLTE2Mjk4Mzc1NjEsMjIxMDEyMTYxLDEw
+NDg5NDc0MzhdfQ==
 -->
