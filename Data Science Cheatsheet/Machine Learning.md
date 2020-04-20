@@ -6,6 +6,9 @@
 	- [Handling categorical data](#handling-categorical-data)
 - [Regression](#regression)
 	- [Simple Linear Regression](#simple-linear-regression)
+	- [Multiple Linear Regression](#multiple-linear-regression)
+	- [Polynomial Linear Regression](#polynomial -linear-regression)
+	- 
 ## Data pre-processing
 Sample data set: *Survey*
 ``` 
@@ -349,11 +352,11 @@ $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x,
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjM2NjcyNjEsLTEyMTg3MTE5MTcsMj
-ExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5
-NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05Nz
-QyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4
-MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2MC
-wxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC0yODEzMTMyNjUsLTE0
-MDQ0OTgyMDRdfQ==
+eyJoaXN0b3J5IjpbLTE3ODAxMDU2MDAsLTEzMjM2NjcyNjEsLT
+EyMTg3MTE5MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYy
+MTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNT
+EzMjcxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3
+MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNj
+IsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC0y
+ODEzMTMyNjVdfQ==
 -->
