@@ -124,11 +124,11 @@ ___    ____________    ___________    ______  ____
 
 *Formula model*:
 $$
-h_{\theta}x = b_{0} + b_{1}x
+h_{\theta}(x) = \theta_{0} + \theta_{1}x
 $$
-$y$: Dependent variable
-$b_{0}$: y-intercept (constant term)
-$b_{1}$: Coefficient (slope)
+$h_{\theta}(x)$: Hypothesis, or dependent variable
+$\theta_{0}$: y-intercept (constant term)
+$\theta_{1}$: Coefficient (slope)
 $x$: Independent variable
 
 ![enter image description here](https://i.imgur.com/oPdsoQH.png =550x)
@@ -296,7 +296,7 @@ There are 2 types of Classification model:
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTkyMTEzNSwxNDE2MDg5MjkxLDgyNj
+eyJoaXN0b3J5IjpbMTM1ODg1OTkyOCwxNDE2MDg5MjkxLDgyNj
 YyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgs
 NTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5OD
 M3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4Mjgw
