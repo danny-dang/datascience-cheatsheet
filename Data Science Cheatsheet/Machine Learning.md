@@ -346,13 +346,17 @@ Interpret the Hypothesis:
 
 $h_{\theta}(x)$: The probability that $y = 1$ on input $x$
 
-$h_{\theta}(x) = P(y=1|x;\theta)$: Probability that
+$h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x, and parameter $\theta$
+
+	i.e: 
+Tell if a mail is a spam, in which "1" is spam, "0" is not spam
+$h_{\theta}(x) = 0.5$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzI2OTMyMiwtMTIxODcxMTkxNywyMT
-E4MTExODU2LDE0MTYwODkyOTEsODI2NjIxODU0LDEwODczNDk2
-MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3ND
-IzNDY0NywtMTc4NTcxMTE4NywtMTk4MzcwMTg3OCwtMTM3Mjgy
-NDcwNywxOTE5NDExOTYxLC01MzgyODA2MiwtMzYyNTE4MjYwLD
-E5OTU0ODM2NzQsLTE3NjA5MDM4ODcsLTI4MTMxMzI2NSwtMTQw
-NDQ5ODIwNF19
+eyJoaXN0b3J5IjpbLTIwNDE5MjU1MTMsLTEyMTg3MTE5MTcsMj
+ExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5
+NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05Nz
+QyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4
+MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2MC
+wxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC0yODEzMTMyNjUsLTE0
+MDQ0OTgyMDRdfQ==
 -->
