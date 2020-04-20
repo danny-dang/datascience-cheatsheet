@@ -174,9 +174,9 @@ Formulate the model:
 	 - *total_loop* <= 1000 (maximum loops for the model to stop )
 	 - *learning_rate* = 0.1 (the significant level that the model will adjust itself)
 	 - the starting point for a model would be: $y = 0 + 1x$
-2. Calculate the predicted $\hat{y_{i}}$ by plugging observed $x_{i}$ of each data point into the model
+2. Calculate the predicted $\hat{y_{i}}$ by plugging observed $x^{i}$ of each data point into the model
 $$
-\hat{y_{i}} = 0 + 1x_{i}
+\hat{y_{i}} = 0 + 1x^{i}
 $$
 4. Forming the cost function (in this case we'll use Sum of Squares Error (SSE) cost function) :
 
@@ -185,17 +185,17 @@ cost = \sum(y_{i} - \hat{y_{i}} )^2 \\
 $$
 
 $$
-cost = \sum(y_{i} - (\theta_{0} + \theta_{1}x_{i}))^2
+cost = \sum(y_{i} - (\theta_{0} + \theta_{1}x^{i}))^2
 $$
 
 4. As the model needs to minimize the cost function, next step is to calculate the partial derivative of the $cost$ in accordance to $b_{0}$ or $b_{1}$:
 
 $$
-\cfrac{\partial cost}{\partial \theta_{0}} = (\sum(y_{i} - (\theta_{0} + \theta_{1}x_{i}))^2)'
+\cfrac{\partial cost}{\partial \theta_{0}} = (\sum(y_{i} - (\theta_{0} + \theta_{1}x^{(i}))^2)'
 $$
 
 $$
-\cfrac{\partial cost}{\partial \theta_{1}} = (\sum(y_{i} - (\theta_{0} + \theta_{1}x_{i}))^2)'
+\cfrac{\partial cost}{\partial \theta_{1}} = (\sum(y_{i} - (\theta_{0} + \theta_{1}x^{(i)}))^2)'
 $$
 
 5. Calculate the $error$ using the derivative calculated, and adjust it with the *learning_rate* :
@@ -297,11 +297,11 @@ There are 2 types of Classification model:
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM1Nzg0MiwxNDE2MDg5MjkxLDgyNj
-YyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgs
-NTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5OD
-M3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4Mjgw
-NjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC
-0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMDAsLTEy
-MjUyODY0MDBdfQ==
+eyJoaXN0b3J5IjpbLTIxMDgzODYzODAsMTQxNjA4OTI5MSw4Mj
+Y2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4
+LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOT
+gzNzAxODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4
+MDYyLC0zNjI1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4Ny
+wtMjgxMzEzMjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0x
+MjI1Mjg2NDAwXX0=
 -->
