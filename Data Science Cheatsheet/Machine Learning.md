@@ -228,10 +228,10 @@ y = h_{\theta}(x) = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + ... + \thet
 $$
 
 $y$: Dependent variable
-$b_{0}$: y-intercept (constant term)
-$b_{n}$: Coefficient
+$\theta_{0}$: y-intercept (constant term)
+$\theta_{n}$: Coefficient
 $x_{n}$: Explanatory variables (Independent variables)
-$x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable (i.e: $x^2_3$ is the 2nd input sample of the variable $x
+$x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable (i.e: $x^{(2)}_{3}$ is the 2nd input sample of the variable $x_{3}$)
 $n$: total number of independent variables
 $m$: total of input samples
 
@@ -248,7 +248,7 @@ $m$: total of input samples
 *Formulate the model*
 ***Gradient Descent*** method: the same Gradient Descent method from Simple Linear Regression can be applied to Multiple Linear Regression. This method seeks to correct itself and minimize the cost function:
 - Sum of Square Error (SSE): 
-$J(b_{0},b_{1},..b_{n} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
+$J(\theta_{0},\theta_{1},..\theta_{n} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
 - Mean of Square Error (MSE): 
 $J(b_{0},b_{1},...b_{n} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y_{i} - y_{i})^2$
 $n$: total predictors (Independent variables)
@@ -301,11 +301,11 @@ There are 2 types of Classification model:
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjQ2ODQ1MSwxNDE2MDg5MjkxLDgyNj
-YyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgs
-NTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5OD
-M3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4Mjgw
-NjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC
-0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMDAsLTEy
-MjUyODY0MDBdfQ==
+eyJoaXN0b3J5IjpbODEyMTQ4NTMsMTQxNjA4OTI5MSw4MjY2Mj
+E4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUx
+MzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNz
+AxODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYy
+LC0zNjI1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMj
+gxMzEzMjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0xMjI1
+Mjg2NDAwXX0=
 -->
