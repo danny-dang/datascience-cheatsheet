@@ -289,15 +289,18 @@ There are 2 types of Classification model:
 	- Support Vector Machines
 - Nonlinear models:
 	- K-nearest Neighbors (KNN)
-	- 
+	- Kernel Support Vector Machines (SVM)
+	- Naïve Bayes
+	- Decision Tree Classification
+	- Random Forest Classification
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzU5NTM5LDgyNjYyMTg1NCwxMDg3Mz
-Q5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05
-NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4NzgsLTEzNz
-I4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2
-MCwxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC0yODEzMTMyNjUsLT
-E0MDQ0OTgyMDQsLTIwOTQ0NTYwMDAsLTEyMjUyODY0MDAsLTE2
-Mjk4Mzc1NjFdfQ==
+eyJoaXN0b3J5IjpbMTQxNjA4OTI5MSw4MjY2MjE4NTQsMTA4Nz
+M0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwt
+OTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC0xMz
+cyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYyLC0zNjI1MTgy
+NjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMjgxMzEzMjY1LC
+0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0xMjI1Mjg2NDAwLC0x
+NjI5ODM3NTYxXX0=
 -->
