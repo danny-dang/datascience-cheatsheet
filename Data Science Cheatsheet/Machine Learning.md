@@ -131,7 +131,8 @@ $y$: Dependent variable
 $\theta_{0}$: y-intercept (constant term)
 $\theta_{1}$: Coefficient (slope)
 $\theta$: Parameters vector
-- i.e $\theta = {n\brack k}$
+- i.e: $\theta = \begin{bmatrix}  \theta_{0} \\  \theta_{1} \end{bmatrix}$
+
 $x$: Independent variable
 
 ![enter image description here](https://i.imgur.com/oPdsoQH.png =550x)
@@ -233,6 +234,9 @@ $y$: Dependent variable
 $h_{\theta}(x)$: Hypothesis
 $\theta_{0}$: y-intercept (constant term)
 $\theta_{n}$: Coefficient
+$\theta$: Parameters vector
+- i.e: $\theta = \begin{bmatrix}  \theta_{0} \\  \theta_{1} \end{bmatrix}$
+
 $x_{n}$: Explanatory variables (Independent variables)
 $x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable 
 - i.e: $x^{(2)}_{3}$ is the 2nd input sample of the variable $x_{3}$
@@ -325,11 +329,11 @@ y = h_{\theta}(x) = g(\theta^Tx) = \cfrac{1}{1-e^{-\theta^Tx}}
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTg3MTE5MTcsMjExODExMTg1NiwxND
-E2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUw
-MCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3OD
-U3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQx
-MTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC
-0xNzYwOTAzODg3LC0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIw
-OTQ0NTYwMDBdfQ==
+eyJoaXN0b3J5IjpbNzM4OTQxMTU0LC0xMjE4NzExOTE3LDIxMT
+gxMTE4NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYw
+LC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwtOTc0Mj
+M0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC0xMzcyODI0
+NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYyLC0zNjI1MTgyNjAsMT
+k5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMjgxMzEzMjY1LC0xNDA0
+NDk4MjA0XX0=
 -->
