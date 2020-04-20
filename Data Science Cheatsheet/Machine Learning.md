@@ -130,7 +130,8 @@ $h_{\theta}(x)$: Hypothesis
 $y$: Dependent variable
 $\theta_{0}$: y-intercept (constant term)
 $\theta_{1}$: Coefficient (slope)
-$\theta$: parameter vector
+$\theta$: Parameters vector
+- i.e $\theta = {n\brack k}$
 $x$: Independent variable
 
 ![enter image description here](https://i.imgur.com/oPdsoQH.png =550x)
@@ -324,7 +325,7 @@ y = h_{\theta}(x) = g(\theta^Tx) = \cfrac{1}{1-e^{-\theta^Tx}}
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzI0NTk3ODgsMjExODExMTg1NiwxND
+eyJoaXN0b3J5IjpbLTEyMTg3MTE5MTcsMjExODExMTg1NiwxND
 E2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUw
 MCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3OD
 U3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQx
