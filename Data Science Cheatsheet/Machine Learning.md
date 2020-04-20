@@ -313,16 +313,21 @@ There are 2 types of Classification model:
 $$
 g(z) = \cfrac{1}{1-e^{-z}}
 $$
-![enter image description here](https://i.imgur.com/IPKkckv.png)
-*Sigmoid Function* in Regression model:
 
+Example:
+![enter image description here](https://i.imgur.com/IPKkckv.png =300x)
+
+*Sigmoid Function* in Regression model:
+$$
+y = h_{\theta}(x) = g(\theta^Tx) = 
+$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1NTAzMTg0LDIxMTgxMTE4NTYsMTQxNj
-A4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAs
-NDU3OTQwMTk4LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1Nz
-ExMTg3LC0xOTgzNzAxODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5
-NjEsLTUzODI4MDYyLC0zNjI1MTgyNjAsMTk5NTQ4MzY3NCwtMT
-c2MDkwMzg4NywtMjgxMzEzMjY1LC0xNDA0NDk4MjA0LC0yMDk0
-NDU2MDAwXX0=
+eyJoaXN0b3J5IjpbMjEwNTYyMDAyNiwyMTE4MTExODU2LDE0MT
+YwODkyOTEsODI2NjIxODU0LDEwODczNDk2MCwtMjY3NTE1NTAw
+LDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3NDIzNDY0NywtMTc4NT
+cxMTE4NywtMTk4MzcwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDEx
+OTYxLC01MzgyODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLT
+E3NjA5MDM4ODcsLTI4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5
+NDQ1NjAwMF19
 -->
