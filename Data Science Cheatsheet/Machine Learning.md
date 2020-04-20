@@ -226,12 +226,14 @@ More about OLS and Gradient Descent: [https://www.saedsayad.com/gradient_descent
 $$
 y = h_{\theta}(x) = \theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + ... + \theta_{n}x_{n}
 $$
-At a point $A (y^{(i)}, x^{(i)}_{)$
+
 $y$: Dependent variable
 $b_{0}$: y-intercept (constant term)
 $b_{n}$: Coefficient
 $x_{n}$: Explanatory variables (Independent variables)
-$n$:
+$x^{i}_{j}$: The $i
+$n$: total number of independent variables
+$m$: total of input samples
 
 *Variable selection*: Since the model can take in multiple variables, we should select only those variables or predictors which are necessary. These are the methods that for variable selection:
 - All-in: Take all the variables into the model. Only do this when you have the prior knowledge or when you are forced to
@@ -299,7 +301,7 @@ There are 2 types of Classification model:
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjIwMjM3MjksMTQxNjA4OTI5MSw4Mj
+eyJoaXN0b3J5IjpbLTEyMjk4ODYyNDgsMTQxNjA4OTI5MSw4Mj
 Y2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4
 LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOT
 gzNzAxODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4
