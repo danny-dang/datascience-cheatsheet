@@ -130,6 +130,7 @@ $h_{\theta}(x)$: Hypothesis
 $y$: Dependent variable
 $\theta_{0}$: y-intercept (constant term)
 $\theta_{1}$: Coefficient (slope)
+$\theta$: parameter vector
 $x$: Independent variable
 
 ![enter image description here](https://i.imgur.com/oPdsoQH.png =550x)
@@ -319,15 +320,15 @@ Example:
 
 *Sigmoid Function* in Regression model:
 $$
-y = h_{\theta}(x) = g(\theta^Tx) = 
+y = h_{\theta}(x) = g(\theta^Tx) = \cfrac{1}{1-e^{-\theta^Tx}}
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTYyMDAyNiwyMTE4MTExODU2LDE0MT
-YwODkyOTEsODI2NjIxODU0LDEwODczNDk2MCwtMjY3NTE1NTAw
-LDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3NDIzNDY0NywtMTc4NT
-cxMTE4NywtMTk4MzcwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDEx
-OTYxLC01MzgyODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLT
-E3NjA5MDM4ODcsLTI4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5
-NDQ1NjAwMF19
+eyJoaXN0b3J5IjpbLTE5MzI0NTk3ODgsMjExODExMTg1NiwxND
+E2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUw
+MCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3OD
+U3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQx
+MTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2MCwxOTk1NDgzNjc0LC
+0xNzYwOTAzODg3LC0yODEzMTMyNjUsLTE0MDQ0OTgyMDQsLTIw
+OTQ0NTYwMDBdfQ==
 -->
