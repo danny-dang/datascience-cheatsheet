@@ -169,7 +169,7 @@ Example:
 Formulate the model:
 1. Choose starting points for $\theta_{0}$  and $\theta_{1}$, total loop limit, and minimum $error$ limit, and learning rate. The standard for these values are:
 	 - $\theta_{0}$ = 0 (intercept)
-	 - $b_{1}$ = 1 (slope)
+	 - $\theta_{1}$ = 1 (slope)
 	 - $error$ >= 0.001 (minimum value of $error$ for the model to stop)
 	 - *total_loop* <= 1000 (maximum loops for the model to stop )
 	 - *learning_rate* = 0.1 (the significant level that the model will adjust itself)
@@ -185,34 +185,34 @@ cost = \sum(y_{i} - \hat{y_{i}} )^2 \\
 $$
 
 $$
-cost = \sum(y_{i} - (b_{0} + b_{1}x_{i}))^2
+cost = \sum(y_{i} - (\theta_{0} + \theta_{1}x_{i}))^2
 $$
 
 4. As the model needs to minimize the cost function, next step is to calculate the partial derivative of the $cost$ in accordance to $b_{0}$ or $b_{1}$:
 
 $$
-\cfrac{\partial cost}{\partial b_{0}} = (\sum(y_{i} - (b_{0} + b_{1}x_{i}))^2)'
+\cfrac{\partial cost}{\partial \theta_{0}} = (\sum(y_{i} - (\theta_{0} + \theta_{1}x_{i}))^2)'
 $$
 
 $$
-\cfrac{\partial cost}{\partial b_{1}} = (\sum(y_{i} - (b_{0} + b_{1}x_{i}))^2)'
+\cfrac{\partial cost}{\partial \theta_{1}} = (\sum(y_{i} - (\theta_{0} + \theta_{1}x_{i}))^2)'
 $$
 
 5. Calculate the $error$ using the derivative calculated, and adjust it with the *learning_rate* :
 
 $$
-error_{b_{0}} = \cfrac{\partial cost}{\partial b_{0}} * 0.1\\
-error_{b_{1}} = \cfrac{\partial cost}{\partial b_{1}} * 0.1
+error_{\theta_{0}} = \cfrac{\partial cost}{\partial \theta_{0}} * 0.1\\
+error_{\theta_{1}} = \cfrac{\partial cost}{\partial \theta_{1}} * 0.1
 $$
 
 6. Correct and form a new model using the $error$:
 
 $$
-b_{0} = b_{0} - error_{b_{0}}
+\theta_{0} = \theta_{0} - error_{\theta_{0}}
 $$
 
 $$
-b_{1} = b_{1} - error_{b_{1}}
+\theta_{1} = \theta_{1} - error_{\theta_{1}}
 $$
 
 7. Repeat the step 2-7 until the $error$ or the *total_loop* reach the limit.
@@ -297,7 +297,7 @@ There are 2 types of Classification model:
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk5MzIzMCwxNDE2MDg5MjkxLDgyNj
+eyJoaXN0b3J5IjpbLTE0NDM1Nzg0MiwxNDE2MDg5MjkxLDgyNj
 YyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgs
 NTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5OD
 M3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4Mjgw
