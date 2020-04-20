@@ -136,7 +136,7 @@ $x$: Independent variable
 
 ***- Ordinary least squares*** method: The model minimize the sum of the distances between the observed values and the accordingly modeled value of the linear function:
 $$
-minimize\sum_{}(y - \hat{y_{i}})^2 
+minimize\sum_{}(y^{(i)} - \hat{y^{(i)}})^2 
 $$
 
 Example:
@@ -157,7 +157,7 @@ Example:
 >A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y
 
 There are many types of cost function.  Some popular ones are:
-- Sum of Square Error (SSE): $J(\theta_{0},\theta_{1} )=\displaystyle\sum_{i=1}^n(\hat y_{i} - y_{i})^2$
+- Sum of Square Error (SSE): $J(\theta_{0},\theta_{1} )=\displaystyle\sum_{i=1}^n(\hat y^{i} - y^{i})^2$
 - Mean of Square Error (MSE): $J(\theta_{0},\theta_{1} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y_{i} - y_{i})^2$
 $m$: total training samples  (total data points)
 
@@ -297,11 +297,11 @@ There are 2 types of Classification model:
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4MjEyNTU1LDE0MTYwODkyOTEsODI2Nj
-IxODU0LDEwODczNDk2MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1
-MTMyNzE0NjksLTk3NDIzNDY0NywtMTc4NTcxMTE4NywtMTk4Mz
-cwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDExOTYxLC01MzgyODA2
-MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5MDM4ODcsLT
-I4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5NDQ1NjAwMCwtMTIy
-NTI4NjQwMF19
+eyJoaXN0b3J5IjpbLTE5MjE1NzI0MTksMTQxNjA4OTI5MSw4Mj
+Y2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4
+LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOT
+gzNzAxODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4
+MDYyLC0zNjI1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4Ny
+wtMjgxMzEzMjY1LC0xNDA0NDk4MjA0LC0yMDk0NDU2MDAwLC0x
+MjI1Mjg2NDAwXX0=
 -->
