@@ -275,12 +275,22 @@ Example:
 
 ## Classification
 
+> **classification** is the problem of identifying to which of a set of [categories](https://en.wikipedia.org/wiki/Categorical_data
+> "Categorical data") (sub-populations) a new
+> [observation](https://en.wikipedia.org/wiki/Observation "Observation")
+> belongs, on the basis of a [training
+> set](https://en.wikipedia.org/wiki/Training_set "Training set") of
+> data containing observations (or instances) whose category membership
+> is known. Examples are assigning a given email to the ["spam" or
+> "non-spam"](https://en.wikipedia.org/wiki/Spam_filtering "Spam
+> filtering") class
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMj
-cxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4
-NzgsLTEzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNjIsLT
-M2MjUxODI2MCwxOTk1NDgzNjc0LC0xNzYwOTAzODg3LC0yODEz
-MTMyNjUsLTE0MDQ0OTgyMDQsLTIwOTQ0NTYwMDAsLTEyMjUyOD
-Y0MDAsLTE2Mjk4Mzc1NjEsMjIxMDEyMTYxLDEwNDg5NDc0Mzgs
-Mjg1NTg5Nzg3XX0=
+eyJoaXN0b3J5IjpbLTY3MTczODcxMiwtMjY3NTE1NTAwLDQ1Nz
+k0MDE5OCw1MTMyNzE0NjksLTk3NDIzNDY0NywtMTc4NTcxMTE4
+NywtMTk4MzcwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDExOTYxLC
+01MzgyODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5
+MDM4ODcsLTI4MTMxMzI2NSwtMTQwNDQ5ODIwNCwtMjA5NDQ1Nj
+AwMCwtMTIyNTI4NjQwMCwtMTYyOTgzNzU2MSwyMjEwMTIxNjEs
+MTA0ODk0NzQzOF19
 -->
