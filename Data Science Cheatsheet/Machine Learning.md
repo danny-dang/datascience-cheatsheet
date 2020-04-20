@@ -331,13 +331,12 @@ $$
 
 $y$: Dependent variable
 $h_{\theta}(x)$: Hypothesis
-$\theta_{0}$: y-intercept (constant term)
-$\theta_{n}$: Coefficient (slope)
 $\theta$: Parameters vector
+$\theta^T$: Tranpose of the parameters vector
 $x$: Independent variable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzQ2ODU2NywtMTIxODcxMTkxNywyMT
+eyJoaXN0b3J5IjpbLTI0OTE1NDc0MiwtMTIxODcxMTkxNywyMT
 E4MTExODU2LDE0MTYwODkyOTEsODI2NjIxODU0LDEwODczNDk2
 MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3ND
 IzNDY0NywtMTc4NTcxMTE4NywtMTk4MzcwMTg3OCwtMTM3Mjgy
