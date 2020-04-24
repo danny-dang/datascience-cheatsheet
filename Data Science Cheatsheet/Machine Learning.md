@@ -371,11 +371,12 @@ $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 
 *Hypothesis  represents **Decision Boundary***: separates the data-points into regions, which are actually the classes in which they belong
 $$
-h_{\theta}(x) >=
+h_{\theta}(x) \geq 0.5 \to y =1\\
+h_{\theta}(x) < 0.5 \to y =1
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzcyMDIzOCwxMDgxODAyMTMwLDczND
+eyJoaXN0b3J5IjpbMTY0NjYxMDM5NCwxMDgxODAyMTMwLDczND
 k2NzQ2NCwtMzk5NjU3OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAs
 LTEzMjM2NjcyNjEsLTEyMTg3MTE5MTcsMjExODExMTg1NiwxND
 E2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUw
