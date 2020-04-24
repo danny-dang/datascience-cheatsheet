@@ -279,6 +279,13 @@ $J(\theta_{0},\theta_{1},..\theta_{n} )=\displaystyle\sum_{i=1}^n(\hat y^{(i)} -
 $J(\theta_{0},\theta_{1},...\theta_{n} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
 $n$: total predictors (Independent variables)
 $m$: total training samples (total data points)
+*General Formula*:
+$$
+Repeat \{\\
+\theta_{j} := \theta_{j} -\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})\theta_{j}\\
+...\\
+\}
+$$
 
 [More other cost functions](https://towardsdatascience.com/https-medium-com-chayankathuria-regression-why-mean-square-error-a8cad2a1c96f)
 ### Polynomial Linear Regression
@@ -361,11 +368,11 @@ $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x,
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM0MDY0MDksLTM5OTY1Nzk3Myw3ND
-gwNjg5NTgsNjk0MTg0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzEx
-OTE3LDIxMTgxMTE4NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMT
-A4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2
-OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC
-0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYyLC0zNjI1
-MTgyNjBdfQ==
+eyJoaXN0b3J5IjpbLTc3OTk4MDcyMywtMzk5NjU3OTczLDc0OD
+A2ODk1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLTEyMTg3MTE5
+MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMD
+g3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5
+LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4NzgsLT
+EzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUx
+ODI2MF19
 -->
