@@ -371,20 +371,20 @@ $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 
 *Hypothesis  represents **Decision Boundary***: separates the data-points into regions, which are actually the classes in which they belong
 
-$h_{\theta}(x)  \geq 0.5 \to y =1$
-$h_{\theta}(x) < 0.5 \to y =0$
+$h_{\theta}(x)  \geq 0.5 \implies y =1$
+$h_{\theta}(x) < 0.5 \implies y =0$
 __
-$h_{\theta}(x)  \geq 0.5 g(\theta^Tx)   \geq 0.5 \to y =1$
-$g(\theta^Tx)  < 0.5 \to y =0$
+$h_{\theta}(x)  \geq 0.5 \implies g(\theta^Tx)   \geq 0.5$
+$h_{\theta}(x) < 0.5 \implies g(\theta^Tx)  < 0.5$
 __
-$\theta^Tx \geq 0.5 \to y =1$
-$\theta^Tx < 0.5 \to y =0$
+$g(\theta^Tx)   \geq 0.5\implies\theta^Tx$
+$g(\theta^Tx)  < 0.5\implies$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDE4NDg2MywxMDgxODAyMTMwLDczND
-k2NzQ2NCwtMzk5NjU3OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAs
-LTEzMjM2NjcyNjEsLTEyMTg3MTE5MTcsMjExODExMTg1NiwxND
-E2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUw
-MCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3OD
-U3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQx
-MTk2MV19
+eyJoaXN0b3J5IjpbNTQ1NzU3NjEwLDEwODE4MDIxMzAsNzM0OT
+Y3NDY0LC0zOTk2NTc5NzMsNzQ4MDY4OTU4LDY5NDE4NDc4MCwt
+MTMyMzY2NzI2MSwtMTIxODcxMTkxNywyMTE4MTExODU2LDE0MT
+YwODkyOTEsODI2NjIxODU0LDEwODczNDk2MCwtMjY3NTE1NTAw
+LDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3NDIzNDY0NywtMTc4NT
+cxMTE4NywtMTk4MzcwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDEx
+OTYxXX0=
 -->
