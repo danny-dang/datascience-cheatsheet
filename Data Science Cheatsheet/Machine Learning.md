@@ -10,6 +10,7 @@
 	- [Polynomial Linear Regression](#polynomial-linear-regression)
 - [Classification](#classification)
 	- [Logistic Regression](#logistic-regression)
+
 ## Data pre-processing
 Sample data set: *Survey*
 ``` 
@@ -353,11 +354,11 @@ $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x,
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0MTg0NzgwLC0xMzIzNjY3MjYxLC0xMj
-E4NzExOTE3LDIxMTgxMTE4NTYsMTQxNjA4OTI5MSw4MjY2MjE4
-NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUxMz
-I3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAx
-ODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYyLC
-0zNjI1MTgyNjAsMTk5NTQ4MzY3NCwtMTc2MDkwMzg4NywtMjgx
-MzEzMjY1XX0=
+eyJoaXN0b3J5IjpbNzQ4MDY4OTU4LDY5NDE4NDc4MCwtMTMyMz
+Y2NzI2MSwtMTIxODcxMTkxNywyMTE4MTExODU2LDE0MTYwODky
+OTEsODI2NjIxODU0LDEwODczNDk2MCwtMjY3NTE1NTAwLDQ1Nz
+k0MDE5OCw1MTMyNzE0NjksLTk3NDIzNDY0NywtMTc4NTcxMTE4
+NywtMTk4MzcwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDExOTYxLC
+01MzgyODA2MiwtMzYyNTE4MjYwLDE5OTU0ODM2NzQsLTE3NjA5
+MDM4ODddfQ==
 -->
