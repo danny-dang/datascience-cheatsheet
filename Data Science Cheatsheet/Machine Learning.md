@@ -192,7 +192,7 @@ $$
 4. Forming the cost function (in this case we'll use Sum of Squares Error (SSE) cost function) :
 
 $$
-cost = \cfrac{1}{2}\sum_{i=1}^m(y^{(i)} - \hat y^{(i)} )^2 
+cost = \cfrac{1}{2}\sum_{i=1}^m(\hat y^{(i)} - y^{(i)} )^2 
 $$
 
 $$
@@ -360,11 +360,11 @@ $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x,
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxMDk1NDU3LC0zOTk2NTc5NzMsNzQ4MD
-Y4OTU4LDY5NDE4NDc4MCwtMTMyMzY2NzI2MSwtMTIxODcxMTkx
-NywyMTE4MTExODU2LDE0MTYwODkyOTEsODI2NjIxODU0LDEwOD
-czNDk2MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1MTMyNzE0Njks
-LTk3NDIzNDY0NywtMTc4NTcxMTE4NywtMTk4MzcwMTg3OCwtMT
-M3MjgyNDcwNywxOTE5NDExOTYxLC01MzgyODA2MiwtMzYyNTE4
-MjYwXX0=
+eyJoaXN0b3J5IjpbLTMzMjU3NSwtMzk5NjU3OTczLDc0ODA2OD
+k1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLTEyMTg3MTE5MTcs
+MjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMDg3Mz
+Q5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05
+NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4NzgsLTEzNz
+I4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2
+MF19
 -->
