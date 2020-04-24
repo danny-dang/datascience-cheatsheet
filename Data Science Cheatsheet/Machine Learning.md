@@ -230,7 +230,7 @@ $$
 *General Formula*:
 $$
 Repeat \{\\
-\theta_{j} := \theta_{j} - \alpha \cfrac{1}{m} \sum(h_{\theta} (x^{(i)}-y^{(i)} ))\\
+\theta_{j} := \theta_{j} - \alpha \cfrac{1}{m} \sum_{i=1}^m(h_{\theta} (x^{(i)}-y^{(i)} ))\\
 \}
 $$
 
@@ -360,7 +360,7 @@ $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x,
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTY0MDQxNiw3NDgwNjg5NTgsNjk0MT
+eyJoaXN0b3J5IjpbLTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MT
 g0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LDIxMTgxMTE4
 NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNj
 c1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3
