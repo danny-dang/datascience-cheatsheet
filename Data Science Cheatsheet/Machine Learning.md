@@ -183,7 +183,7 @@ Formulate the model:
 	 - $\theta_{1}$ = 1 (slope)
 	 - $error$ >= 0.001 (minimum value of $error$ for the model to stop)
 	 - *total_loop* <= 1000 (maximum loops for the model to stop )
-	 - *learning_rate \alpha * = 0.1 (the significant level that the model will adjust itself)
+	 - *learning_rate $\alpha$* = 0.1 (the significant level that the model will adjust itself)
 	 - the starting point for a model would be: $y = 0 + 1x$
 2. Calculate the predicted $\hat{y_{i}}$ by plugging observed $x^{i}$ of each data point into the model
 $$
@@ -227,10 +227,10 @@ $$
 $$
 
 7. Repeat the step 2-7 until the $error$ or the *total_loop* reach the limit.
-General Formula:
+*General Formula*:
 $$
 Repeat \{\\
-\theta_{0} := \theta_{0} -  \\
+\theta_{0} := \theta_{0} - \alpha \cfrac{1}{m} \sum()\\
 \}
 $$
 
@@ -360,11 +360,11 @@ $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x,
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDY3NTkyMyw3NDgwNjg5NTgsNjk0MT
-g0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LDIxMTgxMTE4
-NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNj
-c1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3
-LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC0xMzcyODI0NzA3LD
-E5MTk0MTE5NjEsLTUzODI4MDYyLC0zNjI1MTgyNjAsMTk5NTQ4
-MzY3NF19
+eyJoaXN0b3J5IjpbLTE1NzE0ODk5MTQsNzQ4MDY4OTU4LDY5ND
+E4NDc4MCwtMTMyMzY2NzI2MSwtMTIxODcxMTkxNywyMTE4MTEx
+ODU2LDE0MTYwODkyOTEsODI2NjIxODU0LDEwODczNDk2MCwtMj
+Y3NTE1NTAwLDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3NDIzNDY0
+NywtMTc4NTcxMTE4NywtMTk4MzcwMTg3OCwtMTM3MjgyNDcwNy
+wxOTE5NDExOTYxLC01MzgyODA2MiwtMzYyNTE4MjYwLDE5OTU0
+ODM2NzRdfQ==
 -->
