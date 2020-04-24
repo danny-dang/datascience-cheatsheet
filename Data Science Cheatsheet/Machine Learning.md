@@ -361,7 +361,7 @@ $x$: Independent variables vector
 $\theta^Tx$: $\begin{bmatrix}  \theta_{0} &  \theta_{1} & ... & \theta_{n} \end{bmatrix} \begin{bmatrix}  x_{0} \\  x_{1} \\ ... \\ x_{n} \end{bmatrix}
  = \theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}$
 
-*Hypothesis represents probability*:
+*Hypothesis represents **probability***:
 
 $h_{\theta}(x)$: The probability that $y = 1$ on input $x$
 $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x, and parameter $\theta$
@@ -384,12 +384,13 @@ $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}\geq0 \implies y =1$
 $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}<0 \implies y =0$
 
 $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}=0$ is the boundary line that separate 2 classes
+![enter image description here](blob:https://imgur.com/6fdee3ac-1a0a-4a6b-9c12-abdbdb92efbd)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTM3MTIzMSwxMDgxODAyMTMwLDczND
-k2NzQ2NCwtMzk5NjU3OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAs
-LTEzMjM2NjcyNjEsLTEyMTg3MTE5MTcsMjExODExMTg1NiwxND
-E2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUw
-MCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3OD
-U3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQx
-MTk2MV19
+eyJoaXN0b3J5IjpbOTUzNDA3MDg3LC03NTEzNzEyMzEsMTA4MT
+gwMjEzMCw3MzQ5Njc0NjQsLTM5OTY1Nzk3Myw3NDgwNjg5NTgs
+Njk0MTg0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LDIxMT
+gxMTE4NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYw
+LC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwtOTc0Mj
+M0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC0xMzcyODI0
+NzA3XX0=
 -->
