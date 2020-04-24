@@ -183,7 +183,7 @@ Formulate the model:
 	 - $\theta_{1}$ = 1 (slope)
 	 - $error$ >= 0.001 (minimum value of $error$ for the model to stop)
 	 - *total_loop* <= 1000 (maximum loops for the model to stop )
-	 - *learning_rate* = 0.1 (the significant level that the model will adjust itself)
+	 - *learning_rate \alpha * = 0.1 (the significant level that the model will adjust itself)
 	 - the starting point for a model would be: $y = 0 + 1x$
 2. Calculate the predicted $\hat{y_{i}}$ by plugging observed $x^{i}$ of each data point into the model
 $$
@@ -230,7 +230,7 @@ $$
 General Formula:
 $$
 Repeat \{\\
-\theta_{j} \\
+\theta_{0} := \theta_{0} -  \\
 \}
 $$
 
@@ -360,7 +360,7 @@ $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x,
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzY1MDkyNCw3NDgwNjg5NTgsNjk0MT
+eyJoaXN0b3J5IjpbLTQyMDY3NTkyMyw3NDgwNjg5NTgsNjk0MT
 g0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LDIxMTgxMTE4
 NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNj
 c1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3
