@@ -377,14 +377,16 @@ __
 $h_{\theta}(x)  \geq 0.5 \implies g(\theta^Tx)   \geq 0.5$
 $h_{\theta}(x) < 0.5 \implies g(\theta^Tx)  < 0.5$
 __
-$g(\theta^Tx)   \geq 0.5\implies\theta^Tx$
-$g(\theta^Tx)  < 0.5\implies$
+$g(\theta^Tx)   \geq 0.5\implies\theta^Tx\geq0$
+$g(\theta^Tx)  < 0.5\implies\theta^Tx<0$
+__
+$\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}\geq0 \implies y =1$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1NzU3NjEwLDEwODE4MDIxMzAsNzM0OT
-Y3NDY0LC0zOTk2NTc5NzMsNzQ4MDY4OTU4LDY5NDE4NDc4MCwt
-MTMyMzY2NzI2MSwtMTIxODcxMTkxNywyMTE4MTExODU2LDE0MT
-YwODkyOTEsODI2NjIxODU0LDEwODczNDk2MCwtMjY3NTE1NTAw
-LDQ1Nzk0MDE5OCw1MTMyNzE0NjksLTk3NDIzNDY0NywtMTc4NT
-cxMTE4NywtMTk4MzcwMTg3OCwtMTM3MjgyNDcwNywxOTE5NDEx
-OTYxXX0=
+eyJoaXN0b3J5IjpbLTEwMTIyMTYzMDMsMTA4MTgwMjEzMCw3Mz
+Q5Njc0NjQsLTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0Nzgw
+LC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LDIxMTgxMTE4NTYsMT
+QxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1
+MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNz
+g1NzExMTg3LC0xOTgzNzAxODc4LC0xMzcyODI0NzA3LDE5MTk0
+MTE5NjFdfQ==
 -->
