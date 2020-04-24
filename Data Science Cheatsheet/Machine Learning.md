@@ -192,11 +192,11 @@ $$
 4. Forming the cost function (in this case we'll use Sum of Squares Error (SSE) cost function) :
 
 $$
-cost = \sum_{i=1}^m(y^{(i)} - \hat y^{(i)} )^2 \\
+cost = \cfrac{1}{2}\sum_{i=1}^m(y^{(i)} - \hat y^{(i)} )^2 
 $$
 
 $$
-cost = \sum_{i=1}^m(y^{(i)} - (\theta_{0} + \theta_{1}x^{(i)}))^2
+cost =\cfrac{1}{2} \sum_{i=1}^m(y^{(i)} - (\theta_{0} + \theta_{1}x^{(i)}))^2
 $$
 
 4. As the model needs to minimize the cost function, next step is to calculate the partial derivative of the $cost$ in accordance to $b_{0}$ or $b_{1}$:
@@ -360,11 +360,11 @@ $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x,
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDA0NzE1NywtMzk5NjU3OTczLDc0OD
-A2ODk1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLTEyMTg3MTE5
-MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMD
-g3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5
-LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4NzgsLT
-EzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUx
-ODI2MF19
+eyJoaXN0b3J5IjpbLTIwNTU1NzA3MTMsLTM5OTY1Nzk3Myw3ND
+gwNjg5NTgsNjk0MTg0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzEx
+OTE3LDIxMTgxMTE4NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMT
+A4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2
+OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC
+0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYyLC0zNjI1
+MTgyNjBdfQ==
 -->
