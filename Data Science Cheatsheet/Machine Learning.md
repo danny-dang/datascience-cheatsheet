@@ -370,17 +370,18 @@ Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 
 *Hypothesis  represents **Decision Boundary***: separates the data-points into regions, which are actually the classes in which they belong
-$$
-h_{\theta}(x) \geq 0.5 \to y =1\\
-h_{\theta}(x) < 0.5 \to y =1
-$$
+
+$h_{\theta}(x)  \geq 0.5 \to y =1$
+$h_{\theta}(x) < 0.5 \to y =0$
+__
+g
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjYxMDM5NCwxMDgxODAyMTMwLDczND
-k2NzQ2NCwtMzk5NjU3OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAs
-LTEzMjM2NjcyNjEsLTEyMTg3MTE5MTcsMjExODExMTg1NiwxND
-E2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUw
-MCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3OD
-U3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQx
-MTk2MV19
+eyJoaXN0b3J5IjpbLTIwNTI5NzIwMzAsMTA4MTgwMjEzMCw3Mz
+Q5Njc0NjQsLTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0Nzgw
+LC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LDIxMTgxMTE4NTYsMT
+QxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1
+MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNz
+g1NzExMTg3LC0xOTgzNzAxODc4LC0xMzcyODI0NzA3LDE5MTk0
+MTE5NjFdfQ==
 -->
