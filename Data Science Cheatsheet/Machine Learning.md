@@ -202,11 +202,11 @@ $$
 4. As the model needs to minimize the cost function, next step is to calculate the partial derivative of the $cost$ in accordance to $b_{0}$ or $b_{1}$:
 
 $$
-\cfrac{\partial cost}{\partial \theta_{0}} = (\cfrac{1}{2}\sum_{i=1}^m(y^{(i)} - (\theta_{0} + \theta_{1}x^{(i)}))^2)'\\=\sum_{i=1}^m()
+\cfrac{\partial cost}{\partial \theta_{0}} = (\cfrac{1}{2}\sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})--y^{(i)})^2 )'\\=\sum_{i=1}^m()
 $$
 
 $$
-\cfrac{\partial cost}{\partial \theta_{1}} = (\cfrac{1}{2}\sum_{i=1}^m(y^{(i)} - (\theta_{0} + \theta_{1}x^{(i)}))^2)'
+\cfrac{\partial cost}{\partial \theta_{1}} = (\cfrac{1}{2}\sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2)'
 $$
 
 5. Calculate the $error$ using the derivative calculated, and adjust it with the *learning_rate* :
@@ -360,11 +360,11 @@ $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x,
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjU3NSwtMzk5NjU3OTczLDc0ODA2OD
-k1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLTEyMTg3MTE5MTcs
-MjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMDg3Mz
-Q5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05
-NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4NzgsLTEzNz
-I4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUxODI2
-MF19
+eyJoaXN0b3J5IjpbLTY2OTI1Nzc5NCwtMzk5NjU3OTczLDc0OD
+A2ODk1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLTEyMTg3MTE5
+MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMD
+g3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5
+LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4NzgsLT
+EzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUx
+ODI2MF19
 -->
