@@ -361,21 +361,25 @@ $x$: Independent variables vector
 $\theta^Tx$: $\begin{bmatrix}  \theta_{0} &  \theta_{1} & ... & \theta_{n} \end{bmatrix} \begin{bmatrix}  x_{0} \\  x_{1} \\ ... \\ x_{n} \end{bmatrix}
  = \theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}$
 
-*Interpret the Hypothesis*:
+*Hypothesis represents probability*:
+
 $h_{\theta}(x)$: The probability that $y = 1$ on input $x$
 $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x, and parameter $\theta$
 - i.e: 
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 
-*Decision Boundary*: separates the data-points into regions, which are actually the classes in which they belong
+*Hypothesis  represents **Decision Boundary***: separates the data-points into regions, which are actually the classes in which they belong
+$$
+h_{\theta}(x) >=
+$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTgwMjEzMCw3MzQ5Njc0NjQsLTM5OT
-Y1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0NzgwLC0xMzIzNjY3MjYx
-LC0xMjE4NzExOTE3LDIxMTgxMTE4NTYsMTQxNjA4OTI5MSw4Mj
-Y2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4
-LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOT
-gzNzAxODc4LC0xMzcyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4
-MDYyXX0=
+eyJoaXN0b3J5IjpbMTI2NzcyMDIzOCwxMDgxODAyMTMwLDczND
+k2NzQ2NCwtMzk5NjU3OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAs
+LTEzMjM2NjcyNjEsLTEyMTg3MTE5MTcsMjExODExMTg1NiwxND
+E2MDg5MjkxLDgyNjYyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUw
+MCw0NTc5NDAxOTgsNTEzMjcxNDY5LC05NzQyMzQ2NDcsLTE3OD
+U3MTExODcsLTE5ODM3MDE4NzgsLTEzNzI4MjQ3MDcsMTkxOTQx
+MTk2MV19
 -->
