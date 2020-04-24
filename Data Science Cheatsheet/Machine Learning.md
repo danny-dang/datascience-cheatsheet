@@ -381,8 +381,11 @@ $g(\theta^Tx)   \geq 0.5\implies\theta^Tx\geq0$
 $g(\theta^Tx)  < 0.5\implies\theta^Tx<0$
 __
 $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}\geq0 \implies y =1$
+$\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}<0 \implies y =0$
+
+$\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}=0$ is the boundary line that separate 2 classes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTIyMTYzMDMsMTA4MTgwMjEzMCw3Mz
+eyJoaXN0b3J5IjpbLTEyNTM3MzI0OTYsMTA4MTgwMjEzMCw3Mz
 Q5Njc0NjQsLTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0Nzgw
 LC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LDIxMTgxMTE4NTYsMT
 QxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1
