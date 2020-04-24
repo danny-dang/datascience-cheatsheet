@@ -168,7 +168,7 @@ Example:
 >A **cost function** is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y
 
 There are many types of cost function.  Some popular ones are:
-- Sum of Square Error (SSE): $J(\theta_{0},\theta_{1} )=\displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
+- Sum of Square Error (SSE): $J(\theta_{0},\theta_{1} )=\cfrac{1}{2} \displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
 - Mean of Square Error (MSE): $J(\theta_{0},\theta_{1} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
 $m$: total training samples  (total data points)
 
@@ -360,11 +360,11 @@ $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x,
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0ODA4NjksLTM5OTY1Nzk3Myw3NDgwNj
-g5NTgsNjk0MTg0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3
-LDIxMTgxMTE4NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMTA4Nz
-M0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwt
-OTc0MjM0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC0xMz
-cyODI0NzA3LDE5MTk0MTE5NjEsLTUzODI4MDYyLC0zNjI1MTgy
-NjBdfQ==
+eyJoaXN0b3J5IjpbMTY4NDA0NzE1NywtMzk5NjU3OTczLDc0OD
+A2ODk1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLTEyMTg3MTE5
+MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMD
+g3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5
+LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4NzgsLT
+EzNzI4MjQ3MDcsMTkxOTQxMTk2MSwtNTM4MjgwNjIsLTM2MjUx
+ODI2MF19
 -->
