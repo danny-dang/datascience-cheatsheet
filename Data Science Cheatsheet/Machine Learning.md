@@ -196,13 +196,13 @@ cost = \cfrac{1}{2}\sum_{i=1}^m(\hat y^{(i)} - y^{(i)} )^2
 $$
 
 $$
-cost =\cfrac{1}{2} \sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)} )^2
+cost =\cfrac{1}{2} \sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2
 $$
 
 4. As the model needs to minimize the cost function, next step is to calculate the partial derivative of the $cost$ in accordance to $b_{0}$ or $b_{1}$:
 
 $$
-\cfrac{\partial cost}{\partial \theta_{0}} = (\cfrac{1}{2}\sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2 )'\\=\sum_{i=1}^m()
+\cfrac{\partial cost}{\partial \theta_{0}} = (\cfrac{1}{2}\sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2 )'\\=\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})
 $$
 
 $$
@@ -360,7 +360,7 @@ $h_{\theta}(x) = P(y=1|x;\theta)$: Probability that y =1, with input variable x,
 Tell if a mail is a spam, in which "1" is spam, "0" is not spam
 $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Njk4Mjg1NywtMzk5NjU3OTczLDc0OD
+eyJoaXN0b3J5IjpbMTI0ODQwODg1NCwtMzk5NjU3OTczLDc0OD
 A2ODk1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLTEyMTg3MTE5
 MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMD
 g3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5
