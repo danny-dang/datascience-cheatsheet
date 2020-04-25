@@ -394,10 +394,10 @@ Example:
 
 Logistic Regression Cost Function:
 $$
-Cost(h_{\theta}(x),y) = \begin{cases}-log( \\b \end{cases}
+Cost(h_{\theta}(x),y) = \begin{cases}-log(h_{\theta}(x)) & \text{if } y=1  \\-log(1-h_{\theta}(x)) & \text{if } y=0 \end{cases}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDAwMDgyOSwtMTcwNTk1MDkwNCw0OT
+eyJoaXN0b3J5IjpbMTgxMTI4NzY1NywtMTcwNTk1MDkwNCw0OT
 M0MzYxMTYsMTM0ODExNjUxOCw5NTM0MDcwODcsLTc1MTM3MTIz
 MSwxMDgxODAyMTMwLDczNDk2NzQ2NCwtMzk5NjU3OTczLDc0OD
 A2ODk1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLTEyMTg3MTE5
