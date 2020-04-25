@@ -169,9 +169,9 @@ Example:
 
 There are many types of cost function.  Some popular ones are:
 - Sum of Square Error (SSE): 
-$J(\theta_{0},\theta_{1} )= \displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\cfrac{1}{2} \displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
+$J(\theta_{0},\theta_{1} )=\cfrac{1}{2} \displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\cfrac{1}{2} \displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
 - Mean of Square Error (MSE): 
-$J(\theta_{0},\theta_{1} )=\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
+$J(\theta_{0},\theta_{1} )=\cfrac{1}{2m}\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
 $m$: total training samples  (total data points)
 $\cfrac{1}{2}$ is just for computation convenient 
 
@@ -277,9 +277,9 @@ $m$: total number  of input samples
 *Formulate the model*
 ***Gradient Descent*** method: the same Gradient Descent method from Simple Linear Regression can be applied to Multiple Linear Regression. This method seeks to correct itself and minimize the cost function:
 - Sum of Square Error (SSE): 
-$J(\theta_{0},\theta_{1},..\theta_{n} )=\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
+$J(\theta_{0},\theta_{1},..\theta_{n} )=\cfrac{1}{2m}\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
 - Mean of Square Error (MSE): 
-$J(\theta_{0},\theta_{1},...\theta_{n} =\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)}))=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
+$J(\theta_{0},\theta_{1},...\theta_{n} =\cfrac{1}{2m}\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)}))=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
 $n$: total predictors (Independent variables)
 $m$: total training samples (total data points)
 $\cfrac{1}{2}$ is just for computation convenient 
@@ -403,7 +403,7 @@ $$
 Cost(h_{\theta}(x),y) = -ylog(h_{\theta}(x)) - (1-y)log(1-h_{\theta}(x))
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjcwNzg1MCwtMTIzNTYxMzk0NCwtMT
+eyJoaXN0b3J5IjpbLTI0MDcxMTExMywtMTIzNTYxMzk0NCwtMT
 cwNTk1MDkwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5NTM0MDcw
 ODcsLTc1MTM3MTIzMSwxMDgxODAyMTMwLDczNDk2NzQ2NCwtMz
 k5NjU3OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAsLTEzMjM2Njcy
