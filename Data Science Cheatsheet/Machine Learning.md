@@ -384,13 +384,14 @@ $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}\geq0 \implies y =1$
 $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}<0 \implies y =0$
 
 $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}=0$ is the boundary line that separate 2 classes
-![enter image description here](blob:https://imgur.com/6fdee3ac-1a0a-4a6b-9c12-abdbdb92efbd)
+Example:
+![enter image description here](https://i.imgur.com/lqW86d4.png =400x)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzNDA3MDg3LC03NTEzNzEyMzEsMTA4MT
-gwMjEzMCw3MzQ5Njc0NjQsLTM5OTY1Nzk3Myw3NDgwNjg5NTgs
-Njk0MTg0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LDIxMT
-gxMTE4NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYw
-LC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwtOTc0Mj
-M0NjQ3LC0xNzg1NzExMTg3LC0xOTgzNzAxODc4LC0xMzcyODI0
-NzA3XX0=
+eyJoaXN0b3J5IjpbNjE3NzcwNDQyLDk1MzQwNzA4NywtNzUxMz
+cxMjMxLDEwODE4MDIxMzAsNzM0OTY3NDY0LC0zOTk2NTc5NzMs
+NzQ4MDY4OTU4LDY5NDE4NDc4MCwtMTMyMzY2NzI2MSwtMTIxOD
+cxMTkxNywyMTE4MTExODU2LDE0MTYwODkyOTEsODI2NjIxODU0
+LDEwODczNDk2MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1MTMyNz
+E0NjksLTk3NDIzNDY0NywtMTc4NTcxMTE4NywtMTk4MzcwMTg3
+OF19
 -->
