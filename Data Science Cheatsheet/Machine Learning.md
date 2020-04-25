@@ -411,15 +411,15 @@ $$
 Cost Function:
 $$
 J(\theta)=\cfrac{1}{m}\sum_{i=1}^mCost(h_{\theta}(x^{(i)}),y^{(i)}) \\
-= \cfrac{1}{m}[\sum_{i=1}^m -y^{(i)}log(h_{\theta}(x^{(i)})) - (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))]
+= \cfrac{1}{m}\sum_{i=1}^m [-y^{(i)}log(h_{\theta}(x^{(i)})) - (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))]
 $$
 Cost Function Derivative: 
 $$
-\cfrac{\partial J(\theta)}{\partial \theta_{0}} =\cfrac{1}{m}[\sum_{i=1}^m -y^{(i)}log(h_{\theta}(x^{(i)})) - (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))]' \\
+\cfrac{\partial J(\theta)}{\partial \theta_{0}} =\cfrac{1}{m}\sum_{i=1}^m [-y^{(i)}log(h_{\theta}(x^{(i)})) - (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))]' \\
 = \cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTI1OTE0MiwxNzU4MjU3MTYsMTU1NT
+eyJoaXN0b3J5IjpbLTQ4Mzg0Njc3OCwxNzU4MjU3MTYsMTU1NT
 kzNTA3MSwtMzc0MzQzMjU3LC0xNzYyODEwNjI0LC0zNjU3NzQx
 ODgsMTM5NDAyMzc3OCwxNjY4MjczNTg2LDE4ODI1NDA0NzEsLT
 g5NjgxNzU3NiwtMTIzNTYxMzk0NCwtMTcwNTk1MDkwNCw0OTM0
