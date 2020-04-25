@@ -416,10 +416,10 @@ $$
 Cost Function Derivative: 
 $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} =\cfrac{1}{m}[\sum_{i=1}^m -y^{(i)}log(h_{\theta}(x^{(i)})) - (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))]' \\
-= -\cfrac{1}{m}
+= \cfrac{1}{m}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1NzI5MTgzLDE1NTU5MzUwNzEsLTM3ND
+eyJoaXN0b3J5IjpbMTc1ODI1NzE2LDE1NTU5MzUwNzEsLTM3ND
 M0MzI1NywtMTc2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3
 NzgsMTY2ODI3MzU4NiwxODgyNTQwNDcxLC04OTY4MTc1NzYsLT
 EyMzU2MTM5NDQsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LDEzNDgx
