@@ -416,14 +416,14 @@ $$
 Cost Function Derivative: 
 $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} =\cfrac{1}{m}[\sum_{i=1}^m -y^{(i)}log(h_{\theta}(x^{(i)})) - (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))]' \\
-= \cfrac{1}{m}
+= \cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODI1NzE2LDE1NTU5MzUwNzEsLTM3ND
-M0MzI1NywtMTc2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3
-NzgsMTY2ODI3MzU4NiwxODgyNTQwNDcxLC04OTY4MTc1NzYsLT
-EyMzU2MTM5NDQsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LDEzNDgx
-MTY1MTgsOTUzNDA3MDg3LC03NTEzNzEyMzEsMTA4MTgwMjEzMC
-w3MzQ5Njc0NjQsLTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0
-NzgwXX0=
+eyJoaXN0b3J5IjpbMTI1OTI1OTE0MiwxNzU4MjU3MTYsMTU1NT
+kzNTA3MSwtMzc0MzQzMjU3LC0xNzYyODEwNjI0LC0zNjU3NzQx
+ODgsMTM5NDAyMzc3OCwxNjY4MjczNTg2LDE4ODI1NDA0NzEsLT
+g5NjgxNzU3NiwtMTIzNTYxMzk0NCwtMTcwNTk1MDkwNCw0OTM0
+MzYxMTYsMTM0ODExNjUxOCw5NTM0MDcwODcsLTc1MTM3MTIzMS
+wxMDgxODAyMTMwLDczNDk2NzQ2NCwtMzk5NjU3OTczLDc0ODA2
+ODk1OF19
 -->
