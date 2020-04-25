@@ -234,7 +234,7 @@ $$
 $$
 Repeat \{\\
 \theta_{0} := \theta_{0} - \alpha \cfrac{1}{m} \sum_{i=1}^m(h_{\theta} (x^{(i)}-y^{(i)} ))\\
-\theta_{1} := \theta_{1} -\alpha \cfrac{1}{m}\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})\theta_{1}\\
+\theta_{1} := \theta_{1} -\alpha \cfrac{1}{m}\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})x^{(i)}\\
 \}
 $$
 
@@ -286,7 +286,7 @@ $\cfrac{1}{2}$ is just for computation convenient
 *General Formula*:
 $$
 Repeat \{\\
-\theta_{j} := \theta_{j} -\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})\theta_{j}\\
+\theta_{j} := \theta_{j} -\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})x^{(i)}_{j}\\
 ...\\
 \}
 $$
@@ -412,11 +412,11 @@ $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjI4MTA2MjQsLTM2NTc3NDE4OCwxMz
-k0MDIzNzc4LDE2NjgyNzM1ODYsMTg4MjU0MDQ3MSwtODk2ODE3
-NTc2LC0xMjM1NjEzOTQ0LC0xNzA1OTUwOTA0LDQ5MzQzNjExNi
-wxMzQ4MTE2NTE4LDk1MzQwNzA4NywtNzUxMzcxMjMxLDEwODE4
-MDIxMzAsNzM0OTY3NDY0LC0zOTk2NTc5NzMsNzQ4MDY4OTU4LD
-Y5NDE4NDc4MCwtMTMyMzY2NzI2MSwtMTIxODcxMTkxNywyMTE4
-MTExODU2XX0=
+eyJoaXN0b3J5IjpbLTE1NzMwMjUwMDAsLTE3NjI4MTA2MjQsLT
+M2NTc3NDE4OCwxMzk0MDIzNzc4LDE2NjgyNzM1ODYsMTg4MjU0
+MDQ3MSwtODk2ODE3NTc2LC0xMjM1NjEzOTQ0LC0xNzA1OTUwOT
+A0LDQ5MzQzNjExNiwxMzQ4MTE2NTE4LDk1MzQwNzA4NywtNzUx
+MzcxMjMxLDEwODE4MDIxMzAsNzM0OTY3NDY0LC0zOTk2NTc5Nz
+MsNzQ4MDY4OTU4LDY5NDE4NDc4MCwtMTMyMzY2NzI2MSwtMTIx
+ODcxMTkxN119
 -->
