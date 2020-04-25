@@ -265,7 +265,7 @@ $x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent v
 - i.e: $x^{(2)}_{3}$ is the 2nd input sample of the variable vector $x_{3}$
 
 $x$: Matrix of independent variables and input samples
-- $x =\begin{bmatrix}  x^{(0)}_{0} & x^{(1)}_{0} & ... & x^{(m)}_{0}  \\  x^{(0)}_{1} & x^{(1)}_{1} & ... & x^{(m)}_{1}\\ ... \\ x^{(0)}_{n} & x^{(1)}_{n} & ... & x^{(m)}_{n}\end{bmatrix}$
+- $x =\begin{bmatrix}  x^{(0)}_{0} & x^{(1)}_{0} & ... & x^{(m)}_{0}  \\  x^{(0)}_{1} & x^{(1)}_{1} & ... & x^{(m)}_{1}\\ ... & ... & ... & ... \\ x^{(0)}_{n} & x^{(1)}_{n} & ... & x^{(m)}_{n}\end{bmatrix}$
 
 $n$: total number of independent variables vectors
 $m$: total number  of input samples
@@ -415,14 +415,14 @@ J(\theta)=\cfrac{1}{m}\sum_{i=1}^mCost(h_{\theta}(x^{(i)}),y^{(i)}) \\
 $$
 Cost Function Derivative: 
 $$
-\cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
+\cfrac{\partial J(\theta)}{\partial \theta_{0}} =-\cfrac{1}{m}[\sum_{i=1}^m y^{(i)}log(h_{\theta}(x^{(i)})) + (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))]
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzU2MDgxMCwtMzc0MzQzMjU3LC0xNz
-YyODEwNjI0LC0zNjU3NzQxODgsMTM5NDAyMzc3OCwxNjY4Mjcz
-NTg2LDE4ODI1NDA0NzEsLTg5NjgxNzU3NiwtMTIzNTYxMzk0NC
-wtMTcwNTk1MDkwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5NTM0
-MDcwODcsLTc1MTM3MTIzMSwxMDgxODAyMTMwLDczNDk2NzQ2NC
-wtMzk5NjU3OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAsLTEzMjM2
-NjcyNjFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDMyOTkzMzksLTM3NDM0MzI1NywtMT
+c2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3
+MzU4NiwxODgyNTQwNDcxLC04OTY4MTc1NzYsLTEyMzU2MTM5ND
+QsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LDEzNDgxMTY1MTgsOTUz
+NDA3MDg3LC03NTEzNzEyMzEsMTA4MTgwMjEzMCw3MzQ5Njc0Nj
+QsLTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0NzgwLC0xMzIz
+NjY3MjYxXX0=
 -->
