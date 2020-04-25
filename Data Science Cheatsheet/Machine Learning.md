@@ -386,12 +386,13 @@ $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}<0 \implies y =0$
 $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}=0$ is the boundary line that separate 2 classes
 Example:
 ![enter image description here](https://i.imgur.com/lqW86d4.png =400x)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODExNjUxOCw5NTM0MDcwODcsLTc1MT
-M3MTIzMSwxMDgxODAyMTMwLDczNDk2NzQ2NCwtMzk5NjU3OTcz
-LDc0ODA2ODk1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLTEyMT
-g3MTE5MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1
-NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMj
-cxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4
-NzhdfQ==
+eyJoaXN0b3J5IjpbNDkzNDM2MTE2LDEzNDgxMTY1MTgsOTUzND
+A3MDg3LC03NTEzNzEyMzEsMTA4MTgwMjEzMCw3MzQ5Njc0NjQs
+LTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0NzgwLC0xMzIzNj
+Y3MjYxLC0xMjE4NzExOTE3LDIxMTgxMTE4NTYsMTQxNjA4OTI5
+MSw4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OT
+QwMTk4LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3
+XX0=
 -->
