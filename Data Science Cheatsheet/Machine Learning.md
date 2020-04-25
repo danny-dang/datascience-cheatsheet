@@ -195,11 +195,11 @@ $$
 4. Forming the cost function (in this case we'll use Mean of Squares Error (SSE) cost function) :
 
 $$
-cost = \cfrac{1}{2m}\sum_{i=1}^m(\hat y^{(i)} - y^{(i)} )^2 
+\partial J(\theta)= \cfrac{1}{2m}\sum_{i=1}^m(\hat y^{(i)} - y^{(i)} )^2 
 $$
 
 $$
-cost =\cfrac{1}{2m} \sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2
+\partial J(\theta)=\cfrac{1}{2m} \sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2
 $$
 
 4. As the model needs to minimize the cost function, next step is to calculate the partial derivative of the $cost$ in accordance to $b_{0}$ or $b_{1}$:
@@ -412,11 +412,11 @@ $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDAyMzc3OCwxNjY4MjczNTg2LDE4OD
-I1NDA0NzEsLTg5NjgxNzU3NiwtMTIzNTYxMzk0NCwtMTcwNTk1
-MDkwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5NTM0MDcwODcsLT
-c1MTM3MTIzMSwxMDgxODAyMTMwLDczNDk2NzQ2NCwtMzk5NjU3
-OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLT
-EyMTg3MTE5MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYy
-MTg1NF19
+eyJoaXN0b3J5IjpbLTM2NTc3NDE4OCwxMzk0MDIzNzc4LDE2Nj
+gyNzM1ODYsMTg4MjU0MDQ3MSwtODk2ODE3NTc2LC0xMjM1NjEz
+OTQ0LC0xNzA1OTUwOTA0LDQ5MzQzNjExNiwxMzQ4MTE2NTE4LD
+k1MzQwNzA4NywtNzUxMzcxMjMxLDEwODE4MDIxMzAsNzM0OTY3
+NDY0LC0zOTk2NTc5NzMsNzQ4MDY4OTU4LDY5NDE4NDc4MCwtMT
+MyMzY2NzI2MSwtMTIxODcxMTkxNywyMTE4MTExODU2LDE0MTYw
+ODkyOTFdfQ==
 -->
