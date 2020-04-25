@@ -275,9 +275,9 @@ $m$: total number  of input samples
 *Formulate the model*
 ***Gradient Descent*** method: the same Gradient Descent method from Simple Linear Regression can be applied to Multiple Linear Regression. This method seeks to correct itself and minimize the cost function:
 - Sum of Square Error (SSE): 
-$J(\theta_{0},\theta_{1},..\theta_{n} )=\displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
+$J(\theta_{0},\theta_{1},..\theta_{n} )=\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x),y)=\displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
 - Mean of Square Error (MSE): 
-$J(\theta_{0},\theta_{1},...\theta_{n} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
+$J(\theta_{0},\theta_{1},...\theta_{n} =\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x),y))=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
 $n$: total predictors (Independent variables)
 $m$: total training samples (total data points)
 $\cfrac{1}{2}$ is just for computation convenient 
@@ -401,11 +401,11 @@ $$
 Cost(h_{\theta}(x),y) = -ylog(h_{\theta}(x)) - (1-y)log(1-h_{\theta}(x))
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU2MTM5NDQsLTE3MDU5NTA5MDQsND
-kzNDM2MTE2LDEzNDgxMTY1MTgsOTUzNDA3MDg3LC03NTEzNzEy
-MzEsMTA4MTgwMjEzMCw3MzQ5Njc0NjQsLTM5OTY1Nzk3Myw3ND
-gwNjg5NTgsNjk0MTg0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzEx
-OTE3LDIxMTgxMTE4NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMT
-A4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2
-OV19
+eyJoaXN0b3J5IjpbLTQxMjYzOTgwNCwtMTIzNTYxMzk0NCwtMT
+cwNTk1MDkwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5NTM0MDcw
+ODcsLTc1MTM3MTIzMSwxMDgxODAyMTMwLDczNDk2NzQ2NCwtMz
+k5NjU3OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAsLTEzMjM2Njcy
+NjEsLTEyMTg3MTE5MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLD
+gyNjYyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAx
+OThdfQ==
 -->
