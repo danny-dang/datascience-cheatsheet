@@ -404,14 +404,15 @@ Cost(h_{\theta}(x),y) = -ylog(h_{\theta}(x)) - (1-y)log(1-h_{\theta}(x))
 $$
 Logistic Regression Cost Function:
 $$
-J(\theta)=\cfrac{1}{m}\sum_{i=1}^mCost(
+J(\theta)=\cfrac{1}{m}\sum_{i=1}^mCost(h_{\theta}(x^{(i)}),y^{(i)}) \\
+= \cfrac{1}{m}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxNDE2ODkyLC04OTY4MTc1NzYsLTEyMz
-U2MTM5NDQsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LDEzNDgxMTY1
-MTgsOTUzNDA3MDg3LC03NTEzNzEyMzEsMTA4MTgwMjEzMCw3Mz
-Q5Njc0NjQsLTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0Nzgw
-LC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LDIxMTgxMTE4NTYsMT
-QxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1
-MDBdfQ==
+eyJoaXN0b3J5IjpbMTQ3OTk1NDU3NCwtODk2ODE3NTc2LC0xMj
+M1NjEzOTQ0LC0xNzA1OTUwOTA0LDQ5MzQzNjExNiwxMzQ4MTE2
+NTE4LDk1MzQwNzA4NywtNzUxMzcxMjMxLDEwODE4MDIxMzAsNz
+M0OTY3NDY0LC0zOTk2NTc5NzMsNzQ4MDY4OTU4LDY5NDE4NDc4
+MCwtMTMyMzY2NzI2MSwtMTIxODcxMTkxNywyMTE4MTExODU2LD
+E0MTYwODkyOTEsODI2NjIxODU0LDEwODczNDk2MCwtMjY3NTE1
+NTAwXX0=
 -->
