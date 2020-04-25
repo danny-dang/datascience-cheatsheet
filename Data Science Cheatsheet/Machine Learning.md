@@ -169,9 +169,9 @@ Example:
 
 There are many types of cost function.  Some popular ones are:
 - Sum of Square Error (SSE): 
-$J(\theta_{0},\theta_{1} )=\cfrac{1}{2} \displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\cfrac{1}{2} \displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
+$J(\theta) = J(\theta_{0},\theta_{1} )=\cfrac{1}{2} \displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\cfrac{1}{2} \displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
 - Mean of Square Error (MSE): 
-$J(\theta_{0},\theta_{1} )=\cfrac{1}{2m}\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
+$J(\theta) =J(\theta_{0},\theta_{1} )=\cfrac{1}{2m}\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
 $m$: total training samples  (total data points)
 $\cfrac{1}{2}$ is just for computation convenient 
 
@@ -277,9 +277,9 @@ $m$: total number  of input samples
 *Formulate the model*
 ***Gradient Descent*** method: the same Gradient Descent method from Simple Linear Regression can be applied to Multiple Linear Regression. This method seeks to correct itself and minimize the cost function:
 - Sum of Square Error (SSE): 
-$J(\theta_{0},\theta_{1},..\theta_{n} )=\cfrac{1}{2}\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\cfrac{1}{2}\displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
+$J(\theta) =J(\theta_{0},\theta_{1},..\theta_{n} )=\cfrac{1}{2}\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)})=\cfrac{1}{2}\displaystyle\sum_{i=1}^n(\hat y^{(i)} - y^{(i)})^2$
 - Mean of Square Error (MSE): 
-$J(\theta_{0},\theta_{1},...\theta_{n}) =\cfrac{1}{2m}\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)}))=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
+$J(\theta)=J(\theta_{0},\theta_{1},...\theta_{n}) =\cfrac{1}{2m}\displaystyle\sum_{i=1}^n(Cost(h_{\theta}(x^{(i)}),y^{(i)}))=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
 $n$: total predictors (Independent variables)
 $m$: total training samples (total data points)
 $\cfrac{1}{2}$ is just for computation convenient 
@@ -412,11 +412,11 @@ $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNjk3MjQ2LDE2NjgyNzM1ODYsMTg4Mj
-U0MDQ3MSwtODk2ODE3NTc2LC0xMjM1NjEzOTQ0LC0xNzA1OTUw
-OTA0LDQ5MzQzNjExNiwxMzQ4MTE2NTE4LDk1MzQwNzA4NywtNz
-UxMzcxMjMxLDEwODE4MDIxMzAsNzM0OTY3NDY0LC0zOTk2NTc5
-NzMsNzQ4MDY4OTU4LDY5NDE4NDc4MCwtMTMyMzY2NzI2MSwtMT
-IxODcxMTkxNywyMTE4MTExODU2LDE0MTYwODkyOTEsODI2NjIx
-ODU0XX0=
+eyJoaXN0b3J5IjpbMTM5NDAyMzc3OCwxNjY4MjczNTg2LDE4OD
+I1NDA0NzEsLTg5NjgxNzU3NiwtMTIzNTYxMzk0NCwtMTcwNTk1
+MDkwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5NTM0MDcwODcsLT
+c1MTM3MTIzMSwxMDgxODAyMTMwLDczNDk2NzQ2NCwtMzk5NjU3
+OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLT
+EyMTg3MTE5MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYy
+MTg1NF19
 -->
