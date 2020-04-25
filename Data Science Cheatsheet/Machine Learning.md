@@ -374,11 +374,11 @@ $h_{\theta}(x) = 0.25$ : 25% chance of mail is spam
 $h_{\theta}(x)  \geq 0.5 \implies y =1$
 $h_{\theta}(x) < 0.5 \implies y =0$
 __
-$h_{\theta}(x)  \geq 0.5 \implies g(\theta^Tx)   \geq 0.5$
-$h_{\theta}(x) < 0.5 \implies g(\theta^Tx)  < 0.5$
+$h_{\theta}(x)  \geq 0.5 \iff g(\theta^Tx)   \geq 0.5$
+$h_{\theta}(x) < 0.5 \iff g(\theta^Tx)  < 0.5$
 __
-$g(\theta^Tx)   \geq 0.5\implies\theta^Tx\geq0$
-$g(\theta^Tx)  < 0.5\implies\theta^Tx<0$
+$g(\theta^Tx)   \geq 0.5\iff\theta^Tx\geq0$
+$g(\theta^Tx)  < 0.5\iff\theta^Tx<0$
 __
 $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}\geq0 \implies y =1$
 $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}<0 \implies y =0$
@@ -387,11 +387,11 @@ $\theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}=0$ is the boundary li
 Example:
 ![enter image description here](https://i.imgur.com/lqW86d4.png =400x)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3NzcwNDQyLDk1MzQwNzA4NywtNzUxMz
-cxMjMxLDEwODE4MDIxMzAsNzM0OTY3NDY0LC0zOTk2NTc5NzMs
-NzQ4MDY4OTU4LDY5NDE4NDc4MCwtMTMyMzY2NzI2MSwtMTIxOD
-cxMTkxNywyMTE4MTExODU2LDE0MTYwODkyOTEsODI2NjIxODU0
-LDEwODczNDk2MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1MTMyNz
-E0NjksLTk3NDIzNDY0NywtMTc4NTcxMTE4NywtMTk4MzcwMTg3
-OF19
+eyJoaXN0b3J5IjpbMTM0ODExNjUxOCw5NTM0MDcwODcsLTc1MT
+M3MTIzMSwxMDgxODAyMTMwLDczNDk2NzQ2NCwtMzk5NjU3OTcz
+LDc0ODA2ODk1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLTEyMT
+g3MTE5MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1
+NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMj
+cxNDY5LC05NzQyMzQ2NDcsLTE3ODU3MTExODcsLTE5ODM3MDE4
+NzhdfQ==
 -->
