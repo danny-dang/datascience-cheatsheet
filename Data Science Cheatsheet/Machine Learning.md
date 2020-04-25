@@ -279,6 +279,7 @@ $J(\theta_{0},\theta_{1},..\theta_{n} )=\displaystyle\sum_{i=1}^n(\hat y^{(i)} -
 $J(\theta_{0},\theta_{1},...\theta_{n} )=\cfrac{1}{2m} \displaystyle\sum_{i=1}^m(\hat y^{(i)} - y^{(i)})^2$
 $n$: total predictors (Independent variables)
 $m$: total training samples (total data points)
+$\cfrac{1}{2}$ is just for computation co
 *General Formula*:
 $$
 Repeat \{\\
@@ -388,11 +389,11 @@ Example:
 ![enter image description here](https://i.imgur.com/lqW86d4.png =400x)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzNDM2MTE2LDEzNDgxMTY1MTgsOTUzND
-A3MDg3LC03NTEzNzEyMzEsMTA4MTgwMjEzMCw3MzQ5Njc0NjQs
-LTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0NzgwLC0xMzIzNj
-Y3MjYxLC0xMjE4NzExOTE3LDIxMTgxMTE4NTYsMTQxNjA4OTI5
-MSw4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OT
-QwMTk4LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3LC0xNzg1NzExMTg3
+eyJoaXN0b3J5IjpbLTIxMjMzOTI3OTIsNDkzNDM2MTE2LDEzND
+gxMTY1MTgsOTUzNDA3MDg3LC03NTEzNzEyMzEsMTA4MTgwMjEz
+MCw3MzQ5Njc0NjQsLTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MT
+g0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LDIxMTgxMTE4
+NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNj
+c1MTU1MDAsNDU3OTQwMTk4LDUxMzI3MTQ2OSwtOTc0MjM0NjQ3
 XX0=
 -->
