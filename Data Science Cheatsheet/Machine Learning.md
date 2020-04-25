@@ -254,11 +254,11 @@ $\theta_{0}$: y-intercept (constant term)
 $\theta_{n}$: Coefficient
 $\theta$: Parameters vector
 - i.e: $\theta = \begin{bmatrix}  \theta_{0} \\  \theta_{1} \\ ... \\ \theta_{n} \end{bmatrix}$
-- 
-$x_{j}$: Explanatory variables vectors (Independent variables)
+
+$x^{(i)}$: Explanatory variables vectors
 - i.e: $x_{3} = \begin{bmatrix}  x^{(0)}_{3} \\  x^{(1)}_{3} \\ ... \\ x^{(m)}_{3} \end{bmatrix}$
 
-$x_{j}$: Explanatory variables vectors (Independent variables)
+$x_{j}$: Input samples vectors if the independent variable $j$
 - i.e: $x_{3} = \begin{bmatrix}  x^{(0)}_{3} \\  x^{(1)}_{3} \\ ... \\ x^{(m)}_{3} \end{bmatrix}$
 
 $x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable 
@@ -415,11 +415,11 @@ $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTE2MzAxNiwtMzc0MzQzMjU3LC0xNz
-YyODEwNjI0LC0zNjU3NzQxODgsMTM5NDAyMzc3OCwxNjY4Mjcz
-NTg2LDE4ODI1NDA0NzEsLTg5NjgxNzU3NiwtMTIzNTYxMzk0NC
-wtMTcwNTk1MDkwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5NTM0
-MDcwODcsLTc1MTM3MTIzMSwxMDgxODAyMTMwLDczNDk2NzQ2NC
-wtMzk5NjU3OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAsLTEzMjM2
-NjcyNjFdfQ==
+eyJoaXN0b3J5IjpbLTE3MjE1NDQzMTksLTM3NDM0MzI1NywtMT
+c2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3
+MzU4NiwxODgyNTQwNDcxLC04OTY4MTc1NzYsLTEyMzU2MTM5ND
+QsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LDEzNDgxMTY1MTgsOTUz
+NDA3MDg3LC03NTEzNzEyMzEsMTA4MTgwMjEzMCw3MzQ5Njc0Nj
+QsLTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0NzgwLC0xMzIz
+NjY3MjYxXX0=
 -->
