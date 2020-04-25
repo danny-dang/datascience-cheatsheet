@@ -256,9 +256,9 @@ $\theta$: Parameters vector
 - i.e: $\theta = \begin{bmatrix}  \theta_{0} \\  \theta_{1} \\ ... \\ \theta_{n} \end{bmatrix}$
 
 $x^{(i)}$: Explanatory variables vectors of the input sample $i^{th}$
-- i.e: $x^{(3} = \begin{bmatrix}  x^{(3)}_{0} \\  x^{(3)}_{1} \\ ... \\ x^{(3)}_{n} \end{bmatrix}$
+- i.e: $x^{(3)} = \begin{bmatrix}  x^{(3)}_{0} \\  x^{(3)}_{1} \\ ... \\ x^{(3)}_{n} \end{bmatrix}$
 
-$x_{j}$: Input samples vectors if the independent variable $j$
+$x_{j}$: Input samples vectors of the explanatory variable $j$
 - i.e: $x_{3} = \begin{bmatrix}  x^{(0)}_{3} \\  x^{(1)}_{3} \\ ... \\ x^{(m)}_{3} \end{bmatrix}$
 
 $x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable 
@@ -415,7 +415,7 @@ $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0MjQ0OTk0LC0zNzQzNDMyNTcsLTE3Nj
+eyJoaXN0b3J5IjpbLTcyMzAzNzY4LC0zNzQzNDMyNTcsLTE3Nj
 I4MTA2MjQsLTM2NTc3NDE4OCwxMzk0MDIzNzc4LDE2NjgyNzM1
 ODYsMTg4MjU0MDQ3MSwtODk2ODE3NTc2LC0xMjM1NjEzOTQ0LC
 0xNzA1OTUwOTA0LDQ5MzQzNjExNiwxMzQ4MTE2NTE4LDk1MzQw
