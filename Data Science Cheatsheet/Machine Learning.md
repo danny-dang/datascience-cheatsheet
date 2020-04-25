@@ -205,11 +205,11 @@ $$
 4. As the model needs to minimize the cost function, next step is to calculate the partial derivative of the $cost$ in accordance to $b_{0}$ or $b_{1}$:
 
 $$
-\cfrac{\partial cost}{\partial \theta_{0}} = (\cfrac{1}{2m}\sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2 )'\\=\cfrac{1}{m}\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})
+\cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{2m}\sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2 )'\\=\cfrac{1}{m}\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})
 $$
 
 $$
-\cfrac{\partial cost}{\partial \theta_{1}} = (\cfrac{1}{2m}\sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2)' \\=\cfrac{1}{m}\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})\theta_{1}
+\cfrac{\partial J(\theta)}{\partial \theta_{1}} = (\cfrac{1}{2m}\sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2)' \\=\cfrac{1}{m}\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})\theta_{1}
 $$
 
 5. Calculate the $error$ using the derivative calculated, and adjust it with the *learning_rate* :
@@ -409,14 +409,14 @@ J(\theta)=\cfrac{1}{m}\sum_{i=1}^mCost(h_{\theta}(x^{(i)}),y^{(i)}) \\
 $$
 Cost Function Derivative: 
 $$
-\cfrac{\partial cost}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
+\cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODI3MzU4NiwxODgyNTQwNDcxLC04OT
-Y4MTc1NzYsLTEyMzU2MTM5NDQsLTE3MDU5NTA5MDQsNDkzNDM2
-MTE2LDEzNDgxMTY1MTgsOTUzNDA3MDg3LC03NTEzNzEyMzEsMT
-A4MTgwMjEzMCw3MzQ5Njc0NjQsLTM5OTY1Nzk3Myw3NDgwNjg5
-NTgsNjk0MTg0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LD
-IxMTgxMTE4NTYsMTQxNjA4OTI5MSw4MjY2MjE4NTQsMTA4NzM0
-OTYwXX0=
+eyJoaXN0b3J5IjpbMjMwNjk3MjQ2LDE2NjgyNzM1ODYsMTg4Mj
+U0MDQ3MSwtODk2ODE3NTc2LC0xMjM1NjEzOTQ0LC0xNzA1OTUw
+OTA0LDQ5MzQzNjExNiwxMzQ4MTE2NTE4LDk1MzQwNzA4NywtNz
+UxMzcxMjMxLDEwODE4MDIxMzAsNzM0OTY3NDY0LC0zOTk2NTc5
+NzMsNzQ4MDY4OTU4LDY5NDE4NDc4MCwtMTMyMzY2NzI2MSwtMT
+IxODcxMTkxNywyMTE4MTExODU2LDE0MTYwODkyOTEsODI2NjIx
+ODU0XX0=
 -->
