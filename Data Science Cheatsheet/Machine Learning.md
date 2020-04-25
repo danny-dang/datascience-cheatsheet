@@ -209,7 +209,7 @@ $$
 $$
 
 $$
-\cfrac{\partial J(\theta)}{\partial \theta_{1}} = (\cfrac{1}{2m}\sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2)' \\=\cfrac{1}{m}\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})\theta_{1}
+\cfrac{\partial J(\theta)}{\partial \theta_{1}} = (\cfrac{1}{2m}\sum_{i=1}^m((\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})^2)' \\=\cfrac{1}{m}\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})x^{(i)}
 $$
 
 5. Calculate the $error$ using the derivative calculated parameterized by the current value of $\theta_{0}$ and $\theta_{1}$, and adjust it with the *learning_rate* :
@@ -412,11 +412,11 @@ $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTIyODk4OCwtMzY1Nzc0MTg4LDEzOT
-QwMjM3NzgsMTY2ODI3MzU4NiwxODgyNTQwNDcxLC04OTY4MTc1
-NzYsLTEyMzU2MTM5NDQsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LD
-EzNDgxMTY1MTgsOTUzNDA3MDg3LC03NTEzNzEyMzEsMTA4MTgw
-MjEzMCw3MzQ5Njc0NjQsLTM5OTY1Nzk3Myw3NDgwNjg5NTgsNj
-k0MTg0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzExOTE3LDIxMTgx
-MTE4NTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NjI4MTA2MjQsLTM2NTc3NDE4OCwxMz
+k0MDIzNzc4LDE2NjgyNzM1ODYsMTg4MjU0MDQ3MSwtODk2ODE3
+NTc2LC0xMjM1NjEzOTQ0LC0xNzA1OTUwOTA0LDQ5MzQzNjExNi
+wxMzQ4MTE2NTE4LDk1MzQwNzA4NywtNzUxMzcxMjMxLDEwODE4
+MDIxMzAsNzM0OTY3NDY0LC0zOTk2NTc5NzMsNzQ4MDY4OTU4LD
+Y5NDE4NDc4MCwtMTMyMzY2NzI2MSwtMTIxODcxMTkxNywyMTE4
+MTExODU2XX0=
 -->
