@@ -264,6 +264,9 @@ $x_{j}$: Input samples vectors of the independent variable $j$
 $x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable 
 - i.e: $x^{(2)}_{3}$ is the 2nd input sample of the variable vector $x_{3}$
 
+$x$: Matrix of independent variables and input samples
+- $x =\begin{bmatrix}  x^{(3)}_{0} \\  x^{(3)}_{1} \\ ... \\ x^{(3)}_{n} \end{bmatrix}$
+
 $n$: total number of independent variables vectors
 $m$: total number  of input samples
 
@@ -364,7 +367,7 @@ $y$: Dependent variable
 $h_{\theta}(x)$: Hypothesis
 $\theta$: Parameters vector
 $\theta^T$: Tranpose of the parameters vector
-$x$: Matrix of Independent variables and input sample
+$x$: Matrix of Independent variables and input samples
 $\theta^Tx$: $\begin{bmatrix}  \theta_{0} &  \theta_{1} & ... & \theta_{n} \end{bmatrix} \begin{bmatrix}  x_{0} \\  x_{1} \\ ... \\ x_{n} \end{bmatrix}
  = \theta_{0}x_{0} + \theta_{1}x_{1} + ... + \theta_{n}x_{n}$
 
@@ -415,7 +418,7 @@ $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjg3NDQ4OSwtMzc0MzQzMjU3LC0xNz
+eyJoaXN0b3J5IjpbMTE4MTk4MTEzOSwtMzc0MzQzMjU3LC0xNz
 YyODEwNjI0LC0zNjU3NzQxODgsMTM5NDAyMzc3OCwxNjY4Mjcz
 NTg2LDE4ODI1NDA0NzEsLTg5NjgxNzU3NiwtMTIzNTYxMzk0NC
 wtMTcwNTk1MDkwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5NTM0
