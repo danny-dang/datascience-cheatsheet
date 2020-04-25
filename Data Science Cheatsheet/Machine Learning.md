@@ -418,13 +418,13 @@ $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} =\cfrac{1}{m}\sum_{i=1}^m [-y^{(i)}log(h_{\theta}(x^{(i)})) - (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))]' \\
 = \cfrac{1}{m}\sum_{i=1}^m()
 $$
-fmkmkmdfjfjdklsafj
+S
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4MTk0MDc3LDE3NTgyNTcxNiwxNTU1OT
-M1MDcxLC0zNzQzNDMyNTcsLTE3NjI4MTA2MjQsLTM2NTc3NDE4
-OCwxMzk0MDIzNzc4LDE2NjgyNzM1ODYsMTg4MjU0MDQ3MSwtOD
-k2ODE3NTc2LC0xMjM1NjEzOTQ0LC0xNzA1OTUwOTA0LDQ5MzQz
-NjExNiwxMzQ4MTE2NTE4LDk1MzQwNzA4NywtNzUxMzcxMjMxLD
-EwODE4MDIxMzAsNzM0OTY3NDY0LC0zOTk2NTc5NzMsNzQ4MDY4
-OTU4XX0=
+eyJoaXN0b3J5IjpbMTIzMTMzNzc3NCwxNzU4MjU3MTYsMTU1NT
+kzNTA3MSwtMzc0MzQzMjU3LC0xNzYyODEwNjI0LC0zNjU3NzQx
+ODgsMTM5NDAyMzc3OCwxNjY4MjczNTg2LDE4ODI1NDA0NzEsLT
+g5NjgxNzU3NiwtMTIzNTYxMzk0NCwtMTcwNTk1MDkwNCw0OTM0
+MzYxMTYsMTM0ODExNjUxOCw5NTM0MDcwODcsLTc1MTM3MTIzMS
+wxMDgxODAyMTMwLDczNDk2NzQ2NCwtMzk5NjU3OTczLDc0ODA2
+ODk1OF19
 -->
