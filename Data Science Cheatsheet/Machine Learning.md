@@ -232,7 +232,7 @@ $$
 7. Repeat the step 2-7 until the $error$ or the *total_loop* reach the limit.
 *General Formula*:
 $$
-Repeat \{\\
+\text{Repeat until convergence } \{\\
 \theta_{0} := \theta_{0} - \alpha \cfrac{1}{m} \sum_{i=1}^m(h_{\theta} (x^{(i)}-y^{(i)} ))\\
 \theta_{1} := \theta_{1} -\alpha \cfrac{1}{m}\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})x^{(i)}\\
 \}
@@ -291,7 +291,7 @@ $m$: total training samples (total data points)
 $\cfrac{1}{2}$ is just for computation convenient 
 *General Formula*:
 $$
-Repeat until \{\\
+\text{Repeat until convergence }\{\\
 \theta_{j} := \theta_{j} -\sum_{i=1}^m(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}_{j}\\
 ...\\
 \}
@@ -419,13 +419,18 @@ $$
 = \cfrac{1}{m}\sum_{i=1}^m(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}_{j}
 $$
 Self correcting loop:
-
+$$
+\text{Repeat until convergence }\{\\
+\theta_{j} := \theta_{j} -\sum_{i=1}^m(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}_{j}\\
+...\\
+\}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0MjU0ODgwLDEyMzEzMzc3NzQsMTc1OD
-I1NzE2LDE1NTU5MzUwNzEsLTM3NDM0MzI1NywtMTc2MjgxMDYy
-NCwtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3MzU4NiwxOD
-gyNTQwNDcxLC04OTY4MTc1NzYsLTEyMzU2MTM5NDQsLTE3MDU5
-NTA5MDQsNDkzNDM2MTE2LDEzNDgxMTY1MTgsOTUzNDA3MDg3LC
-03NTEzNzEyMzEsMTA4MTgwMjEzMCw3MzQ5Njc0NjQsLTM5OTY1
-Nzk3M119
+eyJoaXN0b3J5IjpbMjEwOTA1MjQzNSwxMjMxMzM3Nzc0LDE3NT
+gyNTcxNiwxNTU1OTM1MDcxLC0zNzQzNDMyNTcsLTE3NjI4MTA2
+MjQsLTM2NTc3NDE4OCwxMzk0MDIzNzc4LDE2NjgyNzM1ODYsMT
+g4MjU0MDQ3MSwtODk2ODE3NTc2LC0xMjM1NjEzOTQ0LC0xNzA1
+OTUwOTA0LDQ5MzQzNjExNiwxMzQ4MTE2NTE4LDk1MzQwNzA4Ny
+wtNzUxMzcxMjMxLDEwODE4MDIxMzAsNzM0OTY3NDY0LC0zOTk2
+NTc5NzNdfQ==
 -->
