@@ -392,9 +392,9 @@ Example:
 ![enter image description here](https://i.imgur.com/lqW86d4.png =400x)
 
 *Formulate the model:*
-**Gradient Descent** method:
 
-Logistic Regression Cost Function:
+**Gradient Descent** method:
+Logistic Regression Cost:
 $$
 Cost(h_{\theta}(x),y) = \begin{cases}-log(h_{\theta}(x)) & \text{if } y=1  \\-log(1-h_{\theta}(x)) & \text{if } y=0 \end{cases}
 $$
@@ -402,12 +402,13 @@ $$
 $$
 Cost(h_{\theta}(x),y) = -ylog(h_{\theta}(x)) - (1-y)log(1-h_{\theta}(x))
 $$
+Logistic Regression Cost Function:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjMwODc2NjQsLTEyMzU2MTM5NDQsLT
-E3MDU5NTA5MDQsNDkzNDM2MTE2LDEzNDgxMTY1MTgsOTUzNDA3
-MDg3LC03NTEzNzEyMzEsMTA4MTgwMjEzMCw3MzQ5Njc0NjQsLT
-M5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0NzgwLC0xMzIzNjY3
-MjYxLC0xMjE4NzExOTE3LDIxMTgxMTE4NTYsMTQxNjA4OTI5MS
-w4MjY2MjE4NTQsMTA4NzM0OTYwLC0yNjc1MTU1MDAsNDU3OTQw
-MTk4XX0=
+eyJoaXN0b3J5IjpbLTg5NjgxNzU3NiwtMTIzNTYxMzk0NCwtMT
+cwNTk1MDkwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5NTM0MDcw
+ODcsLTc1MTM3MTIzMSwxMDgxODAyMTMwLDczNDk2NzQ2NCwtMz
+k5NjU3OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAsLTEzMjM2Njcy
+NjEsLTEyMTg3MTE5MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLD
+gyNjYyMTg1NCwxMDg3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAx
+OThdfQ==
 -->
