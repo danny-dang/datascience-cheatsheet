@@ -265,7 +265,7 @@ $x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent v
 - i.e: $x^{(2)}_{3}$ is the 2nd input sample of the variable vector $x_{3}$
 
 $x$: Matrix of independent variables and input samples
-- $x =\begin{bmatrix}  x^{(0)}_{0} & x^{(1) }_{0} \\  x^{(3)}_{1} \\ ... \\ x^{(3)}_{n} \end{bmatrix}$
+- $x =\begin{bmatrix}  x^{(0)}_{0} & x^{(1)}_{0} & ... & x^{(m)}_{0}  \\  x^{(0)}_{1} & x^{(1)}_{1} & ... & x^{(m)}_{1}\\ ... \\ x^{(0)}_{n} & x^{(1)}_{n} & ... & x^{(m)}_{n}\end{bmatrix}$
 
 $n$: total number of independent variables vectors
 $m$: total number  of input samples
@@ -418,11 +418,11 @@ $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTcwMjg3LC0zNzQzNDMyNTcsLTE3Nj
-I4MTA2MjQsLTM2NTc3NDE4OCwxMzk0MDIzNzc4LDE2NjgyNzM1
-ODYsMTg4MjU0MDQ3MSwtODk2ODE3NTc2LC0xMjM1NjEzOTQ0LC
-0xNzA1OTUwOTA0LDQ5MzQzNjExNiwxMzQ4MTE2NTE4LDk1MzQw
-NzA4NywtNzUxMzcxMjMxLDEwODE4MDIxMzAsNzM0OTY3NDY0LC
-0zOTk2NTc5NzMsNzQ4MDY4OTU4LDY5NDE4NDc4MCwtMTMyMzY2
-NzI2MV19
+eyJoaXN0b3J5IjpbLTcxNzU2MDgxMCwtMzc0MzQzMjU3LC0xNz
+YyODEwNjI0LC0zNjU3NzQxODgsMTM5NDAyMzc3OCwxNjY4Mjcz
+NTg2LDE4ODI1NDA0NzEsLTg5NjgxNzU3NiwtMTIzNTYxMzk0NC
+wtMTcwNTk1MDkwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5NTM0
+MDcwODcsLTc1MTM3MTIzMSwxMDgxODAyMTMwLDczNDk2NzQ2NC
+wtMzk5NjU3OTczLDc0ODA2ODk1OCw2OTQxODQ3ODAsLTEzMjM2
+NjcyNjFdfQ==
 -->
