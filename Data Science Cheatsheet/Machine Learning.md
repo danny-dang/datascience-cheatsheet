@@ -398,10 +398,10 @@ Cost(h_{\theta}(x),y) = \begin{cases}-log(h_{\theta}(x)) & \text{if } y=1  \\-lo
 $$
 
 $$
-Cost(h_{\theta}(x),y) = -ylog(h_{\theta}(x)) - (1-y)log()
+Cost(h_{\theta}(x),y) = -ylog(h_{\theta}(x)) - (1-y)log(1-h_{\theta}(x))
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg1MTEzNzAsLTE3MDU5NTA5MDQsND
+eyJoaXN0b3J5IjpbLTEyMzU2MTM5NDQsLTE3MDU5NTA5MDQsND
 kzNDM2MTE2LDEzNDgxMTY1MTgsOTUzNDA3MDg3LC03NTEzNzEy
 MzEsMTA4MTgwMjEzMCw3MzQ5Njc0NjQsLTM5OTY1Nzk3Myw3ND
 gwNjg5NTgsNjk0MTg0NzgwLC0xMzIzNjY3MjYxLC0xMjE4NzEx
