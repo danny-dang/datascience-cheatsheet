@@ -339,7 +339,7 @@ There are 2 types of Classification model:
 ### Logistic Regression
 > Logistic Regression is used to model the probability of a certain class. A binary logistic model has a dependent variable with two possible values, normally labeled "0" and "1".
 
-*Sigmoid Function* (Logistic Function): 
+***Sigmoid Function*** (Logistic Function): 
 
 > Sigmoid Function limit the **output** to a range between 0 and 1, making these functions useful in the prediction of probabilities
 
@@ -392,12 +392,16 @@ Example:
 *Formulate the model:*
 **Gradient Descent** method:
 
+Logistic Regression Cost Function:
+$$
+Cost(h_{})
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0ODMyMjgwLC0xNzA1OTUwOTA0LDQ5Mz
-QzNjExNiwxMzQ4MTE2NTE4LDk1MzQwNzA4NywtNzUxMzcxMjMx
-LDEwODE4MDIxMzAsNzM0OTY3NDY0LC0zOTk2NTc5NzMsNzQ4MD
-Y4OTU4LDY5NDE4NDc4MCwtMTMyMzY2NzI2MSwtMTIxODcxMTkx
-NywyMTE4MTExODU2LDE0MTYwODkyOTEsODI2NjIxODU0LDEwOD
-czNDk2MCwtMjY3NTE1NTAwLDQ1Nzk0MDE5OCw1MTMyNzE0Njld
-fQ==
+eyJoaXN0b3J5IjpbMTE3NDA5MzQ4NSwtMTcwNTk1MDkwNCw0OT
+M0MzYxMTYsMTM0ODExNjUxOCw5NTM0MDcwODcsLTc1MTM3MTIz
+MSwxMDgxODAyMTMwLDczNDk2NzQ2NCwtMzk5NjU3OTczLDc0OD
+A2ODk1OCw2OTQxODQ3ODAsLTEzMjM2NjcyNjEsLTEyMTg3MTE5
+MTcsMjExODExMTg1NiwxNDE2MDg5MjkxLDgyNjYyMTg1NCwxMD
+g3MzQ5NjAsLTI2NzUxNTUwMCw0NTc5NDAxOTgsNTEzMjcxNDY5
+XX0=
 -->
