@@ -255,7 +255,7 @@ $\theta_{n}$: Coefficient
 $\theta$: Parameters vector
 - i.e: $\theta = \begin{bmatrix}  \theta_{0} \\  \theta_{1} \\ ... \\ \theta_{n} \end{bmatrix}$
 
-$x_{n}$: Explanatory variables vectors (Independent variables)
+$x_{j}$: Explanatory variables vectors (Independent variables)
 - i.e: $x_{3} = \begin{bmatrix}  x^{(0)}_{3} \\  x^{(1)}_{3} \\ ... \\ x^{(m)}_{3} \end{bmatrix}$
 
 $x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable 
@@ -286,7 +286,7 @@ $\cfrac{1}{2}$ is just for computation convenient
 *General Formula*:
 $$
 Repeat \{\\
-\theta_{j} := \theta_{j} -\sum_{i=1}^m(\theta_{0} + \theta_{1}x^{(i)})-y^{(i)})x^{(i)}_{j}\\
+\theta_{j} := \theta_{j} -\sum_{i=1}^m(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}_{j}\\
 ...\\
 \}
 $$
@@ -412,11 +412,11 @@ $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzMwMjUwMDAsLTE3NjI4MTA2MjQsLT
-M2NTc3NDE4OCwxMzk0MDIzNzc4LDE2NjgyNzM1ODYsMTg4MjU0
-MDQ3MSwtODk2ODE3NTc2LC0xMjM1NjEzOTQ0LC0xNzA1OTUwOT
-A0LDQ5MzQzNjExNiwxMzQ4MTE2NTE4LDk1MzQwNzA4NywtNzUx
-MzcxMjMxLDEwODE4MDIxMzAsNzM0OTY3NDY0LC0zOTk2NTc5Nz
-MsNzQ4MDY4OTU4LDY5NDE4NDc4MCwtMTMyMzY2NzI2MSwtMTIx
-ODcxMTkxN119
+eyJoaXN0b3J5IjpbLTM3NDM0MzI1NywtMTc2MjgxMDYyNCwtMz
+Y1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3MzU4NiwxODgyNTQw
+NDcxLC04OTY4MTc1NzYsLTEyMzU2MTM5NDQsLTE3MDU5NTA5MD
+QsNDkzNDM2MTE2LDEzNDgxMTY1MTgsOTUzNDA3MDg3LC03NTEz
+NzEyMzEsMTA4MTgwMjEzMCw3MzQ5Njc0NjQsLTM5OTY1Nzk3My
+w3NDgwNjg5NTgsNjk0MTg0NzgwLC0xMzIzNjY3MjYxLC0xMjE4
+NzExOTE3XX0=
 -->
