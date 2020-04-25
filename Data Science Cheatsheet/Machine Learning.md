@@ -255,10 +255,10 @@ $\theta_{n}$: Coefficient
 $\theta$: Parameters vector
 - i.e: $\theta = \begin{bmatrix}  \theta_{0} \\  \theta_{1} \\ ... \\ \theta_{n} \end{bmatrix}$
 
-$x^{(i)}$: Explanatory variables vectors of the input sample $i^{th}$
+$x^{(i)}$: Independent variables vectors of the input sample $i^{th}$
 - i.e: $x^{(3)} = \begin{bmatrix}  x^{(3)}_{0} \\  x^{(3)}_{1} \\ ... \\ x^{(3)}_{n} \end{bmatrix}$
 
-$x_{j}$: Input samples vectors of the explanatory variable $j$
+$x_{j}$: Input samples vectors of the independent variable $j$
 - i.e: $x_{3} = \begin{bmatrix}  x^{(0)}_{3} \\  x^{(1)}_{3} \\ ... \\ x^{(m)}_{3} \end{bmatrix}$
 
 $x^{(i)}_{j}$: The $i^{th}$ sample of the input samples of the $j$ independent variable 
@@ -309,7 +309,7 @@ $h_{\theta}(x)$: Hypothesis
 $\theta_{0}$: y-intercept (constant term)
 $\theta_{n}$: Coefficient (slope)
 $\theta$: Parameters vector
-$x$: Independent variable
+$x$: Independent variable vector
 
 Example:
 ![enter image description here](https://i.imgur.com/QRQNKuz.png)
@@ -415,11 +415,11 @@ $$
 \cfrac{\partial J(\theta)}{\partial \theta_{0}} = (\cfrac{1}{m}\sum_{i=1}^m
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzAzNzY4LC0zNzQzNDMyNTcsLTE3Nj
-I4MTA2MjQsLTM2NTc3NDE4OCwxMzk0MDIzNzc4LDE2NjgyNzM1
-ODYsMTg4MjU0MDQ3MSwtODk2ODE3NTc2LC0xMjM1NjEzOTQ0LC
-0xNzA1OTUwOTA0LDQ5MzQzNjExNiwxMzQ4MTE2NTE4LDk1MzQw
-NzA4NywtNzUxMzcxMjMxLDEwODE4MDIxMzAsNzM0OTY3NDY0LC
-0zOTk2NTc5NzMsNzQ4MDY4OTU4LDY5NDE4NDc4MCwtMTMyMzY2
-NzI2MV19
+eyJoaXN0b3J5IjpbLTIxMDAyNjM4ODEsLTM3NDM0MzI1NywtMT
+c2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3
+MzU4NiwxODgyNTQwNDcxLC04OTY4MTc1NzYsLTEyMzU2MTM5ND
+QsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LDEzNDgxMTY1MTgsOTUz
+NDA3MDg3LC03NTEzNzEyMzEsMTA4MTgwMjEzMCw3MzQ5Njc0Nj
+QsLTM5OTY1Nzk3Myw3NDgwNjg5NTgsNjk0MTg0NzgwLC0xMzIz
+NjY3MjYxXX0=
 -->
