@@ -430,10 +430,10 @@ $$
 
 > The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other.
 
-KNN uses the current data points to predict the class of a new data points based on the number of the nearest exisitng data points
+KNN uses the current data points to predict the class of a new data points based on $k$ - the number of the nearest existing data points (neighbors) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTEyMjE4MCwtMTIzMDA5MzQ1MiwtND
+eyJoaXN0b3J5IjpbMTA3NzYzNTU4OCwtMTIzMDA5MzQ1MiwtND
 I2ODYxMTY2LDEwNjMwODc3ODYsMTIzMTMzNzc3NCwxNzU4MjU3
 MTYsMTU1NTkzNTA3MSwtMzc0MzQzMjU3LC0xNzYyODEwNjI0LC
 0zNjU3NzQxODgsMTM5NDAyMzc3OCwxNjY4MjczNTg2LDE4ODI1
