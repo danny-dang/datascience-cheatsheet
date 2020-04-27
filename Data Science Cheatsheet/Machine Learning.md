@@ -443,9 +443,9 @@ $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
 	$Q = (q_{1},q_{2},...,q_{n})\in \Reals^n$
 	
 	$P$ is the new data point, and $Q$ is the existing data point
-3. Select the top k neighbors that has the 
+3. Select the top k neighbors that has the lowest $d$. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxMDk0MjM2LC0yMDE1MDE4NzgsLTEyMz
+eyJoaXN0b3J5IjpbLTI1MzAwOTQwLC0yMDE1MDE4NzgsLTEyMz
 AwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3
 NzQsMTc1ODI1NzE2LDE1NTU5MzUwNzEsLTM3NDM0MzI1NywtMT
 c2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3
