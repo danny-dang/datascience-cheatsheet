@@ -436,18 +436,17 @@ KNN uses the current existing data points to predict rather than using a model.
 
 *Classify a new data point*:
 1. Choose number of $k$ neighbors (i.e: k=3)
-2. Calculate the distance to the nearest neighbors and select the top k (i,e 3) neighbors:
-$$
-d(P;Q) = \sqrt{\sum_{i=1}^{n}(q_{i} - p_{i})}
-$$
-$P = (p_{1},p_{2},...,p_{n}) \in \Reals^n$
-$P = (p_{1},p_{2},...,p_{n})$
+2. Calculate the distance to the nearest neighbors:
+$d(P;Q) = \sqrt{\sum_{i=1}^{n}(q_{i} - p_{i})}$$
+
+	$P = (p_{1},p_{2},...,p_{n}) \in \Reals^n$
+	$Q = (q_{1},q_{2},...,q_{n})\in \Reals^n$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxNTE3ODY3LC0yMDE1MDE4NzgsLTEyMz
-AwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3
-NzQsMTc1ODI1NzE2LDE1NTU5MzUwNzEsLTM3NDM0MzI1NywtMT
-c2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3
-MzU4NiwxODgyNTQwNDcxLC04OTY4MTc1NzYsLTEyMzU2MTM5ND
-QsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LDEzNDgxMTY1MTgsOTUz
-NDA3MDg3XX0=
+eyJoaXN0b3J5IjpbLTQxNDQ0NzgxOCwtMjAxNTAxODc4LC0xMj
+MwMDkzNDUyLC00MjY4NjExNjYsMTA2MzA4Nzc4NiwxMjMxMzM3
+Nzc0LDE3NTgyNTcxNiwxNTU1OTM1MDcxLC0zNzQzNDMyNTcsLT
+E3NjI4MTA2MjQsLTM2NTc3NDE4OCwxMzk0MDIzNzc4LDE2Njgy
+NzM1ODYsMTg4MjU0MDQ3MSwtODk2ODE3NTc2LC0xMjM1NjEzOT
+Q0LC0xNzA1OTUwOTA0LDQ5MzQzNjExNiwxMzQ4MTE2NTE4LDk1
+MzQwNzA4N119
 -->
