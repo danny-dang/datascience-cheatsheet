@@ -443,13 +443,17 @@ $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
 	$Q = (q_{1},q_{2},...,q_{n})\in \Reals^n$
 	
 	$P$ is the new data point, and $Q$ is the existing data point
-3. Select the top k neighbors that has the lowest $d$. 
+3. Select the top k neighbors that has the lowest $d$:
+
+	![enter image description here](https://i.imgur.com/i0NPF6F.jpg =350x)
+	
+4. Based on the highest number of neighbors, the new data point will belongs to that cl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MzAwOTQwLC0yMDE1MDE4NzgsLTEyMz
-AwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3
-NzQsMTc1ODI1NzE2LDE1NTU5MzUwNzEsLTM3NDM0MzI1NywtMT
-c2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3
-MzU4NiwxODgyNTQwNDcxLC04OTY4MTc1NzYsLTEyMzU2MTM5ND
-QsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LDEzNDgxMTY1MTgsOTUz
-NDA3MDg3XX0=
+eyJoaXN0b3J5IjpbLTIwMDU3ODg2OTgsLTI1MzAwOTQwLC0yMD
+E1MDE4NzgsLTEyMzAwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3
+Nzg2LDEyMzEzMzc3NzQsMTc1ODI1NzE2LDE1NTU5MzUwNzEsLT
+M3NDM0MzI1NywtMTc2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQw
+MjM3NzgsMTY2ODI3MzU4NiwxODgyNTQwNDcxLC04OTY4MTc1Nz
+YsLTEyMzU2MTM5NDQsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LDEz
+NDgxMTY1MThdfQ==
 -->
