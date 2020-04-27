@@ -434,12 +434,14 @@ KNN uses the current data points to predict the class of a new data points based
 
 KNN uses the current existing data points to predict rather than using a model.
 
+*Classify a new data point*:
+1. Choose number of $k$ neighbors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTUwMTg3OCwtMTIzMDA5MzQ1MiwtND
-I2ODYxMTY2LDEwNjMwODc3ODYsMTIzMTMzNzc3NCwxNzU4MjU3
-MTYsMTU1NTkzNTA3MSwtMzc0MzQzMjU3LC0xNzYyODEwNjI0LC
-0zNjU3NzQxODgsMTM5NDAyMzc3OCwxNjY4MjczNTg2LDE4ODI1
-NDA0NzEsLTg5NjgxNzU3NiwtMTIzNTYxMzk0NCwtMTcwNTk1MD
-kwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5NTM0MDcwODcsLTc1
-MTM3MTIzMV19
+eyJoaXN0b3J5IjpbLTE3Njk0MzgwNzcsLTIwMTUwMTg3OCwtMT
+IzMDA5MzQ1MiwtNDI2ODYxMTY2LDEwNjMwODc3ODYsMTIzMTMz
+Nzc3NCwxNzU4MjU3MTYsMTU1NTkzNTA3MSwtMzc0MzQzMjU3LC
+0xNzYyODEwNjI0LC0zNjU3NzQxODgsMTM5NDAyMzc3OCwxNjY4
+MjczNTg2LDE4ODI1NDA0NzEsLTg5NjgxNzU3NiwtMTIzNTYxMz
+k0NCwtMTcwNTk1MDkwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5
+NTM0MDcwODddfQ==
 -->
