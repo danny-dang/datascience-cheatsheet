@@ -430,14 +430,14 @@ $$
 
 > The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other.
 
-
+KNN uses the current data points to predict the class of a new data points based on the number of the nearest exisitng data points
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAwOTM0NTIsLTQyNjg2MTE2NiwxMD
-YzMDg3Nzg2LDEyMzEzMzc3NzQsMTc1ODI1NzE2LDE1NTU5MzUw
-NzEsLTM3NDM0MzI1NywtMTc2MjgxMDYyNCwtMzY1Nzc0MTg4LD
-EzOTQwMjM3NzgsMTY2ODI3MzU4NiwxODgyNTQwNDcxLC04OTY4
-MTc1NzYsLTEyMzU2MTM5NDQsLTE3MDU5NTA5MDQsNDkzNDM2MT
-E2LDEzNDgxMTY1MTgsOTUzNDA3MDg3LC03NTEzNzEyMzEsMTA4
-MTgwMjEzMF19
+eyJoaXN0b3J5IjpbLTY0NTEyMjE4MCwtMTIzMDA5MzQ1MiwtND
+I2ODYxMTY2LDEwNjMwODc3ODYsMTIzMTMzNzc3NCwxNzU4MjU3
+MTYsMTU1NTkzNTA3MSwtMzc0MzQzMjU3LC0xNzYyODEwNjI0LC
+0zNjU3NzQxODgsMTM5NDAyMzc3OCwxNjY4MjczNTg2LDE4ODI1
+NDA0NzEsLTg5NjgxNzU3NiwtMTIzNTYxMzk0NCwtMTcwNTk1MD
+kwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5NTM0MDcwODcsLTc1
+MTM3MTIzMV19
 -->
