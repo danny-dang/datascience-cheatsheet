@@ -450,12 +450,15 @@ $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
 4. Based on the highest number of neighbors, the new data point will belongs to that class. 
 	- i.e: $k=3$ ,new $P$ near 2 data points of class A, and near 1 data point of class B, new $P$ will belongs to class A.
 	- If $k$ is even (i.e $k=4$), and the number of nearest neighbors is tie for each class (i.e 2 neighbors for A, 2 neighbors for B), you can choose either to random, or to use the nearest neighbor to break the tie.
+	
+*Weighted KNN*:
+*Decision Boundary:*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTEzNDc4NiwtMjUzMDA5NDAsLTIwMT
-UwMTg3OCwtMTIzMDA5MzQ1MiwtNDI2ODYxMTY2LDEwNjMwODc3
-ODYsMTIzMTMzNzc3NCwxNzU4MjU3MTYsMTU1NTkzNTA3MSwtMz
-c0MzQzMjU3LC0xNzYyODEwNjI0LC0zNjU3NzQxODgsMTM5NDAy
-Mzc3OCwxNjY4MjczNTg2LDE4ODI1NDA0NzEsLTg5NjgxNzU3Ni
-wtMTIzNTYxMzk0NCwtMTcwNTk1MDkwNCw0OTM0MzYxMTYsMTM0
-ODExNjUxOF19
+eyJoaXN0b3J5IjpbLTE4NTM0NzA4MDQsMTMwMTEzNDc4NiwtMj
+UzMDA5NDAsLTIwMTUwMTg3OCwtMTIzMDA5MzQ1MiwtNDI2ODYx
+MTY2LDEwNjMwODc3ODYsMTIzMTMzNzc3NCwxNzU4MjU3MTYsMT
+U1NTkzNTA3MSwtMzc0MzQzMjU3LC0xNzYyODEwNjI0LC0zNjU3
+NzQxODgsMTM5NDAyMzc3OCwxNjY4MjczNTg2LDE4ODI1NDA0Nz
+EsLTg5NjgxNzU3NiwtMTIzNTYxMzk0NCwtMTcwNTk1MDkwNCw0
+OTM0MzYxMTZdfQ==
 -->
