@@ -449,8 +449,9 @@ $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
 	
 4. Based on the highest number of neighbors, the new data point will belongs to that class. 
 	- i.e: $k=3$ ,new $P$ near 2 data points of class A, and near 1 data point of class B, new $P$ will belongs to class A.
+	- If $k$ is even (i.e $k=4$), and the number of nearest neighbors is tie for each class (i.e 2 neighbors for A, 2 neighbors for B). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTExMTA5LC0yNTMwMDk0MCwtMjAxNT
+eyJoaXN0b3J5IjpbMjA1NTE1MDEyLC0yNTMwMDk0MCwtMjAxNT
 AxODc4LC0xMjMwMDkzNDUyLC00MjY4NjExNjYsMTA2MzA4Nzc4
 NiwxMjMxMzM3Nzc0LDE3NTgyNTcxNiwxNTU1OTM1MDcxLC0zNz
 QzNDMyNTcsLTE3NjI4MTA2MjQsLTM2NTc3NDE4OCwxMzk0MDIz
