@@ -438,10 +438,10 @@ KNN uses the current existing data points to predict rather than using a model.
 1. Choose number of $k$ neighbors (i.e: k=3)
 2. Calculate the distance to the nearest neighbors and select the top k (i,e 3) neighbors:
 $$
-d_{(x_{i})}
+d_{(x_{i},x_{j})}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDQ1MjE4MywtMjAxNTAxODc4LC0xMj
+eyJoaXN0b3J5IjpbLTE2MzM4MTY1MCwtMjAxNTAxODc4LC0xMj
 MwMDkzNDUyLC00MjY4NjExNjYsMTA2MzA4Nzc4NiwxMjMxMzM3
 Nzc0LDE3NTgyNTcxNiwxNTU1OTM1MDcxLC0zNzQzNDMyNTcsLT
 E3NjI4MTA2MjQsLTM2NTc3NDE4OCwxMzk0MDIzNzc4LDE2Njgy
