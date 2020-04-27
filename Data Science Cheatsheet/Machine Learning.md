@@ -440,13 +440,14 @@ KNN uses the current existing data points to predict rather than using a model.
 $$
 d(P;Q) = \sqrt{\sum_{i=1}^{n}(q_{i} - p_{i})}
 $$
-$P = (p_{1},p_{1})$
+$P = (p_{1},p_{2},...,p_{n}) \in \Reals^n$
+$P = (p_{1},p_{2},...,p_{n})$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc5NTQzNTksLTIwMTUwMTg3OCwtMT
-IzMDA5MzQ1MiwtNDI2ODYxMTY2LDEwNjMwODc3ODYsMTIzMTMz
-Nzc3NCwxNzU4MjU3MTYsMTU1NTkzNTA3MSwtMzc0MzQzMjU3LC
-0xNzYyODEwNjI0LC0zNjU3NzQxODgsMTM5NDAyMzc3OCwxNjY4
-MjczNTg2LDE4ODI1NDA0NzEsLTg5NjgxNzU3NiwtMTIzNTYxMz
-k0NCwtMTcwNTk1MDkwNCw0OTM0MzYxMTYsMTM0ODExNjUxOCw5
-NTM0MDcwODddfQ==
+eyJoaXN0b3J5IjpbMzYxNTE3ODY3LC0yMDE1MDE4NzgsLTEyMz
+AwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3
+NzQsMTc1ODI1NzE2LDE1NTU5MzUwNzEsLTM3NDM0MzI1NywtMT
+c2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3
+MzU4NiwxODgyNTQwNDcxLC04OTY4MTc1NzYsLTEyMzU2MTM5ND
+QsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LDEzNDgxMTY1MTgsOTUz
+NDA3MDg3XX0=
 -->
