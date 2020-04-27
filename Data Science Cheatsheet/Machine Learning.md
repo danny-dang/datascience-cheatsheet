@@ -447,13 +447,14 @@ $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
 
 	![enter image description here](https://i.imgur.com/i0NPF6F.jpg =350x)
 	
-4. Based on the highest number of neighbors, the new data point will belongs to that cl
+4. Based on the highest number of neighbors, the new data point will belongs to that class. 
+	- i.e: $k=3$ ,new $P$ near 2 data points of class A, and near 1 data point of class B, new $P$ will belongs to class A.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU3ODg2OTgsLTI1MzAwOTQwLC0yMD
-E1MDE4NzgsLTEyMzAwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3
-Nzg2LDEyMzEzMzc3NzQsMTc1ODI1NzE2LDE1NTU5MzUwNzEsLT
-M3NDM0MzI1NywtMTc2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQw
-MjM3NzgsMTY2ODI3MzU4NiwxODgyNTQwNDcxLC04OTY4MTc1Nz
-YsLTEyMzU2MTM5NDQsLTE3MDU5NTA5MDQsNDkzNDM2MTE2LDEz
-NDgxMTY1MThdfQ==
+eyJoaXN0b3J5IjpbMTQzNTExMTA5LC0yNTMwMDk0MCwtMjAxNT
+AxODc4LC0xMjMwMDkzNDUyLC00MjY4NjExNjYsMTA2MzA4Nzc4
+NiwxMjMxMzM3Nzc0LDE3NTgyNTcxNiwxNTU1OTM1MDcxLC0zNz
+QzNDMyNTcsLTE3NjI4MTA2MjQsLTM2NTc3NDE4OCwxMzk0MDIz
+Nzc4LDE2NjgyNzM1ODYsMTg4MjU0MDQ3MSwtODk2ODE3NTc2LC
+0xMjM1NjEzOTQ0LC0xNzA1OTUwOTA0LDQ5MzQzNjExNiwxMzQ4
+MTE2NTE4XX0=
 -->
