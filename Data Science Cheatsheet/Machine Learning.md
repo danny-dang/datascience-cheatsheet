@@ -10,7 +10,7 @@
 	- [Polynomial Linear Regression](#polynomial-linear-regression)
 - [Classification](#classification)
 	- [Logistic Regression](#logistic-regression)
-	- [K-Nearest Neighbors](#k-nearest-neighbors-knn)
+	- [K-Nearest Neighbors](#knearest-neighborsknn)
 
 ## Data pre-processing
 Sample data set: *Survey*
@@ -456,11 +456,11 @@ $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
 *Decision Boundary:*
 ![enter image description here](https://i.imgur.com/zWF2bBQ.png =300x)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDU2MTY4LDEzMDExMzQ3ODYsLTI1Mz
-AwOTQwLC0yMDE1MDE4NzgsLTEyMzAwOTM0NTIsLTQyNjg2MTE2
-NiwxMDYzMDg3Nzg2LDEyMzEzMzc3NzQsMTc1ODI1NzE2LDE1NT
-U5MzUwNzEsLTM3NDM0MzI1NywtMTc2MjgxMDYyNCwtMzY1Nzc0
-MTg4LDEzOTQwMjM3NzgsMTY2ODI3MzU4NiwxODgyNTQwNDcxLC
-04OTY4MTc1NzYsLTEyMzU2MTM5NDQsLTE3MDU5NTA5MDQsNDkz
-NDM2MTE2XX0=
+eyJoaXN0b3J5IjpbMTIzMjk5NTg1NCwxMzAxMTM0Nzg2LC0yNT
+MwMDk0MCwtMjAxNTAxODc4LC0xMjMwMDkzNDUyLC00MjY4NjEx
+NjYsMTA2MzA4Nzc4NiwxMjMxMzM3Nzc0LDE3NTgyNTcxNiwxNT
+U1OTM1MDcxLC0zNzQzNDMyNTcsLTE3NjI4MTA2MjQsLTM2NTc3
+NDE4OCwxMzk0MDIzNzc4LDE2NjgyNzM1ODYsMTg4MjU0MDQ3MS
+wtODk2ODE3NTc2LC0xMjM1NjEzOTQ0LC0xNzA1OTUwOTA0LDQ5
+MzQzNjExNl19
 -->
