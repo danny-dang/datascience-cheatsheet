@@ -10,6 +10,7 @@
 	- [Polynomial Linear Regression](#polynomial-linear-regression)
 - [Classification](#classification)
 	- [Logistic Regression](#logistic-regression)
+	- [K-Nearest Neighbors](#k-nearest-neighbors-knn)
 
 ## Data pre-processing
 Sample data set: *Survey*
@@ -455,7 +456,7 @@ $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
 *Decision Boundary:*
 ![enter image description here](https://i.imgur.com/zWF2bBQ.png =300x)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExODI4NjA4LDEzMDExMzQ3ODYsLTI1Mz
+eyJoaXN0b3J5IjpbLTUyNDU2MTY4LDEzMDExMzQ3ODYsLTI1Mz
 AwOTQwLC0yMDE1MDE4NzgsLTEyMzAwOTM0NTIsLTQyNjg2MTE2
 NiwxMDYzMDg3Nzg2LDEyMzEzMzc3NzQsMTc1ODI1NzE2LDE1NT
 U5MzUwNzEsLTM3NDM0MzI1NywtMTc2MjgxMDYyNCwtMzY1Nzc0
