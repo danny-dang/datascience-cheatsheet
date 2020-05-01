@@ -435,7 +435,7 @@ KNN uses the current data points to predict the class of a new data points based
 
 KNN uses the current existing data points to predict rather than using a model.
 
-*Classify a new data point*:
+*Classify a new data point with Uniform Weight*:
 1. Choose number of $k$ neighbors (i.e: k=3)
 2. Calculate the distance to the nearest neighbors:
 $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
@@ -448,20 +448,22 @@ $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
 
 	![enter image description here](https://i.imgur.com/i0NPF6F.jpg =350x)
 	
-4. Based on the highest number of neighbors, the new data point will belongs to that class. 
+4. With uniform weighted, based on the highest number of neighbors, the new data point will belong to that class. 
 	- i.e: $k=3$ ,new $P$ near 2 data points of class A, and near 1 data point of class B, new $P$ will belongs to class A.
 	- If $k$ is even (i.e $k=4$), and the number of nearest neighbors is tie for each class (i.e 2 neighbors for A, 2 neighbors for B), you can choose either to random, or to use the nearest neighbor to break the tie.
 	
-*Weighted KNN*:
+*Classify a new data point with Weighted KNN*:
+1.
+2.
 
 *Decision Boundary:* the Decision Boundary is formed where the distances between 2 points of 2 classes are equal.
 ![enter image description here](https://i.imgur.com/zWF2bBQ.png =300x)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjEzMzI2MywxOTE2NzcyOTE2LDEyMz
-I5OTU4NTQsMTMwMTEzNDc4NiwtMjUzMDA5NDAsLTIwMTUwMTg3
-OCwtMTIzMDA5MzQ1MiwtNDI2ODYxMTY2LDEwNjMwODc3ODYsMT
-IzMTMzNzc3NCwxNzU4MjU3MTYsMTU1NTkzNTA3MSwtMzc0MzQz
-MjU3LC0xNzYyODEwNjI0LC0zNjU3NzQxODgsMTM5NDAyMzc3OC
-wxNjY4MjczNTg2LDE4ODI1NDA0NzEsLTg5NjgxNzU3NiwtMTIz
-NTYxMzk0NF19
+eyJoaXN0b3J5IjpbLTE4MTcwOTI2NzcsLTk1NjEzMzI2MywxOT
+E2NzcyOTE2LDEyMzI5OTU4NTQsMTMwMTEzNDc4NiwtMjUzMDA5
+NDAsLTIwMTUwMTg3OCwtMTIzMDA5MzQ1MiwtNDI2ODYxMTY2LD
+EwNjMwODc3ODYsMTIzMTMzNzc3NCwxNzU4MjU3MTYsMTU1NTkz
+NTA3MSwtMzc0MzQzMjU3LC0xNzYyODEwNjI0LC0zNjU3NzQxOD
+gsMTM5NDAyMzc3OCwxNjY4MjczNTg2LDE4ODI1NDA0NzEsLTg5
+NjgxNzU3Nl19
 -->
