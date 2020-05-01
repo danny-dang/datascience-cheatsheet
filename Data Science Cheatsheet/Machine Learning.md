@@ -458,15 +458,16 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 2. Same above
 3. Same above
 4. With uniform weighted, the nearer points will be weighted higher, farther points will be weighted lower using the weight function. The new data point will belong to the class that has the highest aggregate value of weighted distance. 
-	$$
-	w_{i}=\cfrac{1}{d(P;Q_{i})}
-	$$
-	$w_{i}$: weighted distance of the
+	- Weight function:
+	$w_{i}=\cfrac{1}{d(P;Q_{i})}$
+	
+		$w_{i}$: weighted distance of $P$ and $Q_{i}$
+	- Weighted KNN:
 
 *Decision Boundary:* the Decision Boundary is formed where the distances between 2 points of 2 classes are equal.
 ![enter image description here](https://i.imgur.com/zWF2bBQ.png =300x)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjA1Njg2NCwxMzYwNjU3NjgxLC05NT
+eyJoaXN0b3J5IjpbLTY2MDc0OTgzNSwxMzYwNjU3NjgxLC05NT
 YxMzMyNjMsMTkxNjc3MjkxNiwxMjMyOTk1ODU0LDEzMDExMzQ3
 ODYsLTI1MzAwOTQwLC0yMDE1MDE4NzgsLTEyMzAwOTM0NTIsLT
 QyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3NzQsMTc1ODI1
