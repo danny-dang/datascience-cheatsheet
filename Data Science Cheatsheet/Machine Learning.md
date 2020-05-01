@@ -453,14 +453,15 @@ $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
 	- If $k$ is even (i.e $k=4$), and the number of nearest neighbors is tie for each class (i.e 2 neighbors for A, 2 neighbors for B), you can choose either to random, or to use the nearest neighbor to break the tie.
 	
 *Weighted KNN*:
-*Decision Boundary:* the Decision Boundary is form by taking the
+
+*Decision Boundary:* the Decision Boundary is formed where the distances between 2 points of 2 classes are equal.
 ![enter image description here](https://i.imgur.com/zWF2bBQ.png =300x)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjc3MjkxNiwxMjMyOTk1ODU0LDEzMD
-ExMzQ3ODYsLTI1MzAwOTQwLC0yMDE1MDE4NzgsLTEyMzAwOTM0
-NTIsLTQyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3NzQsMT
-c1ODI1NzE2LDE1NTU5MzUwNzEsLTM3NDM0MzI1NywtMTc2Mjgx
-MDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3MzU4Ni
-wxODgyNTQwNDcxLC04OTY4MTc1NzYsLTEyMzU2MTM5NDQsLTE3
-MDU5NTA5MDRdfQ==
+eyJoaXN0b3J5IjpbLTk1NjEzMzI2MywxOTE2NzcyOTE2LDEyMz
+I5OTU4NTQsMTMwMTEzNDc4NiwtMjUzMDA5NDAsLTIwMTUwMTg3
+OCwtMTIzMDA5MzQ1MiwtNDI2ODYxMTY2LDEwNjMwODc3ODYsMT
+IzMTMzNzc3NCwxNzU4MjU3MTYsMTU1NTkzNTA3MSwtMzc0MzQz
+MjU3LC0xNzYyODEwNjI0LC0zNjU3NzQxODgsMTM5NDAyMzc3OC
+wxNjY4MjczNTg2LDE4ODI1NDA0NzEsLTg5NjgxNzU3NiwtMTIz
+NTYxMzk0NF19
 -->
