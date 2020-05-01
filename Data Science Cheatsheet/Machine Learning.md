@@ -448,22 +448,25 @@ $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
 
 	![enter image description here](https://i.imgur.com/i0NPF6F.jpg =350x)
 	
-4. With uniform weighted, based on the highest number of neighbors, the new data point will belong to that class. 
+4. With uniform method, the new data point will belong to the class that has the highest number of neighbors.
 	- i.e: $k=3$ ,new $P$ near 2 data points of class A, and near 1 data point of class B, new $P$ will belongs to class A.
 	- If $k$ is even (i.e $k=4$), and the number of nearest neighbors is tie for each class (i.e 2 neighbors for A, 2 neighbors for B), you can choose either to random, or to use the nearest neighbor to break the tie.
 	
 *Classify a new data point with Weighted KNN*:
-1.
-2.
+
+1. Same above
+2. Same above
+3. Same above
+4. With uniform weighted, the new data point will belong to the class that has the highest aggregate value  
 
 *Decision Boundary:* the Decision Boundary is formed where the distances between 2 points of 2 classes are equal.
 ![enter image description here](https://i.imgur.com/zWF2bBQ.png =300x)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTcwOTI2NzcsLTk1NjEzMzI2MywxOT
-E2NzcyOTE2LDEyMzI5OTU4NTQsMTMwMTEzNDc4NiwtMjUzMDA5
-NDAsLTIwMTUwMTg3OCwtMTIzMDA5MzQ1MiwtNDI2ODYxMTY2LD
-EwNjMwODc3ODYsMTIzMTMzNzc3NCwxNzU4MjU3MTYsMTU1NTkz
-NTA3MSwtMzc0MzQzMjU3LC0xNzYyODEwNjI0LC0zNjU3NzQxOD
-gsMTM5NDAyMzc3OCwxNjY4MjczNTg2LDE4ODI1NDA0NzEsLTg5
-NjgxNzU3Nl19
+eyJoaXN0b3J5IjpbLTIwOTcwODU3NSwtOTU2MTMzMjYzLDE5MT
+Y3NzI5MTYsMTIzMjk5NTg1NCwxMzAxMTM0Nzg2LC0yNTMwMDk0
+MCwtMjAxNTAxODc4LC0xMjMwMDkzNDUyLC00MjY4NjExNjYsMT
+A2MzA4Nzc4NiwxMjMxMzM3Nzc0LDE3NTgyNTcxNiwxNTU1OTM1
+MDcxLC0zNzQzNDMyNTcsLTE3NjI4MTA2MjQsLTM2NTc3NDE4OC
+wxMzk0MDIzNzc4LDE2NjgyNzM1ODYsMTg4MjU0MDQ3MSwtODk2
+ODE3NTc2XX0=
 -->
