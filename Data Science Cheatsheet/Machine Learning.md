@@ -438,12 +438,12 @@ KNN uses the current existing data points to predict rather than using a model.
 *Classify a new data point with Uniform Weight*:
 1. Choose number of $k$ neighbors (i.e: k=3)
 2. Calculate the distance to the nearest neighbors:
-$$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
+$$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 	$P = (p_{1},p_{2},...,p_{n}) \in \Reals^n$
 	$Q_{i} = (q_{1},q_{2},...,q_{n})\in \Reals^n$
 	
-	$P$ is the new data point, and $Q$ is the existing data point
+	$P$ is the new data point, and $Q_{i}$ is the existing data point
 3. Select the top k neighbors that has the lowest $d$:
 
 	![enter image description here](https://i.imgur.com/i0NPF6F.jpg =350x)
@@ -459,18 +459,18 @@ $$d(P;Q) = \sqrt{ \sum_{i=1}^{n}(q_{i} - p_{i})}$$
 3. Same above
 4. With uniform weighted, the nearer points will be weighted higher, farther points will be weighted lower using the weight function. The new data point will belong to the class that has the highest aggregate value of weighted distance. 
 	$$
-	w_{i}=
+	w_{i}=\cfrac{1}{d(P;Q_{i})}
 	$$
-
+	$w_{i}$: weighted distance of the
 
 *Decision Boundary:* the Decision Boundary is formed where the distances between 2 points of 2 classes are equal.
 ![enter image description here](https://i.imgur.com/zWF2bBQ.png =300x)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ0OTk4NDMsMTM2MDY1NzY4MSwtOT
-U2MTMzMjYzLDE5MTY3NzI5MTYsMTIzMjk5NTg1NCwxMzAxMTM0
-Nzg2LC0yNTMwMDk0MCwtMjAxNTAxODc4LC0xMjMwMDkzNDUyLC
-00MjY4NjExNjYsMTA2MzA4Nzc4NiwxMjMxMzM3Nzc0LDE3NTgy
-NTcxNiwxNTU1OTM1MDcxLC0zNzQzNDMyNTcsLTE3NjI4MTA2Mj
-QsLTM2NTc3NDE4OCwxMzk0MDIzNzc4LDE2NjgyNzM1ODYsMTg4
-MjU0MDQ3MV19
+eyJoaXN0b3J5IjpbLTY3NjA1Njg2NCwxMzYwNjU3NjgxLC05NT
+YxMzMyNjMsMTkxNjc3MjkxNiwxMjMyOTk1ODU0LDEzMDExMzQ3
+ODYsLTI1MzAwOTQwLC0yMDE1MDE4NzgsLTEyMzAwOTM0NTIsLT
+QyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3NzQsMTc1ODI1
+NzE2LDE1NTU5MzUwNzEsLTM3NDM0MzI1NywtMTc2MjgxMDYyNC
+wtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3MzU4NiwxODgy
+NTQwNDcxXX0=
 -->
