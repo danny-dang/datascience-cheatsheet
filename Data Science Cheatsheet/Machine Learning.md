@@ -465,17 +465,19 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 	- Weighted KNN, choose the max aggregate weighted distance:
 	$y' = \sum w_{i}$
 		
-		i.e:
+		Example:
 	![enter image description here](https://i.imgur.com/pMiBj41.png =450x)
 
 *Decision Boundary:* the Decision Boundary is formed where the distances between 2 points of 2 classes are equal.
 ![enter image description here](https://i.imgur.com/zWF2bBQ.png =300x)
+
+## Support Vector Machine (SVM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODUxOTUxNCwxMzYwNjU3NjgxLC05NT
-YxMzMyNjMsMTkxNjc3MjkxNiwxMjMyOTk1ODU0LDEzMDExMzQ3
-ODYsLTI1MzAwOTQwLC0yMDE1MDE4NzgsLTEyMzAwOTM0NTIsLT
-QyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3NzQsMTc1ODI1
-NzE2LDE1NTU5MzUwNzEsLTM3NDM0MzI1NywtMTc2MjgxMDYyNC
-wtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3MzU4NiwxODgy
-NTQwNDcxXX0=
+eyJoaXN0b3J5IjpbOTU3MDY0MDYsMTM2MDY1NzY4MSwtOTU2MT
+MzMjYzLDE5MTY3NzI5MTYsMTIzMjk5NTg1NCwxMzAxMTM0Nzg2
+LC0yNTMwMDk0MCwtMjAxNTAxODc4LC0xMjMwMDkzNDUyLC00Mj
+Y4NjExNjYsMTA2MzA4Nzc4NiwxMjMxMzM3Nzc0LDE3NTgyNTcx
+NiwxNTU1OTM1MDcxLC0zNzQzNDMyNTcsLTE3NjI4MTA2MjQsLT
+M2NTc3NDE4OCwxMzk0MDIzNzc4LDE2NjgyNzM1ODYsMTg4MjU0
+MDQ3MV19
 -->
