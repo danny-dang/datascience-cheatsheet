@@ -316,7 +316,7 @@ $\theta$: Parameters vector
 $x$: Independent variable vector
 
 Example:
-![enter image description here](https://i.imgur.com/QRQNKuz.png)
+![enter image description here](https://i.imgur.com/QRQNKuz.png = 400)
 *Formulate the model*
 ***Gradient Descent*** method: Just like Linear Regression, Polynomial Linear Regression can use Gradient Descent to formulate the model
 
@@ -473,11 +473,11 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 ## Support Vector Machine (SVM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3MDY0MDYsMTM2MDY1NzY4MSwtOTU2MT
-MzMjYzLDE5MTY3NzI5MTYsMTIzMjk5NTg1NCwxMzAxMTM0Nzg2
-LC0yNTMwMDk0MCwtMjAxNTAxODc4LC0xMjMwMDkzNDUyLC00Mj
-Y4NjExNjYsMTA2MzA4Nzc4NiwxMjMxMzM3Nzc0LDE3NTgyNTcx
-NiwxNTU1OTM1MDcxLC0zNzQzNDMyNTcsLTE3NjI4MTA2MjQsLT
-M2NTc3NDE4OCwxMzk0MDIzNzc4LDE2NjgyNzM1ODYsMTg4MjU0
-MDQ3MV19
+eyJoaXN0b3J5IjpbMTU0MjA0OTQ5LDk1NzA2NDA2LDEzNjA2NT
+c2ODEsLTk1NjEzMzI2MywxOTE2NzcyOTE2LDEyMzI5OTU4NTQs
+MTMwMTEzNDc4NiwtMjUzMDA5NDAsLTIwMTUwMTg3OCwtMTIzMD
+A5MzQ1MiwtNDI2ODYxMTY2LDEwNjMwODc3ODYsMTIzMTMzNzc3
+NCwxNzU4MjU3MTYsMTU1NTkzNTA3MSwtMzc0MzQzMjU3LC0xNz
+YyODEwNjI0LC0zNjU3NzQxODgsMTM5NDAyMzc3OCwxNjY4Mjcz
+NTg2XX0=
 -->
