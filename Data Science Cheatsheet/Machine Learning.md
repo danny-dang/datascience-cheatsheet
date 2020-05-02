@@ -316,7 +316,7 @@ $\theta$: Parameters vector
 $x$: Independent variable vector
 
 Example:
-![enter image description here](https://i.imgur.com/QRQNKuz.png = 400)
+![enter image description here](https://i.imgur.com/QRQNKuz.png =400x)
 *Formulate the model*
 ***Gradient Descent*** method: Just like Linear Regression, Polynomial Linear Regression can use Gradient Descent to formulate the model
 
@@ -330,10 +330,10 @@ Example:
 
 Classification is a type of **supervised learning**.
 There are 2 types of Classification:
--   Binomial
--   Multi-Class
-Example: 
-- Assigning a given email to the “spam” or “non-spam” class
+-   Binomial: classify 2 classes
+-   Multi-Class: classify more than 2 classes 
+- Example: 
+	- Assigning a given email to the “spam” or “non-spam” class
 
 There are 2 types of Classification model:
 - Linear Models:
@@ -473,11 +473,11 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 ## Support Vector Machine (SVM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjA0OTQ5LDk1NzA2NDA2LDEzNjA2NT
-c2ODEsLTk1NjEzMzI2MywxOTE2NzcyOTE2LDEyMzI5OTU4NTQs
-MTMwMTEzNDc4NiwtMjUzMDA5NDAsLTIwMTUwMTg3OCwtMTIzMD
-A5MzQ1MiwtNDI2ODYxMTY2LDEwNjMwODc3ODYsMTIzMTMzNzc3
-NCwxNzU4MjU3MTYsMTU1NTkzNTA3MSwtMzc0MzQzMjU3LC0xNz
-YyODEwNjI0LC0zNjU3NzQxODgsMTM5NDAyMzc3OCwxNjY4Mjcz
-NTg2XX0=
+eyJoaXN0b3J5IjpbMTc5MzI2OTU2Niw5NTcwNjQwNiwxMzYwNj
+U3NjgxLC05NTYxMzMyNjMsMTkxNjc3MjkxNiwxMjMyOTk1ODU0
+LDEzMDExMzQ3ODYsLTI1MzAwOTQwLC0yMDE1MDE4NzgsLTEyMz
+AwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3
+NzQsMTc1ODI1NzE2LDE1NTU5MzUwNzEsLTM3NDM0MzI1NywtMT
+c2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3
+MzU4Nl19
 -->
