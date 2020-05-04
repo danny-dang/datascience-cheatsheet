@@ -476,12 +476,13 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 > Support Vector Machine (SVM) seeks to split the data in the best way possible by finding a **hyperplane** that maximize the distance (**margin**) between data points of the classes (**support vectors**) 
 
+Hyperplane: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDY0OTQ1NiwxOTkzMDI4ODc5LDE3OT
-MyNjk1NjYsOTU3MDY0MDYsMTM2MDY1NzY4MSwtOTU2MTMzMjYz
-LDE5MTY3NzI5MTYsMTIzMjk5NTg1NCwxMzAxMTM0Nzg2LC0yNT
-MwMDk0MCwtMjAxNTAxODc4LC0xMjMwMDkzNDUyLC00MjY4NjEx
-NjYsMTA2MzA4Nzc4NiwxMjMxMzM3Nzc0LDE3NTgyNTcxNiwxNT
-U1OTM1MDcxLC0zNzQzNDMyNTcsLTE3NjI4MTA2MjQsLTM2NTc3
-NDE4OF19
+eyJoaXN0b3J5IjpbLTE0MTk0NDg2NjQsMTg1MDY0OTQ1NiwxOT
+kzMDI4ODc5LDE3OTMyNjk1NjYsOTU3MDY0MDYsMTM2MDY1NzY4
+MSwtOTU2MTMzMjYzLDE5MTY3NzI5MTYsMTIzMjk5NTg1NCwxMz
+AxMTM0Nzg2LC0yNTMwMDk0MCwtMjAxNTAxODc4LC0xMjMwMDkz
+NDUyLC00MjY4NjExNjYsMTA2MzA4Nzc4NiwxMjMxMzM3Nzc0LD
+E3NTgyNTcxNiwxNTU1OTM1MDcxLC0zNzQzNDMyNTcsLTE3NjI4
+MTA2MjRdfQ==
 -->
