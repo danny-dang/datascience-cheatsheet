@@ -476,9 +476,9 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 > Support Vector Machine (SVM) seeks to split the data in the best way possible by finding a **hyperplane** that maximize the distance (**margin**) between data points of the classes (**support vectors**) 
 
-Hyperplane: 
+Hyperplane: The subspace that split the data 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTk0NDg2NjQsMTg1MDY0OTQ1NiwxOT
+eyJoaXN0b3J5IjpbLTE1MTA2NTA0MzksMTg1MDY0OTQ1NiwxOT
 kzMDI4ODc5LDE3OTMyNjk1NjYsOTU3MDY0MDYsMTM2MDY1NzY4
 MSwtOTU2MTMzMjYzLDE5MTY3NzI5MTYsMTIzMjk5NTg1NCwxMz
 AxMTM0Nzg2LC0yNTMwMDk0MCwtMjAxNTAxODc4LC0xMjMwMDkz
