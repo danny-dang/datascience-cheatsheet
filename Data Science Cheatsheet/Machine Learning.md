@@ -474,14 +474,14 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 ## Support Vector Machine (SVM)
 
-> Support Vector Machine (SVM) seeks to split the data in the best way possible
+> Support Vector Machine (SVM) seeks to split the data in the best way possible by finding a **hyperplane** that 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjYzNDEwMCwxOTkzMDI4ODc5LDE3OT
-MyNjk1NjYsOTU3MDY0MDYsMTM2MDY1NzY4MSwtOTU2MTMzMjYz
-LDE5MTY3NzI5MTYsMTIzMjk5NTg1NCwxMzAxMTM0Nzg2LC0yNT
-MwMDk0MCwtMjAxNTAxODc4LC0xMjMwMDkzNDUyLC00MjY4NjEx
-NjYsMTA2MzA4Nzc4NiwxMjMxMzM3Nzc0LDE3NTgyNTcxNiwxNT
-U1OTM1MDcxLC0zNzQzNDMyNTcsLTE3NjI4MTA2MjQsLTM2NTc3
-NDE4OF19
+eyJoaXN0b3J5IjpbNDAyODg4MTIsMTk5MzAyODg3OSwxNzkzMj
+Y5NTY2LDk1NzA2NDA2LDEzNjA2NTc2ODEsLTk1NjEzMzI2Mywx
+OTE2NzcyOTE2LDEyMzI5OTU4NTQsMTMwMTEzNDc4NiwtMjUzMD
+A5NDAsLTIwMTUwMTg3OCwtMTIzMDA5MzQ1MiwtNDI2ODYxMTY2
+LDEwNjMwODc3ODYsMTIzMTMzNzc3NCwxNzU4MjU3MTYsMTU1NT
+kzNTA3MSwtMzc0MzQzMjU3LC0xNzYyODEwNjI0LC0zNjU3NzQx
+ODhdfQ==
 -->
