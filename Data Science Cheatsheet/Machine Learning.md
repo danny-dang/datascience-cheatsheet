@@ -474,17 +474,17 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 ## Support Vector Machine (SVM)
 
-> Support Vector Machine (SVM) seeks to split the data in the best way possible by finding a **hyperplane** that maximize the distance (**margin**) between data points of the classes (**support vectors**) 
+> Support Vector Machine (SVM) seeks to split the data in the best way possible by finding a **hyperplane** that maximizes the distance (**margin**) between data points of the classes (**support vectors**) 
 
 *Hyperplane*: The decision boundaries subspace that split the classes that has $n-1$ dimension(s)
 *Margin*: The distance between the edges of the classes
 *Support vectors*: Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzMyMDI4MCwxODUwNjQ5NDU2LDE5OT
-MwMjg4NzksMTc5MzI2OTU2Niw5NTcwNjQwNiwxMzYwNjU3Njgx
-LC05NTYxMzMyNjMsMTkxNjc3MjkxNiwxMjMyOTk1ODU0LDEzMD
-ExMzQ3ODYsLTI1MzAwOTQwLC0yMDE1MDE4NzgsLTEyMzAwOTM0
-NTIsLTQyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3NzQsMT
-c1ODI1NzE2LDE1NTU5MzUwNzEsLTM3NDM0MzI1NywtMTc2Mjgx
-MDYyNF19
+eyJoaXN0b3J5IjpbLTE3MTI5MDgwNjksMTUxNzMyMDI4MCwxOD
+UwNjQ5NDU2LDE5OTMwMjg4NzksMTc5MzI2OTU2Niw5NTcwNjQw
+NiwxMzYwNjU3NjgxLC05NTYxMzMyNjMsMTkxNjc3MjkxNiwxMj
+MyOTk1ODU0LDEzMDExMzQ3ODYsLTI1MzAwOTQwLC0yMDE1MDE4
+NzgsLTEyMzAwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3Nzg2LD
+EyMzEzMzc3NzQsMTc1ODI1NzE2LDE1NTU5MzUwNzEsLTM3NDM0
+MzI1N119
 -->
