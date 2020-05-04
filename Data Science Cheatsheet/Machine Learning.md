@@ -11,6 +11,7 @@
 - [Classification](#classification)
 	- [Logistic Regression](#logistic-regression)
 	- [K-Nearest Neighbors (KNN)](#k-nearest-neighbor-knn)
+	- [Support Vector Machine (SVM)](#support-vector-machine-svm)
 
 ## Data pre-processing
 Sample data set: *Survey*
@@ -473,11 +474,11 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 ## Support Vector Machine (SVM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzI2OTU2Niw5NTcwNjQwNiwxMzYwNj
-U3NjgxLC05NTYxMzMyNjMsMTkxNjc3MjkxNiwxMjMyOTk1ODU0
-LDEzMDExMzQ3ODYsLTI1MzAwOTQwLC0yMDE1MDE4NzgsLTEyMz
-AwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3
-NzQsMTc1ODI1NzE2LDE1NTU5MzUwNzEsLTM3NDM0MzI1NywtMT
-c2MjgxMDYyNCwtMzY1Nzc0MTg4LDEzOTQwMjM3NzgsMTY2ODI3
-MzU4Nl19
+eyJoaXN0b3J5IjpbNTQ5Njc3ODU3LDE3OTMyNjk1NjYsOTU3MD
+Y0MDYsMTM2MDY1NzY4MSwtOTU2MTMzMjYzLDE5MTY3NzI5MTYs
+MTIzMjk5NTg1NCwxMzAxMTM0Nzg2LC0yNTMwMDk0MCwtMjAxNT
+AxODc4LC0xMjMwMDkzNDUyLC00MjY4NjExNjYsMTA2MzA4Nzc4
+NiwxMjMxMzM3Nzc0LDE3NTgyNTcxNiwxNTU1OTM1MDcxLC0zNz
+QzNDMyNTcsLTE3NjI4MTA2MjQsLTM2NTc3NDE4OCwxMzk0MDIz
+Nzc4XX0=
 -->
