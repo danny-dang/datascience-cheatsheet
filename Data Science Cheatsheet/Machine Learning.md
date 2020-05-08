@@ -481,12 +481,13 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 *Support vectors*: Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane
 
 ![enter image description here](https://i.imgur.com/JUFviTw.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzM5OCwtMTcxMjkwODA2OSwxNTE3Mz
-IwMjgwLDE4NTA2NDk0NTYsMTk5MzAyODg3OSwxNzkzMjY5NTY2
-LDk1NzA2NDA2LDEzNjA2NTc2ODEsLTk1NjEzMzI2MywxOTE2Nz
-cyOTE2LDEyMzI5OTU4NTQsMTMwMTEzNDc4NiwtMjUzMDA5NDAs
-LTIwMTUwMTg3OCwtMTIzMDA5MzQ1MiwtNDI2ODYxMTY2LDEwNj
-MwODc3ODYsMTIzMTMzNzc3NCwxNzU4MjU3MTYsMTU1NTkzNTA3
-MV19
+eyJoaXN0b3J5IjpbMTYxMzI0NjIzMiwtNDM3Mzk4LC0xNzEyOT
+A4MDY5LDE1MTczMjAyODAsMTg1MDY0OTQ1NiwxOTkzMDI4ODc5
+LDE3OTMyNjk1NjYsOTU3MDY0MDYsMTM2MDY1NzY4MSwtOTU2MT
+MzMjYzLDE5MTY3NzI5MTYsMTIzMjk5NTg1NCwxMzAxMTM0Nzg2
+LC0yNTMwMDk0MCwtMjAxNTAxODc4LC0xMjMwMDkzNDUyLC00Mj
+Y4NjExNjYsMTA2MzA4Nzc4NiwxMjMxMzM3Nzc0LDE3NTgyNTcx
+Nl19
 -->
