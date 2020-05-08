@@ -479,12 +479,13 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 *Hyperplane*: The decision boundaries subspace that split the classes that has $n-1$ dimension(s)
 *Margin*: The distance between the edges of the classes
 *Support vectors*: Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane
+![enter image description here](https://i.imgur.com/JUFviTw.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI5MDgwNjksMTUxNzMyMDI4MCwxOD
-UwNjQ5NDU2LDE5OTMwMjg4NzksMTc5MzI2OTU2Niw5NTcwNjQw
-NiwxMzYwNjU3NjgxLC05NTYxMzMyNjMsMTkxNjc3MjkxNiwxMj
-MyOTk1ODU0LDEzMDExMzQ3ODYsLTI1MzAwOTQwLC0yMDE1MDE4
-NzgsLTEyMzAwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3Nzg2LD
-EyMzEzMzc3NzQsMTc1ODI1NzE2LDE1NTU5MzUwNzEsLTM3NDM0
-MzI1N119
+eyJoaXN0b3J5IjpbLTYxNTUxMTIxMCwtMTcxMjkwODA2OSwxNT
+E3MzIwMjgwLDE4NTA2NDk0NTYsMTk5MzAyODg3OSwxNzkzMjY5
+NTY2LDk1NzA2NDA2LDEzNjA2NTc2ODEsLTk1NjEzMzI2MywxOT
+E2NzcyOTE2LDEyMzI5OTU4NTQsMTMwMTEzNDc4NiwtMjUzMDA5
+NDAsLTIwMTUwMTg3OCwtMTIzMDA5MzQ1MiwtNDI2ODYxMTY2LD
+EwNjMwODc3ODYsMTIzMTMzNzc3NCwxNzU4MjU3MTYsMTU1NTkz
+NTA3MV19
 -->
