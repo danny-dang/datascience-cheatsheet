@@ -487,12 +487,14 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 *Hard Margin*: will minimize mis-classification to prioritize making few mistakes. With hard margin, C parameter will have a large value.
 
 ![enter image description here](https://i.imgur.com/ui3HRJn.png)
+
+The C parameter can be chosen using 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzE0MDE0NzUsMTQ1NTI2NDA2MiwxNj
-EzMjQ2MjMyLC00MzczOTgsLTE3MTI5MDgwNjksMTUxNzMyMDI4
-MCwxODUwNjQ5NDU2LDE5OTMwMjg4NzksMTc5MzI2OTU2Niw5NT
-cwNjQwNiwxMzYwNjU3NjgxLC05NTYxMzMyNjMsMTkxNjc3Mjkx
-NiwxMjMyOTk1ODU0LDEzMDExMzQ3ODYsLTI1MzAwOTQwLC0yMD
-E1MDE4NzgsLTEyMzAwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3
-Nzg2XX0=
+eyJoaXN0b3J5IjpbMTg0Mjc1MTM4NSwtMjA3MTQwMTQ3NSwxND
+U1MjY0MDYyLDE2MTMyNDYyMzIsLTQzNzM5OCwtMTcxMjkwODA2
+OSwxNTE3MzIwMjgwLDE4NTA2NDk0NTYsMTk5MzAyODg3OSwxNz
+kzMjY5NTY2LDk1NzA2NDA2LDEzNjA2NTc2ODEsLTk1NjEzMzI2
+MywxOTE2NzcyOTE2LDEyMzI5OTU4NTQsMTMwMTEzNDc4NiwtMj
+UzMDA5NDAsLTIwMTUwMTg3OCwtMTIzMDA5MzQ1MiwtNDI2ODYx
+MTY2XX0=
 -->
