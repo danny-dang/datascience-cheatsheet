@@ -483,9 +483,11 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 ![enter image description here](https://i.imgur.com/JUFviTw.png)
 
 **Soft Margin and Hard Margin**
-*Soft Margin*: allows an extend of level of mis-classification to maximize the margin and avoid overfitting. With soft margin, C parameter will 
+*Soft Margin*: allows an extend of level of mis-classification to maximize the margin and avoid overfitting. With soft margin, C parameter will have a small value
+*Hard Margin*: will minimize mis-classification to prioritize making few mistakes. With hard margin, C parameter will have a large value.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTI4MTU3MiwxNDU1MjY0MDYyLDE2MT
+eyJoaXN0b3J5IjpbMTExNDQwNzQ2MiwxNDU1MjY0MDYyLDE2MT
 MyNDYyMzIsLTQzNzM5OCwtMTcxMjkwODA2OSwxNTE3MzIwMjgw
 LDE4NTA2NDk0NTYsMTk5MzAyODg3OSwxNzkzMjY5NTY2LDk1Nz
 A2NDA2LDEzNjA2NTc2ODEsLTk1NjEzMzI2MywxOTE2NzcyOTE2
