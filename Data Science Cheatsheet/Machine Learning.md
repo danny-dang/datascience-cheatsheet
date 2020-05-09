@@ -488,13 +488,13 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 ![enter image description here](https://i.imgur.com/ui3HRJn.png)
 
-*Cross Validation* can be used to choose the optimal C parameter
+*Hyperparameter optimization* can be used to choose the optimal C parameter
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjkzOTUzOSwtMjA3MTQwMTQ3NSwxND
-U1MjY0MDYyLDE2MTMyNDYyMzIsLTQzNzM5OCwtMTcxMjkwODA2
-OSwxNTE3MzIwMjgwLDE4NTA2NDk0NTYsMTk5MzAyODg3OSwxNz
-kzMjY5NTY2LDk1NzA2NDA2LDEzNjA2NTc2ODEsLTk1NjEzMzI2
-MywxOTE2NzcyOTE2LDEyMzI5OTU4NTQsMTMwMTEzNDc4NiwtMj
-UzMDA5NDAsLTIwMTUwMTg3OCwtMTIzMDA5MzQ1MiwtNDI2ODYx
-MTY2XX0=
+eyJoaXN0b3J5IjpbLTQxNTY2Mzg1NCwtNzI2OTM5NTM5LC0yMD
+cxNDAxNDc1LDE0NTUyNjQwNjIsMTYxMzI0NjIzMiwtNDM3Mzk4
+LC0xNzEyOTA4MDY5LDE1MTczMjAyODAsMTg1MDY0OTQ1NiwxOT
+kzMDI4ODc5LDE3OTMyNjk1NjYsOTU3MDY0MDYsMTM2MDY1NzY4
+MSwtOTU2MTMzMjYzLDE5MTY3NzI5MTYsMTIzMjk5NTg1NCwxMz
+AxMTM0Nzg2LC0yNTMwMDk0MCwtMjAxNTAxODc4LC0xMjMwMDkz
+NDUyXX0=
 -->
