@@ -486,12 +486,13 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 *Soft Margin*: allows an extend of level of mis-classification to maximize the margin and avoid overfitting. With soft margin, C parameter will have a small value
 *Hard Margin*: will minimize mis-classification to prioritize making few mistakes. With hard margin, C parameter will have a large value.
 
+![enter image description here](https://i.imgur.com/ui3HRJn.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDQwNzQ2MiwxNDU1MjY0MDYyLDE2MT
-MyNDYyMzIsLTQzNzM5OCwtMTcxMjkwODA2OSwxNTE3MzIwMjgw
-LDE4NTA2NDk0NTYsMTk5MzAyODg3OSwxNzkzMjY5NTY2LDk1Nz
-A2NDA2LDEzNjA2NTc2ODEsLTk1NjEzMzI2MywxOTE2NzcyOTE2
-LDEyMzI5OTU4NTQsMTMwMTEzNDc4NiwtMjUzMDA5NDAsLTIwMT
-UwMTg3OCwtMTIzMDA5MzQ1MiwtNDI2ODYxMTY2LDEwNjMwODc3
-ODZdfQ==
+eyJoaXN0b3J5IjpbLTIwNzE0MDE0NzUsMTQ1NTI2NDA2MiwxNj
+EzMjQ2MjMyLC00MzczOTgsLTE3MTI5MDgwNjksMTUxNzMyMDI4
+MCwxODUwNjQ5NDU2LDE5OTMwMjg4NzksMTc5MzI2OTU2Niw5NT
+cwNjQwNiwxMzYwNjU3NjgxLC05NTYxMzMyNjMsMTkxNjc3Mjkx
+NiwxMjMyOTk1ODU0LDEzMDExMzQ3ODYsLTI1MzAwOTQwLC0yMD
+E1MDE4NzgsLTEyMzAwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3
+Nzg2XX0=
 -->
