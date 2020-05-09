@@ -483,13 +483,13 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 ![enter image description here](https://i.imgur.com/JUFviTw.png)
 
 **Soft Margin and Hard Margin**
-
+*Soft Margin*: allows an extend of level of misclassification
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTI2NDA2MiwxNjEzMjQ2MjMyLC00Mz
-czOTgsLTE3MTI5MDgwNjksMTUxNzMyMDI4MCwxODUwNjQ5NDU2
-LDE5OTMwMjg4NzksMTc5MzI2OTU2Niw5NTcwNjQwNiwxMzYwNj
-U3NjgxLC05NTYxMzMyNjMsMTkxNjc3MjkxNiwxMjMyOTk1ODU0
-LDEzMDExMzQ3ODYsLTI1MzAwOTQwLC0yMDE1MDE4NzgsLTEyMz
-AwOTM0NTIsLTQyNjg2MTE2NiwxMDYzMDg3Nzg2LDEyMzEzMzc3
-NzRdfQ==
+eyJoaXN0b3J5IjpbMTg4MzIxODM4NCwxNDU1MjY0MDYyLDE2MT
+MyNDYyMzIsLTQzNzM5OCwtMTcxMjkwODA2OSwxNTE3MzIwMjgw
+LDE4NTA2NDk0NTYsMTk5MzAyODg3OSwxNzkzMjY5NTY2LDk1Nz
+A2NDA2LDEzNjA2NTc2ODEsLTk1NjEzMzI2MywxOTE2NzcyOTE2
+LDEyMzI5OTU4NTQsMTMwMTEzNDc4NiwtMjUzMDA5NDAsLTIwMT
+UwMTg3OCwtMTIzMDA5MzQ1MiwtNDI2ODYxMTY2LDEwNjMwODc3
+ODZdfQ==
 -->
