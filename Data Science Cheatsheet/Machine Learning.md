@@ -488,9 +488,9 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 ![enter image description here](https://i.imgur.com/ui3HRJn.png)
 
-The C parameter can be chosen using 
+*Cross Validation* can be used to choose the optimal C parameter
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Mjc1MTM4NSwtMjA3MTQwMTQ3NSwxND
+eyJoaXN0b3J5IjpbLTcyNjkzOTUzOSwtMjA3MTQwMTQ3NSwxND
 U1MjY0MDYyLDE2MTMyNDYyMzIsLTQzNzM5OCwtMTcxMjkwODA2
 OSwxNTE3MzIwMjgwLDE4NTA2NDk0NTYsMTk5MzAyODg3OSwxNz
 kzMjY5NTY2LDk1NzA2NDA2LDEzNjA2NTc2ODEsLTk1NjEzMzI2
