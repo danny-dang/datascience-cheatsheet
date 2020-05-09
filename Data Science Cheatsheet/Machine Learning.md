@@ -483,8 +483,9 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 ![enter image description here](https://i.imgur.com/JUFviTw.png)
 
 **Soft Margin and Hard Margin**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDYyNTY4MCwxNjEzMjQ2MjMyLC00Mz
+eyJoaXN0b3J5IjpbMTQ1NTI2NDA2MiwxNjEzMjQ2MjMyLC00Mz
 czOTgsLTE3MTI5MDgwNjksMTUxNzMyMDI4MCwxODUwNjQ5NDU2
 LDE5OTMwMjg4NzksMTc5MzI2OTU2Niw5NTcwNjQwNiwxMzYwNj
 U3NjgxLC05NTYxMzMyNjMsMTkxNjc3MjkxNiwxMjMyOTk1ODU0
