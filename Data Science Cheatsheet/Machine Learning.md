@@ -476,7 +476,7 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 > Support Vector Machine (SVM) seeks to split the data in the best way possible by finding a **hyperplane** that maximizes the distance (**margin**) between data points of the classes (**support vectors**) 
 
-*Hyperplane*: The decision boundaries subspace that split the classes that has $n-1$ dimension(s) in a $n$ dimension(s) data set.
+*Hyperplane*: The decision boundaries subspace that split the classes, having $n-1$ dimension(s) in a $n$ dimension(s) data set.
 *Margin*: The distance between the edges of the classes
 *Support vectors*: Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane
 
@@ -492,11 +492,11 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 **Kernel Trick**: map data which are non-linear separable into a higher dimension for easier classification
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQxMTczNDAsLTcyNjkzOTUzOSwtMj
-A3MTQwMTQ3NSwxNDU1MjY0MDYyLDE2MTMyNDYyMzIsLTQzNzM5
-OCwtMTcxMjkwODA2OSwxNTE3MzIwMjgwLDE4NTA2NDk0NTYsMT
-k5MzAyODg3OSwxNzkzMjY5NTY2LDk1NzA2NDA2LDEzNjA2NTc2
-ODEsLTk1NjEzMzI2MywxOTE2NzcyOTE2LDEyMzI5OTU4NTQsMT
-MwMTEzNDc4NiwtMjUzMDA5NDAsLTIwMTUwMTg3OCwtMTIzMDA5
-MzQ1Ml19
+eyJoaXN0b3J5IjpbLTIwMzQ1NjYwNjQsLTIxMTQxMTczNDAsLT
+cyNjkzOTUzOSwtMjA3MTQwMTQ3NSwxNDU1MjY0MDYyLDE2MTMy
+NDYyMzIsLTQzNzM5OCwtMTcxMjkwODA2OSwxNTE3MzIwMjgwLD
+E4NTA2NDk0NTYsMTk5MzAyODg3OSwxNzkzMjY5NTY2LDk1NzA2
+NDA2LDEzNjA2NTc2ODEsLTk1NjEzMzI2MywxOTE2NzcyOTE2LD
+EyMzI5OTU4NTQsMTMwMTEzNDc4NiwtMjUzMDA5NDAsLTIwMTUw
+MTg3OF19
 -->
