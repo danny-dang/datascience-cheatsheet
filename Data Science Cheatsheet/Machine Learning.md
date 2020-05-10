@@ -463,7 +463,7 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 	$w_{i}=\cfrac{1}{d(P;Q_{i})}$
 	
 		$w_{i}$: weighted distance of $P$ and $Q_{i}$
-	- Weighted KNN, choose the max aggregate weighted distance frin :
+	- Weighted KNN, choose the max aggregate weighted distance from one class:
 	$y' = \sum w_{i}$
 		
 		Example:
@@ -504,7 +504,7 @@ Example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDQzNjQ2Nyw3NTg1Njg2MiwxOTYzMj
+eyJoaXN0b3J5IjpbLTg1NzkyODY2OCw3NTg1Njg2MiwxOTYzMj
 Q0ODY4LC0yMTE0MTE3MzQwLC03MjY5Mzk1MzksLTIwNzE0MDE0
 NzUsMTQ1NTI2NDA2MiwxNjEzMjQ2MjMyLC00MzczOTgsLTE3MT
 I5MDgwNjksMTUxNzMyMDI4MCwxODUwNjQ5NDU2LDE5OTMwMjg4
