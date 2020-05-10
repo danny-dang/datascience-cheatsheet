@@ -492,12 +492,13 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 **Kernel Trick**: map data which are non-linear separable into a higher dimension for easier classification.
 
+![enter image description here](https://i.imgur.com/E6z3tzj.png =450x)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzI0NDg2OCwtMjExNDExNzM0MCwtNz
-I2OTM5NTM5LC0yMDcxNDAxNDc1LDE0NTUyNjQwNjIsMTYxMzI0
-NjIzMiwtNDM3Mzk4LC0xNzEyOTA4MDY5LDE1MTczMjAyODAsMT
-g1MDY0OTQ1NiwxOTkzMDI4ODc5LDE3OTMyNjk1NjYsOTU3MDY0
-MDYsMTM2MDY1NzY4MSwtOTU2MTMzMjYzLDE5MTY3NzI5MTYsMT
-IzMjk5NTg1NCwxMzAxMTM0Nzg2LC0yNTMwMDk0MCwtMjAxNTAx
-ODc4XX0=
+eyJoaXN0b3J5IjpbNDA1NjU5NzI2LDE5NjMyNDQ4NjgsLTIxMT
+QxMTczNDAsLTcyNjkzOTUzOSwtMjA3MTQwMTQ3NSwxNDU1MjY0
+MDYyLDE2MTMyNDYyMzIsLTQzNzM5OCwtMTcxMjkwODA2OSwxNT
+E3MzIwMjgwLDE4NTA2NDk0NTYsMTk5MzAyODg3OSwxNzkzMjY5
+NTY2LDk1NzA2NDA2LDEzNjA2NTc2ODEsLTk1NjEzMzI2MywxOT
+E2NzcyOTE2LDEyMzI5OTU4NTQsMTMwMTEzNDc4NiwtMjUzMDA5
+NDBdfQ==
 -->
