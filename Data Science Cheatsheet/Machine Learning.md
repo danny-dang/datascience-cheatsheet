@@ -490,7 +490,7 @@ $$d(P;Q_{i}) = \sqrt{ \sum_{j=1}^{n}(q_{j} - p_{j})}$$
 
 *Hyperparameter optimization* can be used to choose the optimal C parameter. Some methods are: GridSearchCV, PrameterGrid, RandomizedSearchCV,...
 
-**Kernel Trick**: map data which are non-linear separable into a higher dimension for easier classification.
+**Kernel**: map data which are non-linear separable into a higher dimension for easier classification.
 
 Example:
 
@@ -505,11 +505,11 @@ Example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1NjkxMjMzLC04NTc5Mjg2NjgsNzU4NT
-Y4NjIsMTk2MzI0NDg2OCwtMjExNDExNzM0MCwtNzI2OTM5NTM5
-LC0yMDcxNDAxNDc1LDE0NTUyNjQwNjIsMTYxMzI0NjIzMiwtND
-M3Mzk4LC0xNzEyOTA4MDY5LDE1MTczMjAyODAsMTg1MDY0OTQ1
-NiwxOTkzMDI4ODc5LDE3OTMyNjk1NjYsOTU3MDY0MDYsMTM2MD
-Y1NzY4MSwtOTU2MTMzMjYzLDE5MTY3NzI5MTYsMTIzMjk5NTg1
-NF19
+eyJoaXN0b3J5IjpbLTEyODkxMTMwMTAsNzY1NjkxMjMzLC04NT
+c5Mjg2NjgsNzU4NTY4NjIsMTk2MzI0NDg2OCwtMjExNDExNzM0
+MCwtNzI2OTM5NTM5LC0yMDcxNDAxNDc1LDE0NTUyNjQwNjIsMT
+YxMzI0NjIzMiwtNDM3Mzk4LC0xNzEyOTA4MDY5LDE1MTczMjAy
+ODAsMTg1MDY0OTQ1NiwxOTkzMDI4ODc5LDE3OTMyNjk1NjYsOT
+U3MDY0MDYsMTM2MDY1NzY4MSwtOTU2MTMzMjYzLDE5MTY3NzI5
+MTZdfQ==
 -->
